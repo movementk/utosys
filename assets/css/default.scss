@@ -1,0 +1,146 @@
+@import 'common';
+
+body {
+	min-width: 320px;
+	font-size: 13px;
+	@include noto();
+}
+
+//header 
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    z-index: 200;
+	box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.15); 
+    background-color: #fff;
+	.container {
+		position: relative;
+		border: 1px solid red;
+		/*overflow: hidden;*/
+	}
+	.logo {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		display: inline-block;
+		margin-left: -60px;
+		margin-top: -15px;
+		a {
+			display: block;
+			img {
+				display: block;
+				width: 120px;
+			}
+		}
+		@media(min-width: $md) {
+			float: left;
+			position: static;
+			margin: 0;
+		}
+	}
+	.service {
+		float: right;
+	}
+    @media(min-width: $md) {
+        height: 80px;
+		.logo {
+			/*margin-top: 20px;*/
+			a {
+				width: 150px;
+			}
+		}
+    }
+    @media(min-width: $xl) {
+        height: 90px;
+		.logo {
+			/*margin-top: 25px;*/
+			a {
+				display: inline-block;
+				text-align: left;
+			}
+		}
+    }
+}
+
+//nav-btn-area
+.nav-btn-area {
+	
+}
+
+/*//nav-btn-area
+.nav-btn-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 300;
+    .btn-nav {
+        position: relative;
+        width: 55px;
+        height: 55px;
+        z-index: 200;
+        padding: 0 15px;
+        text-align: center;
+        border-radius: 0;
+        background-color: #002e79;
+        .bar {
+            display: block;
+            width: 20px;
+            height: 3px;
+            margin: 2px auto;
+            border-radius: 10px;
+            background-color: #fff;
+            @include transition();
+        }
+    }
+    @media(min-width: $md) {
+        .btn-nav {
+            width: 80px;
+            height: 80px;
+            padding: 0 20px;
+            .bar {
+                width: 30px;
+                margin: 4px auto;
+            }
+        }
+    }
+    @media(min-width: $xl) {
+        display: none;
+    }
+}*/
+
+//search-form
+.search-form {
+	.search-btn {
+		position: relative;
+        width: 55px;
+        height: 55px;
+        z-index: 200;
+        text-align: center;
+        border-radius: 0;
+		border-left: 1px solid #e8e8e8;
+		background-color: #fff;
+        box-shadow: none !important;
+		i {
+			font-size: 20px;
+			color: #00a1e9;
+		}
+	}
+	@media(min-width: $md) {
+		.search-btn {
+			width: 80px;
+			height: 80px;
+			i {
+				font-size: 27px;
+			}
+		}
+	}
+}
+
+
+
+
+
+
