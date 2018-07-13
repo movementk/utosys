@@ -27,12 +27,13 @@ body {
 		position: relative;
 	}
 	.logo {
+		display: inline-block;
 		a {
 			display: block;
-			width: 120px;
-			margin: 0 auto; 
 			img {
-				width: 100%;
+				display: block;
+				width: 120px;
+				margin: 0 auto;
 			}
 		}
 	}
@@ -40,7 +41,7 @@ body {
 		height: 80px;
 		.logo {
 			padding-top: 10px;
-			a {
+			a { 
 				width: 150px;
 			}
 		}
@@ -99,6 +100,9 @@ body {
 		&.laguage {
 			> li {
 				margin-right: 5px;
+				&:last-child {
+					margin-right: 20px;
+				}
 			}
 		}
 	}
@@ -178,6 +182,7 @@ body {
 		}
 	}
 	@media(min-width: $xl) {
+		right: 15px;
 		.btn {
 			&.search-btn {
 				width: auto;
