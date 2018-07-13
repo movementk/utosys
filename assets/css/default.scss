@@ -19,7 +19,7 @@ body {
 	.container {
 		position: relative;
 		border: 1px solid red;
-		/*overflow: hidden;*/
+		overflow: hidden;
 	}
 	.logo {
 		position: absolute;
@@ -37,8 +37,8 @@ body {
 		}
 		@media(min-width: $md) {
 			float: left;
-			position: static;
-			margin: 0;
+			/*position: static;
+			margin: 0;*/
 		}
 	}
 	.service {
@@ -56,7 +56,10 @@ body {
     @media(min-width: $xl) {
         height: 90px;
 		.logo {
-			/*margin-top: 25px;*/
+			
+			position: static;
+			margin: 0;
+			margin-top: 15px;
 			a {
 				display: inline-block;
 				text-align: left;
@@ -65,12 +68,8 @@ body {
     }
 }
 
-//nav-btn-area
-.nav-btn-area {
-	
-}
 
-/*//nav-btn-area
+//nav-btn-area
 .nav-btn-area {
     position: fixed;
     top: 0;
@@ -109,38 +108,58 @@ body {
     @media(min-width: $xl) {
         display: none;
     }
-}*/
+}
 
-//search-form
-.search-form {
-	.search-btn {
-		position: relative;
-        width: 55px;
-        height: 55px;
-        z-index: 200;
-        text-align: center;
-        border-radius: 0;
-		border-left: 1px solid #e8e8e8;
-		background-color: #fff;
-        box-shadow: none !important;
-		i {
-			font-size: 20px;
-			color: #00a1e9;
-		}
-	}
-	@media(min-width: $md) {
-		.search-btn {
-			width: 80px;
-			height: 80px;
-			i {
-				font-size: 27px;
+//
+#gnb {
+	ul {
+		font-size: 0;
+		li {
+			display: inline-block;
+			font-size: 17px;
+			color: #333;
+			margin-right: 100px;
+			&:last-child {
+				margin-right: 0;
+			}
+			a {
+				
 			}
 		}
 	}
 }
 
-
-
+.service {
+	//search-form
+	.search-form {
+		position: relative;
+		top: 0;
+		left: 15px;
+		.search-btn {
+			width: 55px;
+			height: 55px;
+			z-index: 200;
+			text-align: center;
+			border-radius: 0;
+			border-left: 1px solid #e8e8e8;
+			background-color: #fff;
+			border: 1px solid red;
+			i {
+				font-size: 20px;
+				color: #00a1e9;
+			}
+		}
+		@media(min-width: $md) {
+			.search-btn {
+				width: 80px;
+				height: 80px;
+				i {
+					font-size: 27px;
+				}
+			}
+		}
+	}
+}
 
 
 

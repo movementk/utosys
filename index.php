@@ -18,13 +18,24 @@
 						<img src="/assets/images/logo.jpg" alt="유토시스 로고">
 					</a>
 				</h1>
-				<!--<nav id="gnb">
-					<ul>
-						<li>
-							<a href="#"></a>
-						</li>
-					</ul>
-				</nav>-->
+				<div class="d-none d-xl-block">
+					<nav id="gnb">
+						<ul>
+							<li>
+								<a href="#">회사소개</a>
+							</li>
+							<li>
+								<a href="#">사업영역</a>
+							</li>
+							<li>
+								<a href="#">인재채용</a>
+							</li>
+							<li>
+								<a href="#">고객센터</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
 				<div class="service">
 					<ul class="laguage">
 						<li></li>
@@ -49,6 +60,8 @@
 				</div>
 			</div>
 		</header>
+		
+		
 		<main id="content">
 			<div class="container">
 				hello world
