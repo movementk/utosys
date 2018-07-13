@@ -3,7 +3,14 @@
 body {
 	min-width: 320px;
 	font-size: 13px;
+	margin-top: 55px;
 	@include noto();
+	@media(min-width: $md) {
+		margin-top: 80px;
+	}
+	@media(min-width: $xl) {
+		margin-top: 90px; 
+	}
 }
 
 //header 
@@ -18,56 +25,87 @@ body {
     background-color: #fff;
 	.container {
 		position: relative;
-		border: 1px solid red;
-		overflow: hidden;
 	}
 	.logo {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		display: inline-block;
-		margin-left: -60px;
-		margin-top: -15px;
 		a {
 			display: block;
+			width: 120px;
+			margin: 0 auto; 
 			img {
-				display: block;
-				width: 120px;
+				width: 100%;
 			}
 		}
-		@media(min-width: $md) {
-			float: left;
-			/*position: static;
-			margin: 0;*/
-		}
 	}
-	.service {
-		float: right;
-	}
-    @media(min-width: $md) {
-        height: 80px;
+	@media(min-width: $md) {
+		height: 80px;
 		.logo {
-			/*margin-top: 20px;*/
+			padding-top: 10px;
 			a {
 				width: 150px;
 			}
 		}
-    }
-    @media(min-width: $xl) {
-        height: 90px;
+	}         
+	@media(min-width: $xl) {
+		border-top: 2px solid #002e79;
+		height: 88px;
 		.logo {
-			
-			position: static;
-			margin: 0;
-			margin-top: 15px;
-			a {
-				display: inline-block;
-				text-align: left;
-			}
+			float: left;
 		}
-    }
+	}
 }
 
+
+//gnb
+#gnb {
+	display:  none;
+	font-size: 0;
+	text-align: right;
+	margin-right: 20px;
+	> ul {
+		font-size: 0;
+		display: inline-block;
+		> li {
+			display: inline-block;
+			vertical-align: top;
+			&:last-child {
+				margin-right: 0;
+			}
+			> a {
+				font-size: 17px;
+				line-height: 90px;
+			}
+		}
+		&.menu {
+			> li {
+				a {
+					padding: 0 55px;
+				}
+				&:last-child {
+					a {
+						padding-right: 70px;
+					}
+				}
+				> .gnb2 {
+					display: none;
+					li {
+						a {
+							font-size: 15px;
+							text-align: center;
+						}
+					}
+				} 
+			}
+		}
+		&.laguage {
+			> li {
+				margin-right: 5px;
+			}
+		}
+	}
+	@media(min-width: $xl) {
+		display: block;
+	}
+}
 
 //nav-btn-area
 .nav-btn-area {
@@ -110,47 +148,27 @@ body {
     }
 }
 
-//
-#gnb {
-	ul {
-		font-size: 0;
-		li {
-			display: inline-block;
-			font-size: 17px;
-			color: #333;
-			margin-right: 100px;
-			&:last-child {
-				margin-right: 0;
-			}
-			a {
-				
-			}
-		}
-	}
-}
-
-.service {
-	//search-form
-	.search-form {
-		position: relative;
-		top: 0;
-		left: 15px;
-		.search-btn {
+//global-form
+.global-form {
+	position: absolute;
+	top: 0;
+	right: 0;
+	.btn {
+		&.search-btn {
 			width: 55px;
 			height: 55px;
-			z-index: 200;
 			text-align: center;
-			border-radius: 0;
 			border-left: 1px solid #e8e8e8;
 			background-color: #fff;
-			border: 1px solid red;
 			i {
 				font-size: 20px;
 				color: #00a1e9;
 			}
 		}
-		@media(min-width: $md) {
-			.search-btn {
+	}
+	@media(min-width: $md) {
+		.btn {
+			&.search-btn {
 				width: 80px;
 				height: 80px;
 				i {
@@ -159,7 +177,130 @@ body {
 			}
 		}
 	}
+	@media(min-width: $xl) {
+		.btn {
+			&.search-btn {
+				width: auto;
+				height: 90px;
+				border: 0;
+				background: none;
+				i {
+					position: relative;
+					top: -5px;
+					font-size: 18px;
+				}
+			}
+		}
+	}
 }
+#content {
+	min-height: 300px;
+	background-color: #f0f3f7;
+}
+#footer {
+	padding: 30px 0;
+	.policy {
+		display: none;
+		> li {
+			display: inline-block;
+			a {
+				font-size: 12px;
+				color: #666;
+				opacity: .7;
+				margin-right: 20px;
+			}
+			&:last-child {
+				a {
+					margin-right: 0;
+				}
+			}
+		} 
+		@media(min-width: $md) {
+			display: block;
+		}
+	}
+	.company {
+		> ul {
+			font-size: 0;
+			> li {
+				display: inline-block;
+				font-size: 12px;
+				color: #666;
+				line-height: 20px;
+				&:after {
+					position: relative;
+					top: -1px;
+					content: "|";
+					font-size: 10px;
+					margin: 0 6px;
+				}
+				&:last-child {
+					&:after {
+						display: none;
+					}
+				}
+				dl {
+					display: inline-block;
+					font-size: 0;
+					dt {
+						display: inline-block;
+						font-size: 12px;
+						font-weight: 400;
+						&:after {
+							content: ":"; 
+							margin: 0 3px;
+						}
+					}
+					dd {
+						display: inline-block;
+						font-size: 12px;
+					}
+				}
+			}
+		}
+		> p {
+			font-size: 12px;
+			color: #666;
+			line-height: 20px;
+			@include roboto();
+		}
+		@media (min-width: $md) {
+			margin-top: 20px;
+		}
+	}
+	figure {
+		text-align: center;
+		line-height: 84px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
