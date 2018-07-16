@@ -101,6 +101,110 @@
 			</div>
 		</header>
 		
+		<aside id="aside">
+			<div class="backdrop"></div>
+			<div class="aside-header">
+				<p>
+					<img src="/assets/images/aside_menu_logo.png" alt="로고">
+				</p>
+				<button type="button" class="btn btn-default close-btn">
+					<span class="sr-only">모바일 네비 버튼</span>
+				</button>
+			</div>
+			<div class="aside-body">
+				<ul class="depth-1">
+					<li>
+						<a href="#">회사소개</a>
+						<ul class="depth-2">
+							<li>
+								<a href="#">CEO 인사말</a>
+							</li>
+							<li>
+								<a href="#">경영이념</a>
+							</li>
+							<li> 
+								<a href="#">연혁/사업실적</a>
+							</li>
+							<li> 
+								<a href="#">조직도</a>
+							</li>
+							<li> 
+								<a href="#">인증현황</a>
+							</li>
+							
+							<li> 
+								<a href="#">오시는길</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">사업영역</a>
+						<ul class="depth-2">
+							<li>
+								<a href="#" class="arrow">FPD Transfer System</a>
+								<ul class="depth-3">
+									<li>
+										<a href="#">마스크 로더</a>
+									</li>
+									<li>
+										<a href="#">2단 반전기</a>
+									</li>
+									<li>
+										<a href="#">Gluon 교체 반전기</a>
+									</li>
+									<li>
+										<a href="#">수평이재기</a>
+									</li>
+									<li>
+										<a href="#">HIRATA ROBOT</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#" class="arrow">FPD Inspection System</a>
+								<ul class="depth-3">
+									<li>
+										<a href="#">엣지검사기</a>
+									</li>
+									<li>
+										<a href="#">노치/압흔 검사기</a>
+									</li>
+									<li>
+										<a href="#">표면검사기</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">인재채용</a>
+						<ul class="depth-2">
+							<li>
+								<a href="#">인재상</a>
+							</li>
+							<li>
+								<a href="#">복지제도</a>
+							</li>
+							<li> 
+								<a href="#">채용안내</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">고객센터</a>
+						<ul class="depth-2">
+							<li>
+								<a href="#">공지사항</a>
+							</li>
+							<li>
+								<a href="#">Q&amp;A</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</aside>
+		
 		<!--main start-->
 		<main id="content">
 			<div class="container">
@@ -165,5 +269,37 @@
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 		<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+		<script>
+			//모바일 aside 버튼 이벤트 관련
+			$(function (){
+				$(document).on('click','.btn-nav', function(){
+					$('body').addClass('opened');
+					$(this).addClass('btn-open');
+				});
+				$(document).on('click','.close-btn', function(){
+					$('body').removeClass('opened');
+					$(this).removeClass('btn-open');
+				});
+			});
+			
+			//모바일 gnb 메뉴 관련 depth-1
+			$(document).on('click', '.depth-1 > li > a', function() {
+				if ($(this).parent().hasClass('active')) {
+					$(this).parent().removeClass('active');
+				} else {
+					$(this).parent().siblings('.active').removeClass('active');
+					$(this).parent().addClass('active');
+				}
+			});
+			//모바일 gnb 메뉴 관련 depth-2
+			$(document).on('click', '.depth-2 > li > a', function() {
+				if ($(this).parent().hasClass('on')) {
+					$(this).parent().removeClass('on');
+				} else {
+					$(this).parent().siblings('.on').removeClass('on');
+					$(this).parent().addClass('on'); 
+				}
+			});
+		</script>
 	</body>
 </html>
