@@ -1,21 +1,27 @@
 <!doctype html>
 <html lang="ko">
 	<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="/assets/fontello/css/fontello.css">
-	<link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/assets/css/flags/flag-icon.css">
-	<link rel="stylesheet" href="/assets/css/default.css">
-
-	<title>유토시스</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>유토시스</title>
+		<link rel="stylesheet" href="/assets/fontello/css/fontello.css">
+		<link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/assets/css/flags/flag-icon.css">
+		<link rel="stylesheet" href="/assets/css/default.css">
+		<!--[if IE 9]>
+			<link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie9.min.css" rel="stylesheet">
+		<![endif]-->
+		<!--[if lte IE 8]>
+			<link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/css/bootstrap-ie8.min.css" rel="stylesheet">
+			<script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
+		<![endif]-->
 	</head>
 	<body>
+		<!--header start-->
 		<header id="header">          
 			<div class="container">
 				<h1 class="logo">
-					<a href="#">
+					<a href="/">
 						<img src="/assets/images/logo.jpg" alt="유토시스 로고">
 					</a>
 				</h1>
@@ -31,7 +37,7 @@
 					<ul class="menu">
 						<li>
 							<a href="#">회사소개</a>
-							<ul class="gnb2">
+							<ul>
 								<li><a href="#">회사소개</a></li>
 								<li><a href="#">회사소개</a></li>
 								<li><a href="#">회사소개</a></li>
@@ -39,7 +45,7 @@
 						</li>
 						<li>
 							<a href="#">사업영역</a>
-							<ul class="gnb2">
+							<ul>
 								<li><a href="#">사업영역</a></li>
 								<li><a href="#">사업영역</a></li>
 								<li><a href="#">사업영역</a></li>
@@ -47,7 +53,7 @@
 						</li>
 						<li>
 							<a href="#">인재채용</a>
-							<ul class="gnb2">
+							<ul>
 								<li><a href="#">ddd</a></li>
 								<li><a href="#">ddd</a></li>
 								<li><a href="#">ddd</a></li>
@@ -55,7 +61,7 @@
 						</li>
 						<li>
 							<a href="#">고객센터</a>
-							<ul class="gnb2">
+							<ul>
 								<li><a href="#">ddd</a></li>
 								<li><a href="#">ddd</a></li>
 								<li><a href="#">ddd</a></li>
@@ -80,7 +86,7 @@
 						</li>
 					</ul>
 				</nav>
-				<div class="global-form">
+				<div class="search-form">
 					<form action="#">
 						<!--div class="form-group">
 							<input type="text" class="form-control">
@@ -95,17 +101,19 @@
 			</div>
 		</header>
 		
-		
+		<!--main start-->
 		<main id="content">
 			<div class="container">
 				hello world
 			</div>
 		</main>
+		
+		<!--footer start-->
 		<footer id="footer">
 			<div class="container">
 				<div class="row">
-					<div class="col-12 col-xl-10">
-						<ul class="policy">
+					<div class="col-12 col-lg-9 col-xl-10">
+						<ul class="information">
 							<li>
 								<a href="#">회사소개</a>
 							</li>
@@ -121,7 +129,9 @@
 						</ul>
 						<div class="company">
 							<ul>
-								<li>경북 구미시 해평면 도신로 162-32 (주)유토시스</li>
+								<li>
+									<address>경북 구미시 해평면 도신로 162-32 (주)유토시스</address>
+								</li>
 								<li>
 									<dl>
 										<dt>TEL </dt>
@@ -141,10 +151,10 @@
 									</dl>
 								</li>
 							</ul>
-							<p>COPYRIGHT (C) 2018 UTOSYS.  ALL RIGHTS RESERVED. SITE BY MOVEMENT K GROUP.</p>
+							<p>COPYRIGHT (C) 2018 UTOSYS.  ALL RIGHTS RESERVED. SITE BY <a href="http://movementk.co.kr/" target="_blank">MOVEMENT K GROUP.</a></p>
 						</div>
 					</div>
-					<div class="d-none d-xl-block col-xl-2">
+					<div class="d-none d-lg-block col-lg-3 col-xl-2">
 						<figure>
 							<img src="/assets/images/img_footer_logo.png" alt="">
 						</figure>
