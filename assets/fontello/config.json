@@ -47,6 +47,12 @@
       "css": "right-open-big",
       "code": 59398,
       "src": "entypo"
+    },
+    {
+      "uid": "37f6cfbb4062ed0d01b351ec35c334ff",
+      "css": "right-open-mini",
+      "code": 59399,
+      "src": "entypo"
     }
   ]
 }
