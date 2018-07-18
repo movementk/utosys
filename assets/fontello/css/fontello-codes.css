@@ -3,3 +3,5 @@
 .icon-cancel:before { content: '\e801'; } /* '' */
 .icon-up-open-big:before { content: '\e802'; } /* '' */
 .icon-down-open-big:before { content: '\e803'; } /* '' */
+.icon-right:before { content: '\e804'; } /* '' */
+.icon-left:before { content: '\e805'; } /* '' */
