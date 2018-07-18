@@ -44,6 +44,11 @@
 		});
 	});
 	$('.jumbotron ul').slick({
-		dots: true
+		autoplay: true,
+		dots: true,
+		slidesToShow: 1,
+  		slidesToScroll: 1,
+		prevArrow: '<button class="slick-prev"><i class="icon-left"></i></button>',
+        nextArrow: '<button class="slick-next"><i class="icon-right"></i></button>'
 	});
 })(jQuery);
