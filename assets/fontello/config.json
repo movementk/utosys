@@ -41,6 +41,12 @@
       "css": "left",
       "code": 59397,
       "src": "mfglabs"
+    },
+    {
+      "uid": "004882ab2d5c418c5b2060e80596279b",
+      "css": "right-open-big",
+      "code": 59398,
+      "src": "entypo"
     }
   ]
 }
