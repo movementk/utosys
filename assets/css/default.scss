@@ -81,11 +81,14 @@ body {
 			top: 90px;
 			left: 0;
 			width: 285px;
-			height: 240px;
+			height: 245px;
 			text-align: center;
 			color: #fff;
 			padding-top: 65px;
-			background-color: rgba(0, 147, 245, .9); 
+			background-image: url(/assets/images/bg_gnb_intro.gif);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
 			> p {
 				font-size: 15px;
 			}
@@ -94,6 +97,7 @@ body {
 				line-height: 42px;
 				font-weight: 400;
 				margin-top: 10px;
+				text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.15); 
 			}
 		}
 		> ul {
@@ -106,6 +110,7 @@ body {
 					margin-right: 0;
 				}
 				> a {
+					display: block;
 					font-size: 17px;
 					line-height: 90px;
 				}
@@ -126,7 +131,7 @@ body {
 					> ul {
 						display: block;
 						text-align: left;
-						padding: 30px 0;
+						padding-top: 25px;
 						margin-left: 55px;
 						> li {
 							> a {
@@ -134,7 +139,8 @@ body {
 								display: inline-block;
 								font-size: 14px;
 								color: #666;
-								line-height: 30px;
+								font-weight: 300;
+								line-height: 32px;
 								text-align: left;
 								@include transition();
 								> span {
@@ -177,14 +183,12 @@ body {
 .nav-expanded {
     #header {
 		overflow: visible;
-		height: 330px;
+		height: 337px;
+		background-color: rgba(255, 255, 255, .95);
 		#gnb {
-			
 			hr {
 				display: block;
 			}
-		}
-		.menu {
 		}
     }
 }
@@ -345,10 +349,11 @@ body {
 				}
 			}
 		}
-		> p {
+		> .copyright {
 			font-size: 12px;
 			color: #666;
-			line-height: 20px;
+			font-weight: 500;
+			line-height: 20px; 
 			@include roboto();
 		}
 		@media (min-width: $md) {
@@ -467,6 +472,9 @@ body {
 							display: none;
 						}
 						&.on {
+							> a {
+								color: #00a1e9; 
+							}
 							> .arrow {
 								&:after {
 									float: right;
@@ -484,8 +492,8 @@ body {
 									font-size: 13px;
 									color: #666;
 									line-height: 30px;
+									padding: 0 30px;
 									> a {
-										padding: 0 30px;
 										&:hover {
 											color: #ea212f;
 										}
@@ -494,7 +502,7 @@ body {
 											margin-right: 3px;
 										}
 									}
-								}
+								} 
 							}
 						}
 						> a {
@@ -584,8 +592,8 @@ body {
 									> li {
 										font-size: 14px;
 										line-height: 40px;
+										padding: 0 40px;
 										> a {
-											padding: 0 40px;
 										}
 									}
 								}

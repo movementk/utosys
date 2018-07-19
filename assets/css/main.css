@@ -402,7 +402,6 @@ a {
     height: 375px; }
     .jumbotron .slick-slider .slick-list .slick-track .slick-slide .video {
       width: 100%;
-      height: 100%;
       transform: scale(2.5); }
   .jumbotron .slick-slider .slick-dots {
     position: absolute;
@@ -483,7 +482,6 @@ a {
         height: 430px; }
         .jumbotron .slick-slider .slick-list .slick-track .slick-slide .video {
           width: 100%;
-          height: 100%;
           transform: scale(1.5); }
       .jumbotron .slick-slider .slick-dots {
         display: none !important;
@@ -597,7 +595,8 @@ a {
           .jumbotron .col-12 .row .col-6 .system-wrap .system .details > h3 {
             font-size: 16px;
             line-height: 28px;
-            font-weight: 400; }
+            font-weight: 400;
+            letter-spacing: -0.5px; }
           .jumbotron .col-12 .row .col-6 .system-wrap .system .details .btn-area p .btn.btn-default {
             display: block;
             width: 120px;
@@ -631,8 +630,12 @@ a {
       .jumbotron .col-12 .row .col-6 .system-wrap {
         height: 265px;
         margin-left: -15px; }
+        .jumbotron .col-12 .row .col-6 .system-wrap .system > .item {
+          width: 40%;
+          padding: 0 20px; }
         .jumbotron .col-12 .row .col-6 .system-wrap .system .details {
-          padding-right: 5px; }
+          width: 60%;
+          padding-right: 10px; }
           .jumbotron .col-12 .row .col-6 .system-wrap .system .details > p {
             font-size: 13px;
             color: #333;
@@ -640,15 +643,22 @@ a {
             font-weight: 300;
             line-height: 20px;
             margin-top: 10px;
-            letter-spacing: -.5px; } }
+            letter-spacing: -.5px;
+            word-break: keep-all; }
+            .jumbotron .col-12 .row .col-6 .system-wrap .system .details > p > .space {
+              display: none; } }
     @media (min-width: 1400px) {
       .jumbotron .col-12 .row .col-6 .system-wrap .system > .item {
-        width: 40%; }
+        width: 40%;
+        padding: 0 10px; }
       .jumbotron .col-12 .row .col-6 .system-wrap .system .details {
         width: 60%;
-        padding-right: 60px; }
+        padding-right: 20px; }
         .jumbotron .col-12 .row .col-6 .system-wrap .system .details .btn-area p .btn.btn-default {
           margin-top: 35px; } }
+    @media (min-width: 1600px) {
+      .jumbotron .col-12 .row .col-6 .system-wrap .system .details > p > .space {
+        display: block; } }
 
 .news {
   width: 100%;

@@ -81,8 +81,8 @@
 										<div class="details">
 											<h3>FPD Transfer<br class="d-xl-none"> System</h3>
 											<p class="d-none d-xl-block">
-												FPD Transfer System의 간략한 설명이
-												노출되며 해당 제품군으로 바로가기 할
+												FPD Transfer System의 간략한 설명이<br class="space">
+												노출되며 해당 제품군으로 바로가기 할<br class="space">
 												수 있는 영역입니다.
 											</p>
 											<div class="btn-area d-none d-md-block">
@@ -103,8 +103,8 @@
 										<div class="details">
 											<h3>FPD Inspection<br class="d-xl-none"> System</h3>
 											<p class="d-none d-xl-block">
-												FPD  Inspection System의 간략한
-												설명이노출되며 해당 제품군으로 바로가기
+												FPD  Inspection System의 간략한<br class="space">
+												설명이노출되며 해당 제품군으로 바로가기<br class="space">
 												할 수 있는 영역입니다.
 											</p>
 											<div class="btn-area d-none d-md-block">

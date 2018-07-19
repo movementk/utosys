@@ -25,7 +25,7 @@
 						<li>
 							<dl>
 								<dt>TEL </dt>
-								<dd>054-473-8122</dd>
+								<dd><a href="tel:0544738122">054-473-8122</a></dd>
 							</dl>
 						</li>
 						<li>
@@ -41,7 +41,7 @@
 							</dl>
 						</li>
 					</ul>
-					<p>COPYRIGHT (C) 2018 UTOSYS.  ALL RIGHTS RESERVED. SITE BY <a href="http://movementk.co.kr/" target="_blank">MOVEMENT K GROUP.</a></p>
+					<p class="copyright">COPYRIGHT (C) 2018 UTOSYS.  ALL RIGHTS RESERVED. SITE BY <a href="http://movementk.co.kr/" target="_blank">MOVEMENT K GROUP.</a></p>
 				</div>
 			</div>
 			<div class="d-none d-lg-block col-lg-3 col-xl-2">
