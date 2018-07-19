@@ -53,6 +53,12 @@
       "css": "right-open-mini",
       "code": 59399,
       "src": "entypo"
+    },
+    {
+      "uid": "e4dde1992f787163e2e2b534b8c8067d",
+      "css": "angle-down",
+      "code": 61703,
+      "src": "fontawesome"
     }
   ]
 }
