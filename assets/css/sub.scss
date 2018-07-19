@@ -99,7 +99,7 @@
 						display: block;
 						font-size: 15px;
 						color: #999;
-						line-height: 58px;
+						line-height: 60px;
 						padding-left: 20px;
 						border-bottom: 1px solid #e1e1e1;
 						&:last-child {
@@ -145,6 +145,7 @@
 							width: 14.28%;
 							border-bottom: 0;
 							text-align: center;
+							line-height: 58px;
 							padding-left: 0;
 							border-right: 1px solid #e1e1e1;
 							&:last-child {
