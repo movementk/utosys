@@ -411,7 +411,6 @@ a {
 
 .page-path {
   width: 100%;
-  background-color: #fff;
   margin-top: -30px; }
   .page-path .breadcrumb {
     position: relative;
@@ -469,10 +468,52 @@ a {
           padding: 0;
           border: 1px solid #e1e1e1;
           border-radius: 0;
+          overflow-y: scroll;
           width: 100%;
-          /*					&.show {
-          						top: 1px !important;
-          						left: 2px !important;
-          					}*/ }
+          height: 180px;
+          /*&.show {
+          	top: 1px !important;
+          	left: 2px !important;
+          }*/ }
+          .page-path .breadcrumb > li .dropdown .dropdown-menu > .dropdown-item {
+            padding: 0;
+            display: block;
+            font-size: 15px;
+            color: #999;
+            line-height: 58px;
+            padding-left: 20px;
+            border-bottom: 1px solid #e1e1e1; }
+            .page-path .breadcrumb > li .dropdown .dropdown-menu > .dropdown-item:last-child {
+              border-bottom: 0; }
+            .page-path .breadcrumb > li .dropdown .dropdown-menu > .dropdown-item:hover {
+              color: #ea212f;
+              font-weight: 400;
+              background: none; }
+        @media (min-width: 768px) {
+          .page-path .breadcrumb > li .dropdown button.btn-secondary {
+            padding: 0 40px; }
+          .page-path .breadcrumb > li .dropdown .dropdown-menu {
+            height: 240px; }
+            .page-path .breadcrumb > li .dropdown .dropdown-menu > .dropdown-item {
+              padding-left: 40px; } }
+        @media (min-width: 1200px) {
+          .page-path .breadcrumb > li .dropdown button.btn-secondary {
+            display: none; }
+          .page-path .breadcrumb > li .dropdown .dropdown-menu {
+            font-size: 0;
+            display: block;
+            height: auto;
+            overflow-y: visible; }
+            .page-path .breadcrumb > li .dropdown .dropdown-menu > .dropdown-item {
+              display: inline-block;
+              width: 14.28%;
+              border-bottom: 0;
+              text-align: center;
+              padding-left: 0;
+              border-right: 1px solid #e1e1e1; }
+              .page-path .breadcrumb > li .dropdown .dropdown-menu > .dropdown-item:last-child {
+                border-right: 0; }
+              .page-path .breadcrumb > li .dropdown .dropdown-menu > .dropdown-item:hover {
+                border-bottom: 1px solid #ea212f; } }
 
 /*# sourceMappingURL=sub.css.map */

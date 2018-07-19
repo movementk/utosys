@@ -542,6 +542,8 @@ a {
           margin-top: 45px; }
         .jumbotron .slick-slider li > .summary > .btn-area {
           margin-top: 60px; } }
+  .jumbotron .col-12 .row .col-6.expand {
+    padding-right: 0; }
   @media (min-width: 768px) {
     .jumbotron .col-12 .row .col-6 .system-wrap {
       display: block; } }
@@ -653,7 +655,7 @@ a {
         padding: 0 10px; }
       .jumbotron .col-12 .row .col-6 .system-wrap .system .details {
         width: 60%;
-        padding-right: 20px; }
+        padding-right: 40px; }
         .jumbotron .col-12 .row .col-6 .system-wrap .system .details .btn-area p .btn.btn-default {
           margin-top: 35px; } }
     @media (min-width: 1600px) {
