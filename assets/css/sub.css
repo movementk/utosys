@@ -503,7 +503,8 @@ a {
             font-size: 0;
             display: block;
             height: auto;
-            overflow-y: visible; }
+            overflow-y: visible;
+            transform: none !important; }
             .page-path .breadcrumb > li .dropdown .dropdown-menu > .dropdown-item {
               display: inline-block;
               width: 14.28%;
