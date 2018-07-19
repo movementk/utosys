@@ -453,18 +453,22 @@ body {
     top: 90px;
     left: 0;
     width: 285px;
-    height: 240px;
+    height: 245px;
     text-align: center;
     color: #fff;
     padding-top: 65px;
-    background-color: rgba(0, 147, 245, 0.9); }
+    background-image: url(/assets/images/bg_gnb_intro.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
     #gnb .container .gnb-intro > p {
       font-size: 15px; }
     #gnb .container .gnb-intro > h2 {
       font-size: 32px;
       line-height: 42px;
       font-weight: 400;
-      margin-top: 10px; }
+      margin-top: 10px;
+      text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.15); }
   #gnb .container > ul {
     font-size: 0;
     display: inline-block; }
@@ -474,6 +478,7 @@ body {
       #gnb .container > ul > li:last-child {
         margin-right: 0; }
       #gnb .container > ul > li > a {
+        display: block;
         font-size: 17px;
         line-height: 90px; }
     #gnb .container > ul.menu > li > a {
@@ -485,14 +490,15 @@ body {
     #gnb .container > ul.menu > li > ul {
       display: block;
       text-align: left;
-      padding: 30px 0;
+      padding-top: 25px;
       margin-left: 55px; }
       #gnb .container > ul.menu > li > ul > li > a {
         position: relative;
         display: inline-block;
         font-size: 14px;
         color: #666;
-        line-height: 30px;
+        font-weight: 300;
+        line-height: 32px;
         text-align: left;
         -webkit-transition-property: all;
         transition-property: all;
@@ -534,7 +540,8 @@ body {
 
 .nav-expanded #header {
   overflow: visible;
-  height: 330px; }
+  height: 337px;
+  background-color: rgba(255, 255, 255, 0.95); }
   .nav-expanded #header #gnb hr {
     display: block; }
 
@@ -661,9 +668,10 @@ body {
         #footer .company > ul > li dl dd {
           display: inline-block;
           font-size: 12px; }
-  #footer .company > p {
+  #footer .company > .copyright {
     font-size: 12px;
     color: #666;
+    font-weight: 500;
     line-height: 20px;
     font-family: 'Roboto', sans-serif; }
   @media (min-width: 768px) {
@@ -766,6 +774,8 @@ body {
         display: none; }
         #aside .aside-body > .depth-1 > li .depth-2 li > .depth-3 {
           display: none; }
+        #aside .aside-body > .depth-1 > li .depth-2 li.on > a {
+          color: #00a1e9; }
         #aside .aside-body > .depth-1 > li .depth-2 li.on > .arrow:after {
           float: right;
           padding-right: 20px;
@@ -779,14 +789,13 @@ body {
           #aside .aside-body > .depth-1 > li .depth-2 li.on > .depth-3 > li {
             font-size: 13px;
             color: #666;
-            line-height: 30px; }
-            #aside .aside-body > .depth-1 > li .depth-2 li.on > .depth-3 > li > a {
-              padding: 0 30px; }
-              #aside .aside-body > .depth-1 > li .depth-2 li.on > .depth-3 > li > a:hover {
-                color: #ea212f; }
-              #aside .aside-body > .depth-1 > li .depth-2 li.on > .depth-3 > li > a:before {
-                content: "-";
-                margin-right: 3px; }
+            line-height: 30px;
+            padding: 0 30px; }
+            #aside .aside-body > .depth-1 > li .depth-2 li.on > .depth-3 > li > a:hover {
+              color: #ea212f; }
+            #aside .aside-body > .depth-1 > li .depth-2 li.on > .depth-3 > li > a:before {
+              content: "-";
+              margin-right: 3px; }
         #aside .aside-body > .depth-1 > li .depth-2 li > a.arrow:after {
           float: right;
           padding-right: 20px;
@@ -838,9 +847,8 @@ body {
           background-color: #eff3f7; }
           #aside .aside-body > .depth-1 > li .depth-2 li.on > .depth-3 > li {
             font-size: 14px;
-            line-height: 40px; }
-            #aside .aside-body > .depth-1 > li .depth-2 li.on > .depth-3 > li > a {
-              padding: 0 40px; }
+            line-height: 40px;
+            padding: 0 40px; }
         #aside .aside-body > .depth-1 > li .depth-2 li > a.arrow:after {
           font-size: 18px;
           padding-right: 30px; } }

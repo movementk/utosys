@@ -16,11 +16,7 @@
 	<div class="page-path">
 		<div class="container">
 			<ol class="breadcrumb">
-				<li class="home">
-					<a href="/"> 
-						<span class="sr-only">메인이동</span>
-					</a>
-				</li>
+				<li></li>
 				<li>
 					<div class="dropdown">
 						<button class="btn btn-secondary dropdown-toggle" type="button" id="depth-list-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
