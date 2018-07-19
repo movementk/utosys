@@ -12,7 +12,7 @@
     	<div class="jumbotron">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-12 col-xl-8">
+					<div class="col-12 col-xl-9">
 						<ul>
 							<li>
 								<video class="video" loop muted autoplay>
@@ -70,17 +70,21 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-12 col-xl-4">
+					<div class="col-12 col-xl-3">
 						<div class="row">
 							<div class="col-6 col-xl-12">
 								<div class="system-wrap">
 									<div class="system content1">
 										<div class="item">
-											<img src="/assets/images/img_content1.png" class="img-fluid" alt="">
+											<img src="/assets/images/img_content1.png" class="img-fluid" alt="FPD Transfer System">
 										</div>
 										<div class="details">
 											<h3>FPD Transfer<br class="d-xl-none"> System</h3>
-											<p class="d-none d-xl-block">FPD Transfer System의 간략한 설명이노출되며 해당 제품군으로 바로가기 할 수 있는 영역입니다.</p>
+											<p class="d-none d-xl-block">
+												FPD Transfer System의 간략한 설명이
+												노출되며 해당 제품군으로 바로가기 할
+												수 있는 영역입니다.
+											</p>
 											<div class="btn-area d-none d-md-block">
 												<p>
 													<a href="#" class="btn btn-default" role="button">바로가기</a>
@@ -94,11 +98,15 @@
 								<div class="system-wrap">
 									<div class="system content2">
 										<div class="item">
-											<img src="/assets/images/img_content2.png" class="img-fluid" alt="">
+											<img src="/assets/images/img_content2.png" class="img-fluid" alt="FPD Inspection System">
 										</div>
 										<div class="details">
 											<h3>FPD Inspection<br class="d-xl-none"> System</h3>
-											<p class="d-none d-xl-block">FPD  Inspection System의 간략한 설명이노출되며 해당 제품군으로 바로가기 할 수 있는 영역입니다.</p>
+											<p class="d-none d-xl-block">
+												FPD  Inspection System의 간략한
+												설명이노출되며 해당 제품군으로 바로가기
+												할 수 있는 영역입니다.
+											</p>
 											<div class="btn-area d-none d-md-block">
 												<p>
 													<a href="#" class="btn btn-default" role="button">바로가기</a>
@@ -190,19 +198,28 @@
 								<li>
 									<a href="#">
 										<div class="items"></div>
-										<p>인증현황</p>
+										<div class="info">
+											<h4>인증현황</h4>
+											<p>바로가기</p>
+										</div>
 									</a>
 								</li>
 								<li>
 									<a href="#">
 										<div class="items"></div>
-										<p>오시는 길</p>
+										<div class="info">
+											<h4>오시는 길</h4>
+											<p>바로가기</p>
+										</div>
 									</a>
 								</li>
 								<li>
 									<a href="#">
 										<div class="items"></div>
-										<p>공지사항</p>
+										<div class="info">
+											<h4>공지사항</h4>
+											<p>바로가기</p>
+										</div>
 									</a>
 								</li>
 							</ul>
@@ -230,8 +247,5 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="/assets/js/main.js"></script>
-	<script>
-
-	</script>
 </body>
 </html>
