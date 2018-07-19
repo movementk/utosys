@@ -72,7 +72,7 @@
 					</div>
 					<div class="col-12 col-xl-3">
 						<div class="row">
-							<div class="col-6 col-xl-12">
+							<div class="col-6 col-xl-12 expand">
 								<div class="system-wrap">
 									<div class="system content1">
 										<div class="item">
@@ -81,8 +81,8 @@
 										<div class="details">
 											<h3>FPD Transfer<br class="d-xl-none"> System</h3>
 											<p class="d-none d-xl-block">
-												FPD Transfer System의 간략한 설명이<br class="space">
-												노출되며 해당 제품군으로 바로가기 할<br class="space">
+												FPD Transfer System의 간략한 설명이
+												노출되며 해당 제품군으로 바로가기 할
 												수 있는 영역입니다.
 											</p>
 											<div class="btn-area d-none d-md-block">
@@ -94,7 +94,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-6 col-xl-12">
+							<div class="col-6 col-xl-12 expand">
 								<div class="system-wrap">
 									<div class="system content2">
 										<div class="item">
@@ -103,8 +103,8 @@
 										<div class="details">
 											<h3>FPD Inspection<br class="d-xl-none"> System</h3>
 											<p class="d-none d-xl-block">
-												FPD  Inspection System의 간략한<br class="space">
-												설명이노출되며 해당 제품군으로 바로가기<br class="space">
+												FPD  Inspection System의 간략한
+												설명이노출되며 해당 제품군으로 바로가기
 												할 수 있는 영역입니다.
 											</p>
 											<div class="btn-area d-none d-md-block">
@@ -246,6 +246,7 @@
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="/assets/js/common.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>
 </html>

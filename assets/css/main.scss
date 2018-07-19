@@ -212,6 +212,9 @@
 	.col-12 {
 		.row {
 			.col-6 {
+				&.expand {
+					padding-right: 0;
+				}
 				@media (min-width: $md) {
 					.system-wrap {
 						display: block;
@@ -370,7 +373,7 @@
 							} 
 							.details {
 								width: 60%;
-								padding-right: 20px;
+								padding-right: 40px;
 								.btn-area {
 									p {
 										.btn {
