@@ -14,7 +14,7 @@
 				<div class="row">
 					<div class="col-12 col-xl-9">
 						<ul>
-							<li>
+							<li class="visual-list">
 								<video class="video" loop muted autoplay>
 									<source src="/assets/video/33480139-preview.mp4" type="video/mp4">이 브라우저는 동영상을 지원하지 않습니다.
 								</video>
@@ -32,7 +32,7 @@
 									</div>
 								</div>
 							</li>
-							<li>
+							<li class="visual-list">
 								<video class="video" loop muted autoplay>
 									<source src="/assets/video/33480139-preview.mp4" type="video/mp4">이 브라우저는 동영상을 지원하지 않습니다.
 								</video>
@@ -50,7 +50,7 @@
 									</div>
 								</div>
 							</li>
-							<li>
+							<li class="visual-list">
 								<video class="video" loop muted autoplay>
 									<source src="/assets/video/33480139-preview.mp4" type="video/mp4">이 브라우저는 동영상을 지원하지 않습니다.
 								</video>

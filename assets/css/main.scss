@@ -77,24 +77,36 @@
 				left: 20px;
 				padding-right: 55px;
 				> h2 {
+                    position: relative;
+                    top: 50px;
 					font-size: 30px;
 					color: #fff;
 					line-height: 38px;
 					font-weight: 400;
 					text-shadow: -3px 0px 7px rgba(0, 0, 0, 0.35); 
+                    @include transition($duration: 1s);
+                    opacity: 0;
 					> b {
 						font-weight: 500;
 					}
 				}
 				> p {
+                    position: relative;
+                    top: 50px;
 					font-size: 13px;
 					color: #fff;
 					line-height: 20px;
 					text-shadow: -3px 0px 7px rgba(0, 0, 0, 0.35);
 					margin-top: 20px;
+                    @include transition($duration: 1s, $delay: .5s);
+                    opacity: 0;
 				}
 				> .btn-area {
+                    position: relative;
+                    top: 50px;
 					margin-top: 40px;
+                    @include transition($duration: 1s, $delay: 1s);
+                    opacity: 0;
 					p {
 						.btn {
 							&.btn-default {
@@ -110,6 +122,22 @@
 					}
 				}
 			}
+            &.action {
+                .summary {
+                    > h2 {
+                        top: 0;
+                        opacity: 1;
+                    }
+                    > p {
+                        top: 0;
+                        opacity: 1;
+                    }
+                    > .btn-area {
+                        top: 0;
+                        opacity: 1;
+                    }
+                }
+            }
 		}
 	}
 	@media (min-width: $md) {

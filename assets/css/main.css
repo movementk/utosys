@@ -452,21 +452,54 @@ a {
       left: 20px;
       padding-right: 55px; }
       .jumbotron .slick-slider li .summary > h2 {
+        position: relative;
+        top: 50px;
         font-size: 30px;
         color: #fff;
         line-height: 38px;
         font-weight: 400;
-        text-shadow: -3px 0px 7px rgba(0, 0, 0, 0.35); }
+        text-shadow: -3px 0px 7px rgba(0, 0, 0, 0.35);
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s;
+        opacity: 0; }
         .jumbotron .slick-slider li .summary > h2 > b {
           font-weight: 500; }
       .jumbotron .slick-slider li .summary > p {
+        position: relative;
+        top: 50px;
         font-size: 13px;
         color: #fff;
         line-height: 20px;
         text-shadow: -3px 0px 7px rgba(0, 0, 0, 0.35);
-        margin-top: 20px; }
+        margin-top: 20px;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0.5s;
+        transition-delay: 0.5s;
+        opacity: 0; }
       .jumbotron .slick-slider li .summary > .btn-area {
-        margin-top: 40px; }
+        position: relative;
+        top: 50px;
+        margin-top: 40px;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 1s;
+        transition-delay: 1s;
+        opacity: 0; }
         .jumbotron .slick-slider li .summary > .btn-area p .btn.btn-default {
           display: block;
           width: 130px;
@@ -475,6 +508,15 @@ a {
           line-height: 35px;
           text-align: center;
           border: 1px solid #fff; }
+    .jumbotron .slick-slider li.action .summary > h2 {
+      top: 0;
+      opacity: 1; }
+    .jumbotron .slick-slider li.action .summary > p {
+      top: 0;
+      opacity: 1; }
+    .jumbotron .slick-slider li.action .summary > .btn-area {
+      top: 0;
+      opacity: 1; }
   @media (min-width: 768px) {
     .jumbotron {
       padding: 20px 0; }
