@@ -37,4 +37,13 @@
 		$('body').removeClass('nav-expanded');
 		$('#gnb .menu > li > a').removeClass('active');
 	});
+	
+	//1200때 모바일 nav
+	$(window).on('load resize', function() {
+		var conWidth = $('body').width();
+		/*console.log(conWidth);*/
+		if (conWidth >= 1199) {
+			$('body').removeClass("opened");
+		}
+	});
 })(jQuery);
