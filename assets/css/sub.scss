@@ -774,7 +774,7 @@
             dl {
                 dt {
                     &:after {
-                        content: "\E80B";
+                        content: "\E807";
                     }
                 }
             }
@@ -803,9 +803,7 @@
     }
 }
 
-
-
-
+//게시판 1
 .list {
 	width: 100%;
 	border-top: 2px  solid #2f4b85;
@@ -862,12 +860,11 @@
 					dd {
 						display: inline-block;
 						font-size: 13px;
-						color: #666;
+						color: #999;
 					}
 					@media (min-width: $xl) {
 						dt {
 							display: none;
-							background: red;
 						}
 					}
 				}
@@ -893,7 +890,7 @@
 				}
 				a {
 					display: block;
-					font-size: 15px;
+					font-size: 14px;
 					color: #666;
 					font-weight: 300;
 					overflow:hidden;
@@ -928,22 +925,11 @@
 					position: relative;
 					text-align: center;
 					vertical-align: middle;
-					/*&:after {
-						position: absolute;
-						top: 5%;
-						right: -1px;
-						font-size: 10px;
-						color: #666;
-						content: "|";
-					}*/
 					@media(min-width: $md) {
 						font-size: 13px;
 					}
 					@media(min-width: $lg) {
 						font-size: 15px;
-						/*&:after {
-							content: "";
-						}*/
 					}
 				}
 				&.hit {

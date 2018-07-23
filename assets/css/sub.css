@@ -929,7 +929,7 @@ a {
     .page-link1 > li.prev-link dl dt:after {
       content: "\E807"; }
     .page-link1 > li.next-link dl dt:after {
-      content: "\E80B"; }
+      content: "\E807"; }
   @media (min-width: 768px) {
     .page-link1 > li {
       padding-left: 30px;
@@ -988,11 +988,10 @@ a {
           .list > li > ul > li dl dd {
             display: inline-block;
             font-size: 13px;
-            color: #666; }
+            color: #999; }
           @media (min-width: 1200px) {
             .list > li > ul > li dl dt {
-              display: none;
-              background: red; } }
+              display: none; } }
         @media (min-width: 992px) {
           .list > li > ul > li {
             font-size: 15px;
@@ -1010,7 +1009,7 @@ a {
               width: 10%; } }
         .list > li > ul > li a {
           display: block;
-          font-size: 15px;
+          font-size: 14px;
           color: #666;
           font-weight: 300;
           overflow: hidden;
@@ -1040,24 +1039,13 @@ a {
           font-size: 12px;
           position: relative;
           text-align: center;
-          vertical-align: middle;
-          /*&:after {
-          	position: absolute;
-          	top: 5%;
-          	right: -1px;
-          	font-size: 10px;
-          	color: #666;
-          	content: "|";
-          }*/ }
+          vertical-align: middle; }
           @media (min-width: 768px) {
             .list > li > ul > li.date {
               font-size: 13px; } }
           @media (min-width: 992px) {
             .list > li > ul > li.date {
-              font-size: 15px;
-              /*&:after {
-              	content: "";
-              }*/ } }
+              font-size: 15px; } }
         .list > li > ul > li.hit {
           font-size: 12px;
           text-align: center; }
