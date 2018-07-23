@@ -1,5 +1,9 @@
 @import 'common';
-
+.sub {
+	#content {
+		padding-bottom: 200px;
+	}
+}
 //page-header 
 .page-header {
     .page-summary {
@@ -60,6 +64,15 @@
 			.dropdown {
 				width: 100%;
 				background-color: #fff;
+				&.show {
+					button {
+						&.btn-secondary {
+							&:after {
+								content: "\F106";
+							}
+						}
+					}
+				}
 				button {
 					&.btn-secondary {
 						min-width: 100%;
@@ -110,11 +123,10 @@
 							font-weight: 400;
 							background: none;
 						}
+						&.active {
+							background: none;
+						}
 					}
-					/*&.show {
-						top: 1px !important;
-						left: 2px !important;
-					}*/
 				}
 				@media (min-width: $md) {
 					button {
@@ -157,7 +169,6 @@
 							}
 							&.active {
 								border-bottom: 1px solid #ea212f;
-								background: none;
 							}
 						}
 					}
@@ -308,7 +319,6 @@
 		.btn-search {
 			.btn {
 				&.btn-default {
-					right: -4px;
 					width: 45px;
 					height: 45px;
 					font-size: 15px;
@@ -521,7 +531,7 @@
 				font-size: 13px;
 				color: #666;
 				border-radius: 5%;
-				line-height: 27px;
+				line-height: 25px;
 				padding: 0;
 				border: 0;
 				margin: 0 2px;
