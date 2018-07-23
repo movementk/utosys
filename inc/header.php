@@ -76,10 +76,10 @@
 					</ul>
 				</li>
 				<li>
-					<a href="#">고객센터<span></span></a>
+					<a href="/customer/notice_list.php">고객센터<span></span></a>
 					<ul>
-						<li><a href="#">공지사항<span></span></a></li>
-						<li><a href="#">Q&amp;A<span></span></a></li>
+						<li><a href="/customer/notice_list.php">공지사항<span></span></a></li>
+						<li><a href="/customer/qna_list.php">Q&amp;A<span></span></a></li>
 					</ul>
 				</li>
 			</ul>

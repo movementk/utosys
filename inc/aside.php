@@ -91,10 +91,10 @@
 				<a href="#">고객센터</a>
 				<ul class="depth-2">
 					<li>
-						<a href="#">공지사항</a>
+						<a href="/customer/notice_list.php">공지사항</a>
 					</li>
 					<li>
-						<a href="#">Q&amp;A</a>
+						<a href="/customer/qna_list.php">Q&amp;A</a>
 					</li>
 				</ul>
 			</li>
