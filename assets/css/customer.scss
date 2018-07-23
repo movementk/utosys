@@ -1,0 +1,249 @@
+@import 'common';
+
+//page-header 
+.customer {
+	.page-header {
+		.page-summary {
+			background-image: url(/assets/images/customer/bg_customer.gif);
+		}
+	}
+	.page-path {
+		.breadcrumb {
+			.dropdown {
+				.dropdown-menu {
+					height: 123px;
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			.breadcrumb {
+				.dropdown {
+					.dropdown-menu {
+						height: 60px;
+						.dropdown-item {
+							width: 50%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+//공지사항 목록
+.notice-list {
+	padding-bottom: 80px;
+	.select-search {
+		margin-bottom: 25px;
+	}
+	.paging {
+		margin-top: 30px;
+	}
+	@media (min-width: $md) {
+		padding-bottom: 90px;
+		.paging {
+			margin-top: 50px;
+		}
+	}
+	@media (min-width: $xl) {
+		padding-bottom: 120px;
+		.select-search {
+			margin-bottom: 30px;
+		}
+	}
+}
+
+//공지사항 보기
+.notice-view {
+	.page-link1 {
+		margin-top: 40px;
+		border-top: 1px solid #143883;
+		border-bottom: 1px solid #143883;
+		> li {
+			padding: 18px 10px;
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+		@media (min-width: $md) {
+			> li {
+				padding: 18px 30px;
+			}
+		}
+	}
+	.btn-area {
+		margin-top: 30px; 
+	}
+	@media (min-width: $md) {
+		.board-view {
+			.view-body {
+				min-height: 415px;
+			}
+		}
+		.page-link1 {
+			margin-top: 50px; 
+		}
+		.btn-area {
+			margin-top: 40px;
+		}
+	}
+	@media (min-width: $xl) {
+		.page-link1 {
+			margin-top: 65px; 
+		}
+	}
+}
+
+
+//공지사항 쓰기
+.notice-write {
+	.write-wrap {
+		.table-wrap {
+			.table {
+				tbody {
+					tr {
+						td {
+							&.file {
+								.form-group {
+									.form-control {
+										@media (min-width: $xl) {
+											width: 450px; 
+										}
+									}
+								}
+							}	
+						}
+					}
+				}
+			}
+		}
+		.btn-area {
+			margin-top: 30px;
+		}
+		@media (min-width: $md) {
+			.btn-area {
+				margin-top: 40px;
+			}	
+		}
+		@media (min-width: $md) {
+			.btn-area {
+				margin-top: 30px;
+			}	
+		}
+	}
+}
+
+//Q&A 목록
+.qna-list {
+	padding-bottom: 80px;
+	.list {
+		.list-intro {
+			> .list-header {
+				> li {
+					font-weight: 400;
+				}
+			}
+		}
+	}
+	.select-search {
+		margin-bottom: 25px;
+	}
+	.paging {
+		margin-top: 30px;
+	}
+	@media (min-width: $md) {
+		padding-bottom: 90px;
+		.paging {
+			margin-top: 50px;
+		}
+	}
+	@media (min-width: $xl) {
+		padding-bottom: 120px;
+		.select-search {
+			margin-bottom: 30px;
+		}
+	}
+}
+
+//Q&A 보기
+.qna-view {
+	.page-link1 {
+		margin-top: 40px;
+		border-top: 1px solid #143883;
+		border-bottom: 1px solid #143883;
+		> li {
+			padding: 18px 10px;
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+		@media (min-width: $md) {
+			> li {
+				padding: 18px 30px;
+			}
+		}
+	}
+	.btn-area {
+		margin-top: 30px; 
+	}
+	@media (min-width: $md) {
+		.board-view {
+			.view-body {
+				min-height: 415px;
+			}
+		}
+		.page-link1 {
+			margin-top: 50px; 
+		}
+		.btn-area {
+			margin-top: 40px;
+		}
+	}
+	@media (min-width: $xl) {
+		.page-link1 {
+			margin-top: 65px; 
+		}
+	}
+}
+
+//Q&A 쓰기
+.qna-write {
+	.write-wrap {
+		.table-wrap {
+			.table {
+				tbody {
+					tr {
+						td {
+							&.file {
+								.form-group {
+									.form-control {
+										@media (min-width: $xl) {
+											width: 450px; 
+										}
+									}
+								}
+							}	
+						}
+					}
+				} 
+			}
+		}
+		.btn-area {
+			margin-top: 30px;
+		}
+		@media (min-width: $md) {
+			.btn-area {
+				margin-top: 40px;
+			}	
+		}
+		@media (min-width: $md) {
+			.btn-area {
+				margin-top: 30px;
+			}	
+		}
+	}
+}
+
+
+
+

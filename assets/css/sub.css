@@ -389,10 +389,15 @@ a {
     .container {
       max-width: 1200px; } }
 
-.sub #content {
-  padding-bottom: 200px; }
+#content {
+  padding-bottom: 100px;
+  background-color: #f8f8f8; }
+  @media (min-width: 768px) {
+    #content {
+      padding-bottom: 150px; } }
 
 .page-header .page-summary {
+  position: relative;
   width: 100%;
   height: 145px;
   text-align: center;
@@ -950,23 +955,25 @@ a {
     width: 100%;
     padding: 16px 0;
     border-bottom: 1px solid #ccc; }
-    .list > li.d-xl-block {
+    .list > li:last-child {
+      border-bottom: 1px solid #2e4b85; }
+    .list > li.list-intro {
       background-color: #f4f6f9; }
-      .list > li.d-xl-block .list-header li {
-        text-align: center;
-        font-size: 14px;
-        color: #333; }
-        @media (min-width: 1200px) {
-          .list > li.d-xl-block .list-header li:nth-of-type(1) {
-            width: 10%; }
-          .list > li.d-xl-block .list-header li:nth-of-type(2) {
-            width: 50%; }
-          .list > li.d-xl-block .list-header li:nth-of-type(3) {
-            width: 15%; }
-          .list > li.d-xl-block .list-header li:nth-of-type(4) {
-            width: 15%; }
-          .list > li.d-xl-block .list-header li:nth-of-type(5) {
-            width: 10%; } }
+    .list > li.d-xl-block .list-header li {
+      text-align: center;
+      font-size: 14px;
+      color: #333; }
+      @media (min-width: 1200px) {
+        .list > li.d-xl-block .list-header li:nth-of-type(1) {
+          width: 10%; }
+        .list > li.d-xl-block .list-header li:nth-of-type(2) {
+          width: 57%; }
+        .list > li.d-xl-block .list-header li:nth-of-type(3) {
+          width: 13%; }
+        .list > li.d-xl-block .list-header li:nth-of-type(4) {
+          width: 10%; }
+        .list > li.d-xl-block .list-header li:nth-of-type(5) {
+          width: 10%; } }
     .list > li > ul {
       font-size: 0; }
       .list > li > ul > li {
@@ -999,12 +1006,12 @@ a {
             .list > li > ul > li:nth-of-type(1) {
               width: 10%; }
             .list > li > ul > li:nth-of-type(2) {
-              width: 50%;
+              width: 57%;
               text-align: left; }
             .list > li > ul > li:nth-of-type(3) {
-              width: 15%; }
+              width: 13%; }
             .list > li > ul > li:nth-of-type(4) {
-              width: 15%; }
+              width: 10%; }
             .list > li > ul > li:nth-of-type(5) {
               width: 10%; } }
         .list > li > ul > li a {
@@ -1063,33 +1070,43 @@ a {
   text-align: right; }
   .btn-area p {
     font-size: 0; }
-    .btn-area p a {
+    .btn-area p a, .btn-area p button {
       margin-right: 2%; }
-      .btn-area p a:last-child {
+      .btn-area p a:last-child, .btn-area p button:last-child {
         margin-right: 0; }
-      .btn-area p a.btn {
+      .btn-area p a.btn, .btn-area p button.btn {
         display: inline-block;
         width: 32%;
         line-height: 45px;
         font-size: 13px;
         color: #fff;
         text-align: center; }
-      .btn-area p a.btn-black {
+        .btn-area p a.btn:hover, .btn-area p button.btn:hover {
+          opacity: .8;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+      .btn-area p a.btn-black, .btn-area p button.btn-black {
         background-color: #222; }
-      .btn-area p a.btn-navy {
+      .btn-area p a.btn-navy, .btn-area p button.btn-navy {
         background-color: #0b306f; }
   @media (min-width: 768px) {
     .btn-area p {
       overflow: hidden; }
-      .btn-area p a {
+      .btn-area p a, .btn-area p button {
         margin-right: 6px; }
-        .btn-area p a.btn {
+        .btn-area p a.btn, .btn-area p button.btn {
           width: 170px;
           line-height: 50px;
           font-size: 14px; }
-        .btn-area p a.btn-left {
+        .btn-area p a.btn-left, .btn-area p button.btn-left {
           float: left; }
-        .btn-area p a.btn-right {
+        .btn-area p a.btn-right, .btn-area p button.btn-right {
           float: right; } }
 
 .write-wrap .table-wrap {

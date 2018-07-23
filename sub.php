@@ -303,8 +303,8 @@
 				</p>
 				<br>
 				<p>
-					<a href="#" class="btn btn-black btn-">취소</a>
-					<a href="#" class="btn btn-navy">완료</a>
+					<a href="#" class="btn btn-black" role="button">취소</a>
+					<a href="#" class="btn btn-navy" role="button">완료</a>
 				</p>
 			</div>
 			
