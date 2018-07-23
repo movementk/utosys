@@ -14,7 +14,7 @@
 					height: 375px;
 					.video {
 						width: 100%;
-						transform: scale(2.5);
+						transform: scale(3.5);
 					}
 				}
 			}
@@ -240,15 +240,15 @@
 	.col-12 {
 		.row {
 			.col-6 {
-				&.expand {
-					padding-right: 0;
-				}
 				@media (min-width: $md) {
 					.system-wrap {
 						display: block;
 					}
 				}
 				@media (min-width: $xl) {
+					&.expand {
+						padding-right: 0;
+					}
 					&:first-child {
 						.system-wrap {
 							margin-top: 0 !important;
@@ -577,7 +577,8 @@
 			}
 		}
 		.form-control {
-			padding: 0 15px; 
+			padding-left: 15px;
+			padding-right: 70px;
 		}	
 	}
 	.quick-menu {
@@ -740,7 +741,8 @@
 				height: 60px;
 			}
 			.form-control {
-				padding: 0 20px;
+				padding-left: 20px;
+				padding-right: 80px;
 			}	
 		}
 		.quick-menu {

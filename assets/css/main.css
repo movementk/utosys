@@ -400,7 +400,7 @@ a {
     height: 375px; }
     .jumbotron .slick-slider .slick-list .slick-track .slick-slide .video {
       width: 100%;
-      transform: scale(2.5); }
+      transform: scale(3.5); }
   .jumbotron .slick-slider .slick-dots {
     position: absolute;
     bottom: 20px;
@@ -582,12 +582,12 @@ a {
           margin-top: 45px; }
         .jumbotron .slick-slider li > .summary > .btn-area {
           margin-top: 60px; } }
-  .jumbotron .col-12 .row .col-6.expand {
-    padding-right: 0; }
   @media (min-width: 768px) {
     .jumbotron .col-12 .row .col-6 .system-wrap {
       display: block; } }
   @media (min-width: 1200px) {
+    .jumbotron .col-12 .row .col-6.expand {
+      padding-right: 0; }
     .jumbotron .col-12 .row .col-6:first-child .system-wrap {
       margin-top: 0 !important; }
     .jumbotron .col-12 .row .col-6 .system-wrap {
@@ -804,7 +804,8 @@ a {
         font-size: 16px;
         color: #fff; }
     .quick .form-group .form-control {
-      padding: 0 15px; }
+      padding-left: 15px;
+      padding-right: 70px; }
   .quick .quick-menu {
     margin-top: 10px; }
     .quick .quick-menu .qucik-info > li {
@@ -932,7 +933,8 @@ a {
         width: 60px;
         height: 60px; }
       .quick .form-group .form-control {
-        padding: 0 20px; }
+        padding-left: 20px;
+        padding-right: 80px; }
       .quick .quick-menu {
         margin-top: 20px;
         font-size: 0; }
