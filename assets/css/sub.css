@@ -524,7 +524,8 @@ a {
               .page-path .breadcrumb > li .dropdown .dropdown-menu > .dropdown-item:hover {
                 border-bottom: 1px solid #ea212f; }
               .page-path .breadcrumb > li .dropdown .dropdown-menu > .dropdown-item.active {
-                border-bottom: 1px solid #ea212f; } }
+                border-bottom: 1px solid #ea212f;
+                color: #ea212f; } }
 
 .sub #content {
   background-color: #f8f8f8; }
