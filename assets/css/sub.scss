@@ -155,6 +155,10 @@
 							&:hover {
 								border-bottom: 1px solid #ea212f;
 							}
+							&.active {
+								border-bottom: 1px solid #ea212f;
+								background: none;
+							}
 						}
 					}
 				}
@@ -726,8 +730,6 @@
 	&:hover {
 		z-index: 0;
 		color: #666;
-		background-color: none !important;
-		border-color: none !important;
 	}
     > li {
         padding: 20px 10px;
@@ -735,21 +737,20 @@
         border-bottom: 1px solid #ccc;
         dl {
             position: relative;
-            padding-left: 90px;
+            padding-left: 80px;
             dt {
                 position: absolute;
                 top: 0;
                 left: 0;
-                width: 90px;
+                width: 55px;
                 font-size: 13px;
-                color: #143883;
+                color: #666;
                 font-weight: 400;
                 &:after {
                     float: right;
                     font-family: "fontello";
-                    margin-right: 30px;
                 }
-            }
+            } 
             dd {
                 a {
                     display: block;
@@ -765,8 +766,8 @@
             dl {
                 dt {
                     &:after {
-                        content: "\E807";
-                    }
+                        content: "\E808";
+                    } 
                 }
             }
         }
@@ -774,7 +775,7 @@
             dl {
                 dt {
                     &:after {
-                        content: "\E807";
+                        content: "\E808";
                     }
                 }
             }
@@ -785,13 +786,10 @@
             padding-left: 30px;
             padding-right: 30px;
             dl {
-                padding-left: 140px;
+                padding-left: 90px;
                 dt {
-                    width: 140px;
-                    font-size: 15px;
-                    &:after {
-                        margin-right: 60px;
-                    }
+                    width: 65px;
+                    font-size: 14px;
                 }
                 dd {
                     a {
@@ -811,22 +809,23 @@
 	> li {
 		display: block;
 		width: 100%;
-		padding: 18px 0;
+		padding: 16px 0;
 		border-bottom: 1px solid #ccc;
 		&.d-xl-block {
+			background-color: #f4f6f9;
 			.list-header {
 				li {
 					text-align: center;
-					font-size: 15px;
+					font-size: 14px;
 					color: #333;
-					@media(min-width: $lg) {
+					@media(min-width: $xl) {
 						&:nth-of-type(1) {
 							width: 10%;
 						}
 						&:nth-of-type(2) {
 							width: 50%;
 						}
-						&:nth-of-type(3) {
+						&:nth-of-type( 3) {
 							width: 15%;
 						}
 						&:nth-of-type(4) {
@@ -843,7 +842,7 @@
 			font-size: 0;
 			> li {
 				display: inline-block;
-				font-size: 15px;
+				font-size: 14px;
 				color: #666;
 				padding: 0 10px;
 				font-weight: 300;
@@ -859,8 +858,9 @@
 					}
 					dd {
 						display: inline-block;
-						font-size: 13px;
+						font-size: 14px;
 						color: #999;
+						@include roboto();
 					}
 					@media (min-width: $xl) {
 						dt {
@@ -868,8 +868,8 @@
 						}
 					}
 				}
-				@media(min-width: $lg) {
-					font-size: 15px;
+				@media(min-width: $xl) {
+					font-size: 14px;
 					text-align: center;
 					&:nth-of-type(1) {
 						width: 10%;
@@ -890,12 +890,15 @@
 				}
 				a {
 					display: block;
-					font-size: 14px;
+					font-size: 13px;
 					color: #666;
 					font-weight: 300;
 					overflow:hidden;
 					white-space:nowrap; 
 					text-overflow:ellipsis;
+					@media(min-width: $md) {
+						font-size: 14px;
+					}
 				}
 				&.num {
 					display: none;
@@ -928,8 +931,8 @@
 					@media(min-width: $md) {
 						font-size: 13px;
 					}
-					@media(min-width: $lg) {
-						font-size: 15px;
+					@media(min-width: $xl) {
+						font-size: 14px;
 					}
 				}
 				&.hit {
@@ -938,11 +941,150 @@
 					@media(min-width: $md) {
 						font-size: 13px;
 					}
-					@media(min-width: $lg) {
-						font-size: 15px;
+					@media(min-width: $xl) {
+						font-size: 14px;
 					}
 				}
 			}
 		}
 	}
 }
+
+//버튼
+.btn-area {
+	text-align: right;
+	p {
+		font-size: 0;
+		a {
+			margin-right: 2%;
+			&:last-child {
+				margin-right: 0;
+			}
+			&.btn {
+				display: inline-block;
+				width: 32%;	
+				line-height: 45px;
+				font-size: 13px;
+				color: #fff;
+				text-align: center;
+			}
+			&.btn-black {
+				background-color: #222;
+			}	
+			&.btn-navy {
+				background-color: #0b306f;
+			}
+		}
+	}
+	@media (min-width: $md) {
+		p {
+			overflow: hidden;	
+			a {
+				margin-right: 6px;
+				&.btn {
+					width: 170px;	
+					line-height: 50px;
+					font-size: 14px;
+				}
+				&.btn-left {
+					float: left;
+				}	
+				&.btn-right {
+					float: right;
+				}
+			}
+		}
+	}
+}
+
+//게시판 쓰기
+.write-wrap {
+	.table-wrap {
+		border-top: 2px solid #2f4b85;
+		.table {
+			tbody {
+				tr {
+					th {
+						padding: 0;
+						border: 0;
+						width: 90px;
+						padding-left: 10px;
+						font-size: 13px;
+						color: #333;
+						font-weight: 400;
+						vertical-align: middle;
+						background-color: #f4f6f9;
+						border-bottom: 1px solid #d6d6d6;
+						&.v-top {
+							padding-top: 20px;
+    						vertical-align: top;
+						}
+						label {
+							margin: 0;
+						}
+					}
+					td {
+						padding: 0;
+						border: 0;
+						padding: 10px;
+						vertical-align: middle;
+						background-color: #fff;
+						border-bottom: 1px solid #d6d6d6;
+						textarea {
+							min-height: 200px;
+						}
+						.form-group {
+							.form-control {
+								height: 35px;
+								border: 1px solid #e1e1e1;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $md) {
+		.table-wrap {
+			.table {
+				tbody {
+					tr {
+						th {
+							width: 165px;
+							padding-left: 30px;
+							font-size: 14px;			
+						}
+						td {
+							padding-left: 20px;
+							.form-group {
+								#user {
+									width: 220px;
+								}
+								#pw {
+									width: 220px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $xl) {
+		.table-wrap {
+			.table {
+				tbody {
+					tr {
+						th {
+							width: 170px;			
+						}
+						td {
+							padding-left: 10px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
