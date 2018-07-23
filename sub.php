@@ -292,6 +292,85 @@
 					</ul>
 				</li>
 			</ul>
+			<br>
+			<br>
+			<!-- 버튼지역 -->
+			<div class="btn-area">
+				<p>
+					<a href="#" class="btn btn-black btn-left" role="button">삭제하기</a>
+					<a href="#" class="btn btn-black btn-left" role="button">수정하기</a>
+					<a href="#" class="btn btn-navy btn-right" role="button">목록보기</a>
+				</p>
+				<br>
+				<p>
+					<a href="#" class="btn btn-black btn-">취소</a>
+					<a href="#" class="btn btn-navy">완료</a>
+				</p>
+			</div>
+			
+			
+			<p class="ex-txt">게시판 쓰기</p>
+			<div class="write-wrap">
+				<form action="#">
+					<div class="table-wrap">
+						<table class="table">
+							<tbody>
+								<tr>
+									<th>
+										<label for="user">작성자</label>
+									</th>
+									<td>
+										<div class="form-group">
+											<input type="text" id="user" class="form-control">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>
+										<label for="pw">비밀번호</label>
+									</th>
+									<td>
+										<div class="form-group">
+											<input type="password" id="pw" class="form-control">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>
+										<label for="title">제목</label>
+									</th>
+									<td>
+										<div class="form-group">
+											<input type="text" id="title" class="form-control">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th class="v-top">
+										<label for="u-content">내용</label>
+									</th>
+									<td>
+										<div class="form-group">
+											<textarea id="u-content" class="form-control"></textarea>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>
+										<label for="attach">첨부파일</label>
+									</th>
+									<td class="file">
+										<div class="form-group">
+											<input type="file" id="attach" class="form-control">
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</form>
+			</div>
+			
 		</div>	
 	</main>
 		

@@ -389,4 +389,80 @@ a {
     .container {
       max-width: 1200px; } }
 
-/*# sourceMappingURL=common.css.map */
+.greetings {
+  background-color: #f8f8f8; }
+  .greetings article figure img {
+    margin-bottom: -40px; }
+  .greetings article .greeting-card {
+    width: 95%;
+    height: 135px;
+    padding: 70px 0 0 20px;
+    margin: 0 auto;
+    background-color: #05327c;
+    background-image: url(/assets/images/introduce/bg_greetings_logo.png);
+    background-repeat: no-repeat;
+    background-position: 20px 30px;
+    box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.11); }
+    .greetings article .greeting-card > p {
+      font-size: 13px;
+      color: #fff;
+      line-height: 22px; }
+  .greetings article .details {
+    margin-top: 45px;
+    padding-bottom: 60px; }
+    .greetings article .details b {
+      font-size: 22px;
+      color: #333;
+      line-height: 32px;
+      font-family: 'Nanum Myeongjo', serif; }
+      .greetings article .details b > i {
+        font-style: normal;
+        color: #234785;
+        font-size: 500; }
+    .greetings article .details > p {
+      font-size: 12px;
+      color: #666;
+      line-height: 22px;
+      margin-top: 25px; }
+  @media (min-width: 768px) {
+    .greetings article figure img {
+      margin-bottom: -95px; }
+    .greetings article .greeting-card {
+      width: 290px;
+      height: 200px;
+      padding: 90px 0 0 40px;
+      margin-left: 60px;
+      background-position: 40px 40px; }
+      .greetings article .greeting-card > p {
+        font-size: 14px;
+        line-height: 24px; }
+    .greetings article .details {
+      margin-top: 50px;
+      padding-bottom: 80px;
+      word-break: keep-all; }
+      .greetings article .details b {
+        font-size: 24px; }
+      .greetings article .details > p {
+        font-size: 13px;
+        line-height: 24px; } }
+  @media (min-width: 1200px) {
+    .greetings article figure img {
+      margin-bottom: -95px; }
+    .greetings article .greeting-card {
+      width: 300px;
+      padding: 95px 0 0 50px;
+      margin-left: 70px;
+      background-position: 50px 40px; }
+      .greetings article .greeting-card > p {
+        font-size: 15px;
+        line-height: 26px; }
+    .greetings article .details {
+      margin-top: 145px;
+      padding-right: 10px;
+      padding-bottom: 120px; }
+      .greetings article .details > p {
+        font-size: 14px;
+        line-height: 26px;
+        /*word-break: keep-all;*/ } }
+
+/*# sourceMappingURL=introduce.css.map */
