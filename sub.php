@@ -12,10 +12,10 @@
         </div>
 		<!-- page-path -->
 		<div class="page-path">
-			<div class="container">
-				<ol class="breadcrumb">
-					<li></li>
-					<li>
+			<div class="container"> 
+				<ol class="breadcrumb"> 
+					<li></li> 
+					<li> 
 						<div class="dropdown">
 							<button class="btn btn-secondary dropdown-toggle" type="button" id="depth-list" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								인사말
@@ -35,6 +35,7 @@
 			</div>
 		</div>
     </div>
+   
     
 	
 	<!-- Content -->
@@ -291,8 +292,6 @@
 					</ul>
 				</li>
 			</ul>
-			
-			
 		</div>	
 	</main>
 		
