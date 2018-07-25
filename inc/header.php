@@ -36,25 +36,25 @@
 			</div>
 			<ul class="menu">
 				<li>
-					<a href="#">회사소개</a>
+					<a href="/introduce/greetings.php">회사소개</a>
 					<ul>
 						<li>
-							<a href="#">CEO 인사말<span></span></a>
+							<a href="/introduce/greetings.php">CEO 인사말<span></span></a>
 						</li>
 						<li>
-							<a href="#">경영이념<span></span></a>
+							<a href="/introduce/ideology.php">경영이념<span></span></a>
 						</li>
 						<li>
-							<a href="#">연혁/사업실적<span></span></a>
+							<a href="/introduce/history.php">연혁/사업실적<span></span></a>
 						</li>
 						<li>
-							<a href="#">조직도<span></span></a>
+							<a href="/introduce/organization.php">조직도<span></span></a>
 						</li>
 						<li>
-							<a href="#">인증현황<span></span></a>
+							<a href="/introduce/certification.php">인증현황<span></span></a>
 						</li>
 						<li>
-							<a href="#">오시는 길<span></span></a>
+							<a href="/introduce/location.php">오시는 길<span></span></a>
 						</li>
 					</ul>
 				</li>

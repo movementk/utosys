@@ -14,23 +14,23 @@
 				<a href="#">회사소개</a>
 				<ul class="depth-2">
 					<li>
-						<a href="#">CEO 인사말</a>
+						<a href="/introduce/greetings.php">CEO 인사말</a>
 					</li>
 					<li>
-						<a href="#">경영이념</a>
+						<a href="/introduce/ideology.php">경영이념</a>
 					</li>
 					<li> 
-						<a href="#">연혁/사업실적</a>
+						<a href="/introduce/history.php">연혁/사업실적</a>
 					</li>
 					<li> 
-						<a href="#">조직도</a>
+						<a href="/introduce/organization.php">조직도</a>
 					</li>
 					<li> 
-						<a href="#">인증현황</a>
+						<a href="/introduce/certification.php">인증현황</a>
 					</li>
 
 					<li> 
-						<a href="#">오시는길</a>
+						<a href="/introduce/location.php">오시는길</a>
 					</li>
 				</ul>
 			</li>

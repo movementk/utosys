@@ -5,16 +5,16 @@
 			<div class="col-12 col-lg-9 col-xl-10">
 				<ul class="information">
 					<li>
-						<a href="#">회사소개</a>
+						<a href="/introduce/greetings.php">회사소개</a>
 					</li>
 					<li>
-						<a href="#">찾아오시는 길</a>
+						<a href="/introduce/location.php">찾아오시는 길</a>
 					</li>
 					<li>
 						<a href="#">인재채용</a>
 					</li>
 					<li>
-						<a href="#">문의하기</a>
+						<a href="/customer/qna_list.php">문의하기</a>
 					</li>
 				</ul>
 				<div class="company">

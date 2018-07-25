@@ -414,7 +414,7 @@ a {
       border-radius: 50%;
       border: 1px solid #fff;
       margin-right: 5px; }
-      .jumbotron .slick-slider .slick-dots > li.active {
+      .jumbotron .slick-slider .slick-dots > li.slick-active {
         background-color: #fff; }
       .jumbotron .slick-slider .slick-dots > li:last-child {
         margin-right: 0; }

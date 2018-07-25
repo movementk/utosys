@@ -27,8 +27,8 @@
 								<a class="dropdown-item" href="/introduce/history.php">연혁/사업실적</a>
 								<a class="dropdown-item" href="/introduce/organization.php">조직도</a>
 								<a class="dropdown-item active" href="/introduce/ci.php">CI</a>
-								<a class="dropdown-item" href="#">인증현황</a>
-								<a class="dropdown-item" href="#">오시는길</a>
+								<a class="dropdown-item" href="/introduce/certification.php">인증현황</a>
+								<a class="dropdown-item" href="/introduce/location.php">오시는길</a>
 							</div> 
 						</div>
 					</li>
