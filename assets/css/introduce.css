@@ -1061,6 +1061,8 @@ a {
     border: 1px solid #d6d6d6; }
     .certification .row .col-6 a .items img {
       width: 100%; }
+    .certification .row .col-6 a .items:hover {
+      border: 1px solid #ea212f; }
   .certification .row .col-6 a p {
     font-size: 13px;
     color: #333;

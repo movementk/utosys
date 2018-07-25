@@ -38,11 +38,17 @@
 			<div class="page-title">
 				<h2>FPD Transfer System (물류설비)</h2>
 			</div> 
-			<ul class="page-link">
-				<li>
-					<a href=""></a>
-				</li>
-			</ul>
+			<nav class="tab-list">
+				<ul>
+					<li>
+						<a href="#">Loader/Unloader</a>
+					</li>
+					<li><a href="#">Panel Reversal System</a></li>
+					<li><a href="#">Gluon Mask Change System</a></li>
+					<li><a href="#">Mask Loader</a></li>
+					<li><a href="#">Packing &amp; Unpacking System</a></li>
+				</ul>
+			</nav>
 		</div>
 	</main>
 		

@@ -1020,6 +1020,9 @@
 					img {
 						width: 100%;
 					}
+					&:hover {
+						border: 1px solid #ea212f;
+					}
 				}
 				p {
 					font-size: 13px;
