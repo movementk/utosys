@@ -63,7 +63,7 @@
 						<li>제목</li>
 						<li>글쓴이</li>
 						<li>등록일</li>
-						<li>조회</li>
+						<li>답변확인</li>
 					</ul>
 				</li>	
 				<li>
@@ -71,7 +71,7 @@
 						<li class="num">
 							152							
 						</li>
-						<li class="subject">
+						<li class="subject lock">
 							<a href="/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
@@ -85,10 +85,10 @@
 								<dd>2018.06.08</dd>
 							</dl>
 						</li>
-						<li class="hit">
+						<li class="confirm">
 							<dl>
-								<dt>조회수</dt>
-								<dd>700</dd>
+								<dt>답변확인</dt>
+								<dd>확인</dd>
 							</dl>
 						</li>
 					</ul>
@@ -98,7 +98,7 @@
 						<li class="num">
 							152							
 						</li>
-						<li class="subject">
+						<li class="subject lock">
 							<a href="/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
@@ -112,10 +112,10 @@
 								<dd>2018.06.08</dd>
 							</dl>
 						</li>
-						<li class="hit">
+						<li class="unconfirmed">
 							<dl>
-								<dt>조회수</dt>
-								<dd>700</dd>
+								<dt>답변확인</dt>
+								<dd>미확인</dd>
 							</dl>
 						</li>
 					</ul>
@@ -125,7 +125,7 @@
 						<li class="num">
 							152							
 						</li>
-						<li class="subject">
+						<li class="subject lock">
 							<a href="/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
@@ -139,10 +139,10 @@
 								<dd>2018.06.08</dd>
 							</dl>
 						</li>
-						<li class="hit">
+						<li class="unconfirmed">
 							<dl>
-								<dt>조회수</dt>
-								<dd>24117</dd>
+								<dt>답변확인</dt>
+								<dd>미확인</dd>
 							</dl>
 						</li>
 					</ul>
@@ -152,7 +152,7 @@
 						<li class="num">
 							152							
 						</li>
-						<li class="subject">
+						<li class="subject lock">
 							<a href="/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
@@ -166,10 +166,10 @@
 								<dd>2018.06.08</dd>
 							</dl>
 						</li>
-						<li class="hit">
+						<li class="unconfirmed">
 							<dl>
-								<dt>조회수</dt>
-								<dd>700</dd>
+								<dt>답변확인</dt>
+								<dd>미확인</dd>
 							</dl>
 						</li>
 					</ul>
@@ -179,7 +179,7 @@
 						<li class="num">
 							152							
 						</li>
-						<li class="subject">
+						<li class="subject lock">
 							<a href="/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
@@ -193,10 +193,10 @@
 								<dd>2018.06.08</dd>
 							</dl>
 						</li>
-						<li class="hit">
+						<li class="unconfirmed">
 							<dl>
-								<dt>조회수</dt>
-								<dd>700</dd>
+								<dt>답변확인</dt>
+								<dd>미확인</dd>
 							</dl>
 						</li>
 					</ul>
@@ -206,7 +206,7 @@
 						<li class="num">
 							152							
 						</li>
-						<li class="subject">
+						<li class="subject lock">
 							<a href="/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
@@ -220,10 +220,10 @@
 								<dd>2018.06.08</dd>
 							</dl>
 						</li>
-						<li class="hit">
+						<li class="unconfirmed">
 							<dl>
-								<dt>조회수</dt>
-								<dd>700</dd>
+								<dt>답변확인</dt>
+								<dd>미확인</dd>
 							</dl>
 						</li>
 					</ul>
@@ -233,7 +233,7 @@
 						<li class="num">
 							152							
 						</li>
-						<li class="subject">
+						<li class="subject lock">
 							<a href="/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
@@ -247,10 +247,10 @@
 								<dd>2018.06.08</dd>
 							</dl>
 						</li>
-						<li class="hit">
+						<li class="unconfirmed">
 							<dl>
-								<dt>조회수</dt>
-								<dd>700</dd>
+								<dt>답변확인</dt>
+								<dd>미확인</dd>
 							</dl>
 						</li>
 					</ul>
@@ -260,7 +260,7 @@
 						<li class="num">
 							152							
 						</li>
-						<li class="subject">
+						<li class="subject lock">
 							<a href="/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
@@ -274,10 +274,10 @@
 								<dd>2018.06.08</dd>
 							</dl>
 						</li>
-						<li class="hit">
+						<li class="unconfirmed">
 							<dl>
-								<dt>조회수</dt>
-								<dd>700</dd>
+								<dt>답변확인</dt>
+								<dd>미확인</dd>
 							</dl>
 						</li>
 					</ul>
@@ -287,7 +287,7 @@
 						<li class="num">
 							152							
 						</li>
-						<li class="subject">
+						<li class="subject lock">
 							<a href="/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
@@ -301,10 +301,10 @@
 								<dd>2018.06.08</dd>
 							</dl>
 						</li>
-						<li class="hit">
+						<li class="unconfirmed">
 							<dl>
-								<dt>조회수</dt>
-								<dd>700</dd>
+								<dt>답변확인</dt>
+								<dd>미확인</dd>
 							</dl>
 						</li>
 					</ul>
@@ -314,7 +314,7 @@
 						<li class="num">
 							152							
 						</li>
-						<li class="subject">
+						<li class="subject lock">
 							<a href="/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
@@ -328,15 +328,20 @@
 								<dd>2018.06.08</dd>
 							</dl>
 						</li>
-						<li class="hit">
+						<li class="unconfirmed">
 							<dl>
-								<dt>조회수</dt>
-								<dd>700</dd>
+								<dt>답변확인</dt>
+								<dd>미확인</dd>
 							</dl>
 						</li>
 					</ul>
 				</li>
 			</ul>
+			<div class="btn-area">
+				<p>
+					<a href="/customer/qna_write.php" class="btn btn-navy">글쓰기</a>
+				</p>
+			</div>
 			<nav class="paging">
 				<ol class="pagination">
 					<li class="first">

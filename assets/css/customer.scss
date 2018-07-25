@@ -75,11 +75,11 @@
 		margin-top: 30px; 
 	}
 	@media (min-width: $md) {
-		.board-view {
+		/*.board-view {
 			.view-body {
 				min-height: 415px;
 			}
-		}
+		}*/
 		.page-link1 {
 			margin-top: 50px; 
 		}
@@ -200,6 +200,9 @@
 	.select-search {
 		margin-bottom: 25px;
 	}
+	.btn-area { 
+		margin-top: 20px;
+	}
 	.paging {
 		margin-top: 30px;
 	}
@@ -241,9 +244,9 @@
 	}
 	@media (min-width: $md) {
 		.board-view {
-			.view-body {
+		/*	.view-body {
 				min-height: 415px;
-			}
+			}*/
 		}
 		.page-link1 {
 			margin-top: 50px; 

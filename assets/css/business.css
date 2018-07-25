@@ -401,4 +401,36 @@ a {
       width: 50%;
       line-height: 58px; } }
 
+.tab-list ul {
+  overflow: hidden; }
+  .tab-list ul li {
+    float: left;
+    width: 50%;
+    border-right: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6; }
+    .tab-list ul li.active {
+      border-color: #072d68;
+      background-color: #072d68;
+      color: #fff; }
+    .tab-list ul li:hover {
+      border-color: #072d68;
+      background-color: #072d68;
+      color: #fff; }
+    .tab-list ul li a {
+      display: block;
+      line-height: 43px;
+      text-align: center; }
+    .tab-list ul li:nth-of-type(2n+1) {
+      border-left: 1px solid #d6d6d6; }
+      .tab-list ul li:nth-of-type(2n+1):hover {
+        border-color: #072d68; }
+    .tab-list ul li:first-child {
+      border-top: 1px solid #d6d6d6; }
+      .tab-list ul li:first-child:hover {
+        border-color: #072d68; }
+    .tab-list ul li:nth-of-type(2) {
+      border-top: 1px solid #d6d6d6; }
+      .tab-list ul li:nth-of-type(2):hover {
+        border-color: #072d68; }
+
 /*# sourceMappingURL=business.css.map */
