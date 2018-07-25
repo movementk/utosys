@@ -735,6 +735,7 @@
 
 //오시는길
 .location {
+	padding-bottom: 0 !important;
 	.route {
 		padding-bottom: 50px;
 		.section-content {
@@ -750,6 +751,33 @@
 				border-bottom: 1px solid #d1d1d1;
 				> li {
 					line-height: 36px;
+					&:first-child {
+						dl {
+							dt {
+								&:before {
+									content: "\E80A";
+								}
+							}
+						}
+					}
+					&:nth-of-type(2) {
+						dl {
+							dt {
+								&:before {
+									content: "\E80B";
+								}
+							}
+						}
+					}
+					&:last-child {
+						dl {
+							dt {
+								&:before {
+									content: "\F1AC";
+								}
+							}
+						}
+					}
 					dl {
 						font-size: 0;
 						dt {
@@ -770,21 +798,6 @@
 								color: #333;
 								font-family: "fontello";
 							}
-							&:first-child {
-								&:before {
-									content: "\E80A";
-								}
-							}
-							&:nth-of-type(2) {
-								&:before {
-									content: "\E80B";
-								}
-							}
-							&:last-child {
-								&:before {
-									content: "\F1AC";
-								}
-							}
 						}
 						dd {
 							font-size: 13px;
@@ -798,12 +811,262 @@
 				margin-top: 20px;
 			}
 		}
+		@media (min-width: $md) {
+			padding-bottom: 70px;
+			.section-content {
+				> h4 {
+					font-size: 18px;
+					padding-bottom: 15px; 
+				}
+				.details {
+					padding: 25px 0 25px 25px;
+					> li {
+						dl {
+							dt {
+								width: 145px;
+								font-size: 15px;
+							}
+							dd {
+								font-size: 15px;
+								padding-left: 145px;
+							}
+						}
+					} 
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			padding-bottom: 100px;
+			.section-content {
+				.details {
+					padding: 25px 0 25px 30px;
+					> li {
+						dl {
+							dt {
+								width: 150px;
+							}
+							dd {
+								padding-left: 150px;
+							}
+						}
+					} 
+				}
+			}
+		}
+	}
+	.main-office {
+		text-align: center;
+		padding: 70px 0 60px;
+		background-image: url(/assets/images/introduce/bg_main_office_sm.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		.container {
+			> h4 {
+				font-size: 25px;
+				font-weight: 400;
+				color: #fff;
+				margin-bottom: 60px;
+			}
+			> .row {
+				> .col-12 {
+					&:first-child {
+						> dl {
+							border-top: 0;
+							padding: 0;
+							padding-bottom: 40px;
+							&:after {
+								display: none;
+							}
+						}
+					}
+					> dl {
+						padding: 40px 0;
+						position: relative;
+						&:after {
+							position: absolute;
+							top: 0;
+							left: 0;
+							content: "";
+							display: inline-block;
+							width: 100%;
+							height: 1px;
+							background-color: #4e4e63;
+						}
+						dt {
+							font-size: 17px;
+							font-weight: 300;
+							color: #fff;
+						}
+			 			dd {
+							margin-top: 25px;
+							> p {
+								font-size: 18px;
+								color: #fff;
+								margin-top: 20px;
+								@include roboto();
+							}
+							small {
+								display: block;
+								font-size: 13px;
+								color: #fff;
+								opacity: .8;
+								line-height: 22px;
+								margin-top: 5px;
+							}
+						}
+					}	
+				}	
+			}
+		}
+		@media (min-width: $md) {
+			padding: 70px 0 55px;
+			background-image: url(/assets/images/introduce/bg_main_office.jpg);
+			.container {
+				> h4 {
+					font-size: 26px;
+					margin-bottom: 50px;
+				}
+				> .row {
+					> .col-12 {
+						&:first-child {
+							> dl {
+								padding-bottom: 0;
+								&:after {
+									
+								}
+							} 
+						}
+						> dl {
+							padding: 0;
+							&:after {
+								top: 20px;
+								left: -10px;
+								width: 1px;
+								height: 106px;
+							}
+							dt {
+								font-size: 15px;
+							}
+							dd {
+								margin-top: 30px;
+								> .items {
+									height: 60px;
+									> img {
+										height: 100%;
+									}
+								}
+								> p {
+									font-size: 16px;
+									margin-top: 20px;
+								}
+								small {
+									font-size: 12px;
+									letter-spacing: -0.7px;
+								}
+							}
+						}	
+					}	
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			padding: 65px 0 80px;
+			.container {
+				> h4 {
+					font-size: 28px;
+					margin-bottom: 60px;
+				}
+				> .row {
+					> .col-12 {
+						> dl {
+							&:after {
+								top: 45px;
+								left: -15px;
+								height: 75px;
+							}
+							dt {
+								font-size: 17px;
+							}
+							dd {
+								> .items {
+									height: auto;
+								}
+								small {
+									font-size: 13px;
+								}
+							}
+						}	
+					}	
+				}
+			}
+		}
 	}
 }
 
-
-
-
+//인증현황
+.certification {
+	.row {
+		.col-6 {
+			&:nth-of-type(2) ~ li {
+				a {
+					margin-top: 40px;	
+				}
+			}
+			a {
+				display: block;
+				.items {
+					border: 1px solid #d6d6d6;
+					img {
+						width: 100%;
+					}
+				}
+				p {
+					font-size: 13px;
+					color: #333;
+					font-weight: 300;
+					text-align: center;
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+	@media (min-width : $md) {
+		.row {
+			.col-6 {
+				&:nth-of-type(2) ~ li {
+					a {
+						margin-top: 0;
+					}
+				}
+				&:nth-of-type(3) ~ li {
+					a {
+						margin-top: 40px ;
+					}
+				}
+				> p {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+	@media (min-width : $xl) {
+		.row {
+			.col-6 {
+				&:nth-of-type(3) ~ li {
+					a {
+						margin-top: 0px ;
+					}
+				}
+				&:nth-of-type(4) ~ li {
+					a {
+						margin-top: 80px ;
+					}
+				}
+			}
+		}
+	}
+}
 
 
 

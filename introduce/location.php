@@ -39,8 +39,8 @@
    
 	<!-- Content -->
     <main id="content" class="location">
-		<div class="container">
-			<section class="route">
+		<section class="route">
+			<div class="container">
 				<div class="section-header">
 					<div class="page-title">
 						<h2>오시는길</h2>
@@ -58,7 +58,7 @@
 						<li>
 							<dl>
 								<dt>대표번호</dt>
-								<dd>054-473-8122</dd>
+								<dd><a href="tel:0544738122">054-473-8122</a></dd>
 							</dl>
 						</li>
 						<li>
@@ -72,8 +72,65 @@
 						<img src="/assets/images/introduce/img_maps.jpg" class="img-fluid" alt="지도">
 					</div>
 				</div>
-			</section>
-		</div>
+			</div>
+		</section>
+		<section class="main-office">
+			<div class="container">
+				<h4>본사현황</h4>
+				<ul class="row">
+					<li class="col-12 col-md-3">
+						 <dl>
+						 	<dt>설립일</dt>
+						 	<dd>
+						 		<div class="items">
+						 			<img src="/assets/images/introduce/img_main_office01.png" alt="설립일">
+						 		</div>
+						 		<p>2007.01.08</p>
+						 	</dd>
+						 </dl>
+					</li>
+					<li class="col-12 col-md-3">
+						 <dl>
+						 	<dt>인력 구성 현황</dt>
+						 	<dd>
+						 		<div class="items">
+						 			<img src="/assets/images/introduce/img_main_office02.png" alt="인력 구성 현황">
+						 		</div>
+						 		<p>총 30명</p>
+						 		<small>
+						 			(관리분야 : 10%, 기술지원 분야 7% <br>
+									설계/제어분야 : 33%, 생산/CS 분야 
+								</small>
+						 	</dd>
+						 </dl>
+					</li>
+					<li class="col-12 col-md-3">
+						 <dl>
+						 	<dt>본사 규모</dt>
+						 	<dd>
+						 		<div class="items">
+						 			<img src="/assets/images/introduce/img_main_office03.png" alt="본사 규모">
+						 		</div>
+						 		<p>1500평 건평 : 450평</p>
+						 		<small>Clean Room : 300평 규모</small>
+						 	</dd>
+						 </dl>
+					</li>
+					<li class="col-12 col-md-3">
+						 <dl>
+						 	<dt>FPD 사업 분야 경력</dt>
+						 	<dd>
+						 		<div class="items">
+						 			<img src="/assets/images/introduce/img_main_office04.png" alt="FPD 사업 분야 경력">
+						 		</div>
+						 		<p>경력 5년 이상 비율 43 %</p>
+						 	</dd>
+						 </dl>
+					</li>
+				</ul>
+			</div>
+		</section>
+		
 	</main>
 		
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
