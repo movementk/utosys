@@ -2,6 +2,7 @@
 
 #content {
 	padding-bottom: 100px;
+	margin-top: -30px;
 	background-color: #f8f8f8;
 	@media (min-width: $md) {
 		padding-bottom: 150px; 
@@ -109,7 +110,7 @@
 					padding: 0;
 					border: 1px solid #e1e1e1;
 					border-radius: 0;
-					overflow-y: scroll;
+					overflow: auto;
 					width: 100%;
 					height: 180px;
 					> .dropdown-item {
@@ -156,7 +157,7 @@
 						font-size: 0;
 						display: block;
 						height: auto;
-						overflow-y: visible;
+						overflow: visible;
 						transform: none !important;
 						> .dropdown-item {
 							display: inline-block;
@@ -210,7 +211,7 @@
 
 //page-title
 .page-title {
-	padding-top: 40px;
+	padding-top: 65px;
 	padding-bottom: 30px;
 	> h2 {
 		font-size: 25px;
@@ -218,15 +219,37 @@
 		text-align: center; 
 		font-weight: 400;
 	}
+	> p {
+		font-size: 14px;
+		color: #666;
+		font-weight: 300;
+		text-align: center;
+		line-height: 26px;
+		padding: 0 10px;
+		margin-top: 15px;
+		word-break: keep-all;
+	}
 	@media (min-width: $md) {
-		padding-top: 70px;
+		padding-top: 100px;
 		padding-bottom: 50px;
 		> h2 {
 			font-size: 34px;
 		}
+		> p {
+			font-size: 15px;
+			margin-top: 25px;
+			padding: 0 30px;
+		}
 	}
 	@media (min-width: $xl) {
-		padding-top: 110px;
+		padding-top: 140px;
+		> p {
+			font-size: 16px;
+			line-height: 28px;
+			margin-top: 25px;
+			margin-top: 30px;
+			padding: 0 50px;
+		}
 	}
 }
 
@@ -844,15 +867,12 @@
 							width: 10%;
 						}
 						&:nth-of-type(2) {
-							width: 57%;
+							width: 70%;
 						}
-						&:nth-of-type( 3) {
-							width: 13%;
-						}
-						&:nth-of-type(4) {
+						&:nth-of-type(3) {
 							width: 10%;
 						}
-						&:nth-of-type(5) {
+						&:nth-of-type(4) {
 							width: 10%;
 						}
 					}
@@ -896,16 +916,13 @@
 						width: 10%;
 					}
 					&:nth-of-type(2) {
-						width: 57%;
+						width: 70%;
 						text-align: left;
 					}
 					&:nth-of-type(3) {
-						width: 13%;
-					}
-					&:nth-of-type(4) {
 						width: 10%;
 					}
-					&:nth-of-type(5) {
+					&:nth-of-type(4) {
 						width: 10%;
 					}
 				}

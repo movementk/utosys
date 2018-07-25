@@ -8,6 +8,10 @@
 .icon-right-open-big:before { content: '\e806'; } /* '' */
 .icon-right-open-mini:before { content: '\e807'; } /* '' */
 .icon-right-dir:before { content: '\e808'; } /* '' */
+.icon-dot:before { content: '\e809'; } /* '' */
+.icon-phone:before { content: '\e80a'; } /* '' */
+.icon-location:before { content: '\e80b'; } /* '' */
+.icon-sort-down:before { content: '\f0dd'; } /* '' */
 .icon-doc-text:before { content: '\f0f6'; } /* '' */
 .icon-angle-double-left:before { content: '\f100'; } /* '' */
 .icon-angle-double-right:before { content: '\f101'; } /* '' */
@@ -15,3 +19,4 @@
 .icon-angle-right:before { content: '\f105'; } /* '' */
 .icon-angle-up:before { content: '\f106'; } /* '' */
 .icon-angle-down:before { content: '\f107'; } /* '' */
+.icon-fax:before { content: '\f1ac'; } /* '' */

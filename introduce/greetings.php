@@ -23,8 +23,8 @@
 							</button>
 							<div class="dropdown-menu" aria-labelledby="depth-list">
 								<a class="dropdown-item active" href="/introduce/greetings.php">CEO 인사말</a>
-								<a class="dropdown-item" href="#">경영이념</a>
-								<a class="dropdown-item" href="#">연혁/사업실적</a>
+								<a class="dropdown-item" href="/introduce/ideology.php">경영이념</a>
+								<a class="dropdown-item" href="/introduce/history.php">연혁/사업실적</a>
 								<a class="dropdown-item" href="#">조직도</a>
 								<a class="dropdown-item" href="#">CI</a>
 								<a class="dropdown-item" href="#">인증현황</a>

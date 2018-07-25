@@ -391,6 +391,7 @@ a {
 
 #content {
   padding-bottom: 100px;
+  margin-top: -30px;
   background-color: #f8f8f8; }
   @media (min-width: 768px) {
     #content {
@@ -476,7 +477,7 @@ a {
           padding: 0;
           border: 1px solid #e1e1e1;
           border-radius: 0;
-          overflow-y: scroll;
+          overflow: auto;
           width: 100%;
           height: 180px; }
           .page-path .breadcrumb > li .dropdown .dropdown-menu > .dropdown-item {
@@ -509,7 +510,7 @@ a {
             font-size: 0;
             display: block;
             height: auto;
-            overflow-y: visible;
+            overflow: visible;
             transform: none !important; }
             .page-path .breadcrumb > li .dropdown .dropdown-menu > .dropdown-item {
               display: inline-block;
@@ -547,22 +548,41 @@ a {
       font-size: 20px; } }
 
 .page-title {
-  padding-top: 40px;
+  padding-top: 65px;
   padding-bottom: 30px; }
   .page-title > h2 {
     font-size: 25px;
     color: #333;
     text-align: center;
     font-weight: 400; }
+  .page-title > p {
+    font-size: 14px;
+    color: #666;
+    font-weight: 300;
+    text-align: center;
+    line-height: 26px;
+    padding: 0 10px;
+    margin-top: 15px;
+    word-break: keep-all; }
   @media (min-width: 768px) {
     .page-title {
-      padding-top: 70px;
+      padding-top: 100px;
       padding-bottom: 50px; }
       .page-title > h2 {
-        font-size: 34px; } }
+        font-size: 34px; }
+      .page-title > p {
+        font-size: 15px;
+        margin-top: 25px;
+        padding: 0 30px; } }
   @media (min-width: 1200px) {
     .page-title {
-      padding-top: 110px; } }
+      padding-top: 140px; }
+      .page-title > p {
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 25px;
+        margin-top: 30px;
+        padding: 0 50px; } }
 
 .select-search {
   position: relative;
@@ -968,12 +988,10 @@ a {
         .list > li.d-xl-block .list-header li:nth-of-type(1) {
           width: 10%; }
         .list > li.d-xl-block .list-header li:nth-of-type(2) {
-          width: 57%; }
+          width: 70%; }
         .list > li.d-xl-block .list-header li:nth-of-type(3) {
-          width: 13%; }
-        .list > li.d-xl-block .list-header li:nth-of-type(4) {
           width: 10%; }
-        .list > li.d-xl-block .list-header li:nth-of-type(5) {
+        .list > li.d-xl-block .list-header li:nth-of-type(4) {
           width: 10%; } }
     .list > li > ul {
       font-size: 0; }
@@ -1007,13 +1025,11 @@ a {
             .list > li > ul > li:nth-of-type(1) {
               width: 10%; }
             .list > li > ul > li:nth-of-type(2) {
-              width: 57%;
+              width: 70%;
               text-align: left; }
             .list > li > ul > li:nth-of-type(3) {
-              width: 13%; }
-            .list > li > ul > li:nth-of-type(4) {
               width: 10%; }
-            .list > li > ul > li:nth-of-type(5) {
+            .list > li > ul > li:nth-of-type(4) {
               width: 10%; } }
         .list > li > ul > li a {
           display: block;

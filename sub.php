@@ -44,6 +44,9 @@
 			<!-- page-title -->
 			<div class="page-title">
 				<h2>공지사항</h2>
+				<p>
+					소재분야에서 미래 지향적인 연구개발을 중심으로 고객의 신뢰를 믿음으로 보답하는 젊은 기업입니다. <br>최고의 기술은 사람의 마음으로부터시작 된다는 신념 아래 전 임직원이 하나가 되어 고객 만족을 실현 하고자 최선을 다하고 있습니다. 
+				</p>
 			</div>
     	
 			<p class="ex-txt">검색</p>
@@ -64,67 +67,6 @@
 						</button>
 					</p>
 				</form>
-			</div>
-			
-			<p class="ex-txt">게시판 1</p>
-			<div class="table-wrap">
-				<table class="table type-1">
-					<thead>
-						<tr>
-							<th>NO</th>
-							<th>제목</th>
-							<th>글쓴이</th>
-							<th>등록일</th>
-							<th>조회</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td class="num">152</td>
-							<td class="title">
-								<a href="#">
-									임의 내용을 노출합니다.임의 내용을 임의 내용을 노출합니다.임의 내용을 임의 내용을 노출합니다.임의 내용을 을 노출합니다.임의 내용을 임의 내용을 노출합니다.임의 내용을 임의 내용을 노출합니다.임의 내용을
-								</a>
-							</td>
-							<td class="user">UTOSYS</td>
-							<td class="date">2018.06.08</td>
-							<td class="hit">70012</td>
-						</tr>
-						<tr>
-							<td class="num">152</td>
-							<td class="title">
-								<a href="#">
-									임의 내용을 노출합니다.
-								</a>
-							</td>
-							<td class="user">UTOSYS</td>
-							<td class="date">2018.06.08</td>
-							<td class="hit">70012</td>
-						</tr>
-						<tr>
-							<td class="num">152</td>
-							<td class="title">
-								<a href="#">
-									임의 내용을 노출합니다.
-								</a>
-							</td>
-							<td class="user">UTOSYS</td>
-							<td class="date">2018.06.08</td>
-							<td class="hit">70012</td>
-						</tr>
-						<tr>
-							<td class="num">152</td>
-							<td class="title">
-								<a href="#">
-									임의 내용을 노출합니다.
-								</a>
-							</td>
-							<td class="user">UTOSYS</td>
-							<td class="date">2018.06.08</td>
-							<td class="hit">70012</td>
-						</tr>
-					</tbody>
-				</table>
 			</div>
 			
 			<p class="ex-txt">페이징</p>
@@ -259,7 +201,6 @@
 					<ul class="list-header">
 						<li>NO</li>
 						<li>제목</li>
-						<li>글쓴이</li>
 						<li>등록일</li>
 						<li>조회</li>
 					</ul>
@@ -274,9 +215,9 @@
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
-						<li class="user">
+						<!--li class="user">
 							UTOSYS			
-						</li>
+						</li-->
 						<li class="date">
 							<dl>
 								<dt>등록일</dt>
@@ -371,6 +312,66 @@
 				</form>
 			</div>
 			
+			<!--p class="ex-txt">게시판 1</p>
+			<div class="table-wrap">
+				<table class="table type-1">
+					<thead>
+						<tr>
+							<th>NO</th>
+							<th>제목</th>
+							<th>글쓴이</th>
+							<th>등록일</th>
+							<th>조회</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="num">152</td>
+							<td class="title">
+								<a href="#">
+									임의 내용을 노출합니다.임의 내용을 임의 내용을 노출합니다.임의 내용을 임의 내용을 노출합니다.임의 내용을 을 노출합니다.임의 내용을 임의 내용을 노출합니다.임의 내용을 임의 내용을 노출합니다.임의 내용을
+								</a>
+							</td>
+							<td class="user">UTOSYS</td>
+							<td class="date">2018.06.08</td>
+							<td class="hit">70012</td>
+						</tr>
+						<tr>
+							<td class="num">152</td>
+							<td class="title">
+								<a href="#">
+									임의 내용을 노출합니다.
+								</a>
+							</td>
+							<td class="user">UTOSYS</td>
+							<td class="date">2018.06.08</td>
+							<td class="hit">70012</td>
+						</tr>
+						<tr>
+							<td class="num">152</td>
+							<td class="title">
+								<a href="#">
+									임의 내용을 노출합니다.
+								</a>
+							</td>
+							<td class="user">UTOSYS</td>
+							<td class="date">2018.06.08</td>
+							<td class="hit">70012</td>
+						</tr>
+						<tr>
+							<td class="num">152</td>
+							<td class="title">
+								<a href="#">
+									임의 내용을 노출합니다.
+								</a>
+							</td>
+							<td class="user">UTOSYS</td>
+							<td class="date">2018.06.08</td>
+							<td class="hit">70012</td>
+						</tr>
+					</tbody>
+				</table>
+			</div-->
 		</div>	
 	</main>
 		
