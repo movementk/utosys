@@ -545,4 +545,88 @@ a {
   .qna-write .write-wrap .btn-area {
     margin-top: 30px; } }
 
+.pw-confirm {
+  padding-top: 70px; }
+  .pw-confirm .confirm-form {
+    text-align: center;
+    padding: 50px 30px;
+    background-color: #fff; }
+    .pw-confirm .confirm-form .details > h2 {
+      font-size: 20px;
+      font-weight: 500;
+      color: #333;
+      margin-top: 20px; }
+    .pw-confirm .confirm-form .details > p {
+      font-size: 13px;
+      color: #666;
+      line-height: 22px;
+      margin-top: 20px; }
+    .pw-confirm .confirm-form .form-group {
+      margin-top: 15px;
+      padding: 0 6%; }
+      .pw-confirm .confirm-form .form-group .form-control {
+        border: 0;
+        padding: 0;
+        height: 40px;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 0 20px;
+        border-bottom: 1px solid #ccc;
+        text-align: center; }
+    .pw-confirm .confirm-form .btn-area {
+      margin-top: 40px;
+      text-align: center; }
+      .pw-confirm .confirm-form .btn-area p .btn {
+        display: inline-block;
+        margin-right: 4%; }
+        .pw-confirm .confirm-form .btn-area p .btn:last-child {
+          margin-right: 0; }
+        .pw-confirm .confirm-form .btn-area p .btn.btn-white {
+          width: 48%;
+          line-height: 38px;
+          font-size: 13px;
+          color: #333;
+          border: 1px solid #aaa; }
+          .pw-confirm .confirm-form .btn-area p .btn.btn-white:hover {
+            opacity: .8;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
+        .pw-confirm .confirm-form .btn-area p .btn.btn-navy {
+          width: 48%;
+          line-height: 40px; }
+  @media (min-width: 768px) {
+    .pw-confirm {
+      padding-top: 100px; }
+      .pw-confirm .confirm-form {
+        text-align: center;
+        padding: 70px 0 85px; }
+        .pw-confirm .confirm-form .details > h2 {
+          font-size: 22px; }
+        .pw-confirm .confirm-form .details > p {
+          font-size: 15px;
+          line-height: 26px;
+          margin-top: 25px; }
+        .pw-confirm .confirm-form .form-group {
+          padding: 0; }
+          .pw-confirm .confirm-form .form-group .form-control {
+            max-width: 330px; }
+        .pw-confirm .confirm-form .btn-area p .btn {
+          margin-right: 10px; }
+          .pw-confirm .confirm-form .btn-area p .btn.btn-white {
+            width: 130px;
+            font-size: 14px; }
+          .pw-confirm .confirm-form .btn-area p .btn.btn-navy {
+            width: 130px;
+            font-size: 14px; } }
+  @media (min-width: 1200px) {
+    .pw-confirm {
+      padding-top: 180px; } }
+
 /*# sourceMappingURL=customer.css.map */
