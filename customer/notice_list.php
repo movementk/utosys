@@ -61,7 +61,6 @@
 					<ul class="list-header">
 						<li>NO</li>
 						<li>제목</li>
-						<li>글쓴이</li>
 						<li>등록일</li>
 						<li>조회</li>
 					</ul>
@@ -76,8 +75,29 @@
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
-						<li class="user">
-							UTOSYS			
+						<li class="date">
+							<dl>
+								<dt>등록일</dt>
+								<dd>2018.06.08</dd>
+							</dl>
+						</li>
+						<li class="hit">
+							<dl>
+								<dt>조회수</dt>
+								<dd>700</dd>
+							</dl>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li class="num">
+							152							
+						</li>
+						<li class="subject">
+							<a href="/customer/notice_view.php">
+								임의의 내용을 노출합니다.
+							</a>
 						</li>
 						<li class="date">
 							<dl>
@@ -103,8 +123,29 @@
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
-						<li class="user">
-							UTOSYS			
+						<li class="date">
+							<dl>
+								<dt>등록일</dt>
+								<dd>2018.06.08</dd>
+							</dl>
+						</li>
+						<li class="hit">
+							<dl>
+								<dt>조회수</dt>
+								<dd>700</dd>
+							</dl>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li class="num">
+							152							
+						</li>
+						<li class="subject">
+							<a href="/customer/notice_view.php">
+								임의의 내용을 노출합니다.
+							</a>
 						</li>
 						<li class="date">
 							<dl>
@@ -130,9 +171,6 @@
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
-						<li class="user">
-							UTOSYS			
-						</li>
 						<li class="date">
 							<dl>
 								<dt>등록일</dt>
@@ -156,63 +194,6 @@
 							<a href="/customer/notice_view.php">
 								임의의 내용을 노출합니다.
 							</a>
-						</li>
-						<li class="user">
-							UTOSYS			
-						</li>
-						<li class="date">
-							<dl>
-								<dt>등록일</dt>
-								<dd>2018.06.08</dd>
-							</dl>
-						</li>
-						<li class="hit">
-							<dl>
-								<dt>조회수</dt>
-								<dd>700</dd>
-							</dl>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<ul>
-						<li class="num">
-							152							
-						</li>
-						<li class="subject">
-							<a href="/customer/notice_view.php">
-								임의의 내용을 노출합니다.
-							</a>
-						</li>
-						<li class="user">
-							UTOSYS			
-						</li>
-						<li class="date">
-							<dl>
-								<dt>등록일</dt>
-								<dd>2018.06.08</dd>
-							</dl>
-						</li>
-						<li class="hit">
-							<dl>
-								<dt>조회수</dt>
-								<dd>700</dd>
-							</dl>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<ul>
-						<li class="num">
-							152							
-						</li>
-						<li class="subject">
-							<a href="/customer/notice_view.php">
-								임의의 내용을 노출합니다.
-							</a>
-						</li>
-						<li class="user">
-							UTOSYS			
 						</li>
 						<li class="date">
 							<dl>
@@ -238,8 +219,29 @@
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
-						<li class="user">
-							UTOSYS			
+						<li class="date">
+							<dl>
+								<dt>등록일</dt>
+								<dd>2018.06.08</dd>
+							</dl>
+						</li>
+						<li class="hit">
+							<dl>
+								<dt>조회수</dt>
+								<dd>700</dd>
+							</dl>
+						</li>
+					</ul>
+				</li>
+				<li class="d-none d-xl-block">
+					<ul>
+						<li class="num">
+							152							
+						</li>
+						<li class="subject">
+							<a href="/customer/notice_view.php">
+								임의의 내용을 노출합니다.
+							</a>
 						</li>
 						<li class="date">
 							<dl>
@@ -265,9 +267,6 @@
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
-						<li class="user">
-							UTOSYS			
-						</li>
 						<li class="date">
 							<dl>
 								<dt>등록일</dt>
@@ -291,36 +290,6 @@
 							<a href="/customer/notice_view.php">
 								임의의 내용을 노출합니다.
 							</a>
-						</li>
-						<li class="user">
-							UTOSYS			
-						</li>
-						<li class="date">
-							<dl>
-								<dt>등록일</dt>
-								<dd>2018.06.08</dd>
-							</dl>
-						</li>
-						<li class="hit">
-							<dl>
-								<dt>조회수</dt>
-								<dd>700</dd>
-							</dl>
-						</li>
-					</ul>
-				</li>
-				<li class="d-none d-xl-block">
-					<ul>
-						<li class="num">
-							152							
-						</li>
-						<li class="subject">
-							<a href="/customer/notice_view.php">
-								임의의 내용을 노출합니다.
-							</a>
-						</li>
-						<li class="user">
-							UTOSYS			
 						</li>
 						<li class="date">
 							<dl>
