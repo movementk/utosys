@@ -300,6 +300,135 @@
 	}
 }
 
+//비밀번호 확인
+.pw-confirm {
+	padding-top: 70px;
+	.confirm-form {
+		text-align: center;
+		padding: 50px 30px; 
+		background-color: #fff;
+		.details {
+			> h2 {
+				font-size: 20px;
+				font-weight: 500;
+				color: #333;
+				margin-top: 20px;
+			}
+			> p {
+				font-size: 13px;
+				color: #666;
+				line-height: 22px;
+				margin-top: 20px;
+			}
+		}
+		.form-group {
+			margin-top: 15px;
+			padding: 0 6%;
+			.form-control {
+				border: 0;
+				padding: 0;
+				height: 40px;
+				width: 100%;
+				max-width: 300px;
+				margin: 0 auto;
+				padding: 0 20px;
+				border-bottom: 1px solid #ccc;
+				text-align: center;
+			}
+		}
+		.btn-area {
+			margin-top: 40px;
+			text-align: center;
+			p {
+				.btn {
+					display: inline-block;
+					margin-right: 4%;
+					&:last-child {
+						margin-right: 0;
+					}
+					&.btn-white {
+						width: 48%;
+						line-height: 38px;
+						font-size: 13px;
+						color: #333;
+						border: 1px solid #aaa;
+						&:hover {
+							opacity: .8;
+							@include transition();
+						}
+					}
+					&.btn-navy {
+						width: 48%;
+						line-height: 40px; 
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $md) {
+		padding-top: 100px;
+		.confirm-form {
+			text-align: center;
+			padding: 70px 0 85px; 
+			.details {
+				> h2 {
+					font-size: 22px;
+				}
+				> p {
+					font-size: 15px;
+					line-height: 26px;
+					margin-top: 25px;
+				}
+			}
+			.form-group {
+				padding: 0;
+				.form-control {
+					max-width: 330px;
+				}
+			}
+			.btn-area {
+				p {
+					.btn {
+						margin-right: 10px;
+						&.btn-white {
+							width: 130px;
+							font-size: 14px;
+						}
+						&.btn-navy {
+							width: 130px;
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $xl) {
+		padding-top: 180px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
