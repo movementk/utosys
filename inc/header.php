@@ -61,10 +61,8 @@
 				<li>
 					<a href="#">사업영역</a>
 					<ul>
-						<li><a href="#">FPD Transfer<span></span></a></li>
-						<li><a href="#">System<span></span></a></li>
-						<li><a href="#">FPD Inspection<span></span></a></li>
-						<li><a href="#">System<span></span></a></li>
+						<li><a href="#">FPD Transfer System<span></span></a></li>
+						<li><a href="#">FPD Inspection System<span></span></a></li>
 					</ul>
 				</li>
 				<li>
