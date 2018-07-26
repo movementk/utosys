@@ -33,9 +33,8 @@
 								</div>
 							</li>
 							<li class="visual-list">
-								<video class="video" loop muted autoplay>
-									<source src="/assets/video/33480139-preview.mp4" type="video/mp4">이 브라우저는 동영상을 지원하지 않습니다.
-								</video>
+								<img src="/assets/images/img_visual_md.jpg" class="img-fluid d-sm-block d-xl-none" alt="">
+								<img src="/assets/images/img_visual_xl.jpg" class="img-fluid d-none d-xl-block" alt="">
 								<div class="summary">
 									<h2>
 										사람이 건강하고 <br>
@@ -51,9 +50,8 @@
 								</div>
 							</li>
 							<li class="visual-list">
-								<video class="video" loop muted autoplay>
-									<source src="/assets/video/33480139-preview.mp4" type="video/mp4">이 브라우저는 동영상을 지원하지 않습니다.
-								</video>
+								<img src="/assets/images/img_visual_md.jpg" class="img-fluid d-sm-block d-xl-none" alt="">
+								<img src="/assets/images/img_visual_xl.jpg" class="img-fluid d-none d-xl-block" alt="">
 								<div class="summary">
 									<h2>
 										사람이 건강하고 <br>

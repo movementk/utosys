@@ -401,4 +401,79 @@ a {
       width: 33.33%;
       line-height: 58px; } }
 
+.recruit-person .container > ol {
+  padding: 0 20px; }
+  .recruit-person .container > ol li {
+    text-align: center; }
+    .recruit-person .container > ol li ~ li {
+      margin-top: 55px; }
+    .recruit-person .container > ol li > .items {
+      position: relative; }
+      .recruit-person .container > ol li > .items > strong {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -20px;
+        font-size: 60px;
+        font-weight: 400;
+        line-height: 190px;
+        color: #fff;
+        font-family: 'Roboto', sans-serif; }
+    .recruit-person .container > ol li dl {
+      margin-top: 15px; }
+      .recruit-person .container > ol li dl dt {
+        display: block;
+        font-size: 18px;
+        color: #00a1e9;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif; }
+      .recruit-person .container > ol li dl dd {
+        font-size: 14px;
+        color: #333;
+        margin-top: 5px; }
+@media (min-width: 768px) {
+  .recruit-person .container > ol {
+    padding: 0;
+    font-size: 0;
+    overflow: hidden; }
+    .recruit-person .container > ol li {
+      display: inline-block;
+      vertical-align: top; }
+      .recruit-person .container > ol li ~ li {
+        margin-top: 0; }
+      .recruit-person .container > ol li:first-child {
+        width: 33.33%; }
+      .recruit-person .container > ol li:nth-of-type(2) {
+        width: 33.33%; }
+      .recruit-person .container > ol li:nth-of-type(3) {
+        width: 33.33%; }
+      .recruit-person .container > ol li:nth-of-type(4) {
+        width: 50%;
+        float: left; }
+      .recruit-person .container > ol li:nth-of-type(5) {
+        width: 50%;
+        float: right; }
+      .recruit-person .container > ol li:nth-of-type(3) ~ li {
+        margin-top: 60px; }
+      .recruit-person .container > ol li > .items > img {
+        width: 160px; }
+      .recruit-person .container > ol li > .items > strong {
+        margin-left: -20px;
+        font-size: 60px;
+        line-height: 160px;
+        color: #fff;
+        font-family: 'Roboto', sans-serif; }
+      .recruit-person .container > ol li dl {
+        margin-top: 15px; }
+        .recruit-person .container > ol li dl dt {
+          display: block;
+          font-size: 18px;
+          color: #00a1e9;
+          font-weight: 400;
+          font-family: 'Roboto', sans-serif; }
+        .recruit-person .container > ol li dl dd {
+          font-size: 14px;
+          color: #333;
+          margin-top: 5px; } }
+
 /*# sourceMappingURL=recruit.css.map */
