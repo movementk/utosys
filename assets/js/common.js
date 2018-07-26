@@ -3,17 +3,12 @@
 	$(function (){
 		$(document).on('click','.btn-nav', function(){
 			$('body').addClass('opened');
-			$(this).addClass('btn-open');
+			$('.aside-header .btn-default').addClass('close-btn');
 		});
 		$(document).on('click','.close-btn, #aside .backdrop', function(){
 			$('body').removeClass('opened');
 			$('.close-btn').removeClass('close-btn');
 		});
-//		$(document).on('click','.close-btn, #aside .backdrop', 	
-//		function(){
-//			$('body').removeClass('opened');
-//			$(this).removeClass('close-btn');
-//		});
 	});
 
 	//모바일 gnb 메뉴 관련 depth-1
