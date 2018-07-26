@@ -137,6 +137,12 @@
       "css": "lock",
       "code": 59404,
       "src": "fontawesome"
+    },
+    {
+      "uid": "7b16b22168e762c88333f465da862098",
+      "css": "ok",
+      "code": 59405,
+      "src": "websymbols"
     }
   ]
 }

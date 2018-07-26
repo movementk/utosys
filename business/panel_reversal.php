@@ -33,17 +33,17 @@
     </div>
    
 	<!-- Content -->
-    <main id="content" class="loader fpd-system">
+    <main id="content" class="panel-reversal fpd-system">
 		<div class="container">
 			<div class="page-title">
 				<h2>FPD Transfer System (물류설비)</h2>
 			</div> 
 			<nav class="tab-list">
 				<ul>
-					<li class="active">
+					<li>
 						<a href="#" >Loader/Unloader</a> 
 					</li>
-					<li><a href="#">Panel Reversal<br class="d-sm-block d-md-none">System</a></li>
+					<li class="active"><a href="#">Panel Reversal<br class="d-sm-block d-md-none">System</a></li>
 					<li><a href="#">Gluon Mask Change<br class="d-sm-block d-md-none"> System</a></li>
 					<li><a href="#">Mask Loader</a></li>
 					<li><a href="#">Packing &amp; Unpacking<br class="d-sm-block d-md-none"> System</a></li>
@@ -71,7 +71,7 @@
 									<td class="items">Function</td>
 									<td class="details">
 										<ul>
-											<li>LCD Transfer System</li>
+											<li>LCD Panel Reversal System </li>
 										</ul>
 									</td>
 								</tr>
@@ -79,8 +79,8 @@
 									<td class="items">Application</td>
 									<td class="details">
 										<ul>
-											<li>In-Line Type</li>
-											<li>Stand Alone Type</li>
+											<li>In-Line Type &amp;  Stand Alone Type</li>
+											<li>Multi Stairs (2 Stairs / 3 Stairs)</li>
 										</ul>
 									</td>
 								</tr>
@@ -88,9 +88,10 @@
 									<td class="items">Feature</td>
 									<td class="details">
 										<ul>
-											<li>Know - How through a variety of experience</li>
-											<li>User - fridendliness, maintainability reflect</li>
-											<li>CIM &amp; ECS Type</li>
+											<li>Know-How through a variety of experiences </li>
+											<li>User-friendliness, maintainability reflect</li>
+											<li>PLC S/W</li>
+											<li>Align Function Included</li>
 										</ul>
 									</td>
 								</tr>
@@ -98,8 +99,7 @@
 									<td class="items">Basic Specification</td>
 									<td class="details">
 										<ul>
-											<li>Application Size : Gen 3~8, Glass &amp; Panel</li>
-											<li>Application Robot : User Nominate</li>
+											<li>Application Size :  Panel 32” ~ 65”</li>
 										</ul>
 									</td>
 								</tr>

@@ -722,7 +722,7 @@ a {
       line-height: 45px;
       background-color: #fff; }
       .news .section-content ul li:hover {
-        background-color: #00a1e9;
+        background-color: #ea212f;
         -webkit-transition-property: all;
         transition-property: all;
         -webkit-transition-duration: 0.15s;

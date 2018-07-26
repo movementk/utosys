@@ -1,0 +1,60 @@
+@import 'common';
+
+//  page-header
+.page-header {
+	.page-summary {
+		background-image: url(/assets/images/recruit/bg_page_header.jpg);
+	}	
+}
+
+//  page-path
+.page-path {
+	.breadcrumb {
+		> li {
+			.dropdown {
+				.dropdown-menu {
+					height: 120px;
+				}
+				@media (min-width: $xl) {
+					.dropdown-menu {
+						height: 60px;
+						> .dropdown-item {
+							width: 33.33%;
+							line-height: 58px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+//인재상
+.recruit-person {
+	.container {
+		> ul {
+			li {
+				
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
