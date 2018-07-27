@@ -46,54 +46,64 @@
 			
 			<ol>
 				<li>
-					<div class="items">
-						<img src="/assets/images/recruit/img_recruit_list01.png" class="img-fluid" alt="Sensitive">
-						<strong>S</strong>
+					<div>
+						<div class="items">
+							<img src="/assets/images/recruit/img_recruit_list01.png" class="img-fluid" alt="Sensitive">
+							<strong>S</strong>
+						</div>
+						<dl>
+							<dt>Sensitive</dt>
+							<dd>미래지향적 감각을<br class="d-none d-md-block"> 보유한 인재</dd>
+						</dl>
 					</div>
-					<dl>
-						<dt>Sensitive</dt>
-						<dd>미래지향적 감각을<br class="d-none d-md-block"> 보유한 인재</dd>
-					</dl>
 				</li>
 				<li>
-					<div class="items">
-						<img src="/assets/images/recruit/img_recruit_list02.png" class="img-fluid" alt="Sensitive">
-						<strong>M</strong>
+					<div>
+						<div class="items">
+							<img src="/assets/images/recruit/img_recruit_list02.png" class="img-fluid" alt="Sensitive">
+							<strong>M</strong>
+						</div>
+						<dl>
+							<dt>Member</dt>
+							<dd>조직융화와 팀웍을<br class="d-none d-md-block"> 중시하는 인재</dd>
+						</dl>
 					</div>
-					<dl>
-						<dt>Member</dt>
-						<dd>조직융화와 팀웍을<br class="d-none d-md-block"> 중시하는 인재</dd>
-					</dl>
 				</li>
 				<li>
-					<div class="items">
-						<img src="/assets/images/recruit/img_recruit_list03.png" class="img-fluid" alt="Sensitive">
-						<strong>A</strong>
+					<div>
+						<div class="items">
+							<img src="/assets/images/recruit/img_recruit_list03.png" class="img-fluid" alt="Sensitive">
+							<strong>A</strong>
+						</div>
+						<dl>
+							<dt>Attactive </dt>
+							<dd>모든일에 적극적,능동적으로<br class="d-none d-md-block"> 임하는 태도를 겸비한 인재</dd>
+						</dl>
 					</div>
-					<dl>
-						<dt>Attactive </dt>
-						<dd>모든일에 적극적,능동적으로<br class="d-none d-md-block"> 임하는 태도를 겸비한 인재</dd>
-					</dl>
 				</li>
 				<li>
-					<div class="items">
-						<img src="/assets/images/recruit/img_recruit_list04.png" class="img-fluid" alt="Sensitive">
-						<strong>R</strong>
+					<div>
+						<div class="items">
+							<img src="/assets/images/recruit/img_recruit_list04.png" class="img-fluid" alt="Sensitive">
+							<strong>R</strong>
+						</div>
+						<dl>
+							<dt>Rule</dt>
+							<dd>원칙과 규칙을<br class="d-none d-md-block"> 준수하는 인재</dd>
+						</dl>
 					</div>
-					<dl>
-						<dt>Rule</dt>
-						<dd>원칙과 규칙을<br class="d-none d-md-block"> 준수하는 인재</dd>
-					</dl>
 				</li>
 				<li>
-					<div class="items">
-						<img src="/assets/images/recruit/img_recruit_list05.png" class="img-fluid" alt="Sensitive">
-						<strong>T</strong>
+					<div>
+						<div class="items">
+							<img src="/assets/images/recruit/img_recruit_list05.png" class="img-fluid" alt="Sensitive">
+							<strong>T</strong>
+						</div>
+						<dl>
+							<dt>Training </dt>
+							<dd>자기계발에 끊임없이<br class="d-none d-md-block"> 연구하고 노력하는 인재</dd>
+						</dl>
 					</div>
-					<dl>
-						<dt>Training </dt>
-						<dd>자기계발에 끊임없이<br class="d-none d-md-block"> 연구하고 노력하는 인재</dd>
-					</dl>
 				</li>
 			</ol>
 		</div>	
