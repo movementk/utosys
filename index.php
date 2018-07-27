@@ -240,7 +240,46 @@
 			</div>
 		</article>
 	</main>
-		
+
+    <!-- main popup -->
+    <div class="modal fade main-popup" id="mainModalPopup" tabindex="-1" role="dialog" aria-labelledby="mainModalPopup" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <ul class="modal-slide">
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="/assets/images/bg_utosys.gif" class="img-fluid" alt="">
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="/assets/images/img_visual_md.jpg" class="img-fluid" alt="">
+                                </figure>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="/assets/images/img_visual_xl.jpg" class="img-fluid" alt="">
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <div class="form-group">
+                        <label><input type="checkbox"> 오늘 하루 열지 않기</label>
+                    </div>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

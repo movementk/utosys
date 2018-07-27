@@ -237,50 +237,103 @@ body {
 }
 
 //search-form
-.search-form {
+.global-search {
 	position: absolute;
 	top: 0;
 	right: 0;
 	z-index: 5;
-	.btn {
-		&.search-btn {
-			width: 55px;
-			height: 55px;
-			text-align: center;
-			border-left: 1px solid #e8e8e8;
-			background-color: #fff;
-			i {
-				font-size: 20px;
-				color: #00a1e9;
-			}
-		}
+	.btn-search {
+        width: 55px;
+        height: 55px;
+        padding: 0;
+        line-height: 53px;
+        text-align: center;
+        border-left: 1px solid #e8e8e8;
+        background-color: #fff;
+        i {
+            font-size: 20px;
+            color: #00a1e9;
+        }
+        &.default-btn {
+            display: block;
+        }
+        &.event-btn {
+            display: none;
+        }
 	}
+    .form-group {
+        float: right;
+        width: 100%;
+        background-color: #fff;
+        @media(min-width: $xl) {
+            padding: 18px 0;
+        }
+        .form-control {
+            height: 55px;
+            padding-right: 60px;
+            border: 1px solid #fff;
+            @media(min-width: $md) {
+                height: 80px;
+                padding-right: 85px;
+            }
+            @media(min-width: $md) {
+                height: 90px;
+                padding-right: 30px;
+            }
+            @media(min-width: $xl) {
+                border: 1px solid #00a1e9;
+                height: 50px;
+                padding-right: 30px;
+            }
+        }
+    }
+    &.action {
+        width: 100%;
+        padding-left: 55px;
+        .btn-search {
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 100;
+            &.default-btn {
+                display: none;
+            }
+            &.event-btn {
+                display: block;
+            }
+        }
+        @media(min-width: $md) {
+            width: 100%;
+            padding-left: 80px;
+        }
+        @media(min-width: $xl) {
+            width: 50%;
+            padding-left: 0;
+        }
+    }
 	@media(min-width: $md) {
-		.btn {
-			&.search-btn {
-				width: 80px;
-				height: 80px;
-				i {
-					font-size: 27px;
-				}
-			}
+		.btn-search {
+            width: 80px;
+            height: 80px;
+            line-height: 78px;
+            i {
+                font-size: 27px;
+            }
 		}
 	}
 	@media(min-width: $xl) {
 		right: 15px;
-		.btn {
-			&.search-btn {
-				width: auto;
-				height: 90px;
-				border: 0;
-				background: none;
-				i {
-					position: relative;
-					top: -5px;
-					font-size: 18px;
-				}
-			}
-		}
+        .btn-search {
+            width: auto;
+            height: 50px;
+            margin-top: 18px;
+            line-height: 50px;
+            border: 0;
+            background: none;
+            i {
+                font-size: 18px;
+            }
+        }
 	}
 }
 #content {

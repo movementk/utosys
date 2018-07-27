@@ -1006,4 +1006,72 @@ a {
         .quick .bg-utosys > .btn-area p .btn-details {
           width: 120px; } }
 
+.modal .modal-dialog {
+  margin-top: 100px;
+  max-width: 700px; }
+  .modal .modal-dialog .modal-content {
+    border-radius: 0;
+    background: none;
+    border: 0; }
+    .modal .modal-dialog .modal-content .modal-body {
+      border: 0;
+      padding: 0; }
+      .modal .modal-dialog .modal-content .modal-body .modal-slide {
+        position: relative; }
+        .modal .modal-dialog .modal-content .modal-body .modal-slide .slick-dots {
+          position: absolute;
+          bottom: 20px;
+          left: 0;
+          width: 100%;
+          text-align: left;
+          height: 12px; }
+          .modal .modal-dialog .modal-content .modal-body .modal-slide .slick-dots > li {
+            display: inline-block; }
+            .modal .modal-dialog .modal-content .modal-body .modal-slide .slick-dots > li > button {
+              cursor: pointer;
+              display: block;
+              margin: 0 4px;
+              width: 12px;
+              height: 12px;
+              padding: 0;
+              border-radius: 50%;
+              text-indent: -99999px;
+              background: none;
+              border: 1px solid #fff; }
+            .modal .modal-dialog .modal-content .modal-body .modal-slide .slick-dots > li.slick-active > button {
+              border-color: #fff;
+              background-color: #fff; }
+        .modal .modal-dialog .modal-content .modal-body .modal-slide li figure .img-fluid {
+          width: 100%; }
+    .modal .modal-dialog .modal-content .modal-footer {
+      display: block !important;
+      padding: 10px;
+      overflow: hidden;
+      border: 0;
+      width: 100%;
+      text-align: left;
+      background-color: #202020; }
+      .modal .modal-dialog .modal-content .modal-footer .form-group {
+        display: inline-block; }
+        .modal .modal-dialog .modal-content .modal-footer .form-group label {
+          font-size: 13px;
+          color: #fff;
+          margin: 0; }
+          .modal .modal-dialog .modal-content .modal-footer .form-group label input {
+            position: relative;
+            top: 2px;
+            margin-right: 5px; }
+      .modal .modal-dialog .modal-content .modal-footer .btn-secondary {
+        font-size: 13px;
+        float: right; }
+  @media (min-width: 768px) {
+    .modal .modal-dialog {
+      margin-top: 200px; }
+      .modal .modal-dialog .modal-content .modal-body .modal-slide .slick-dots {
+        height: 14px; }
+        .modal .modal-dialog .modal-content .modal-body .modal-slide .slick-dots > li > button {
+          width: 14px;
+          height: 14px;
+          margin: 0 6px; } }
+
 /*# sourceMappingURL=main.css.map */
