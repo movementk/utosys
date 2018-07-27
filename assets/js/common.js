@@ -66,7 +66,7 @@
         $('.global-search .form-group').addClass('d-block');
         $('.global-search .form-group').removeClass('d-none');
     });
-    $(document).on('click','#content, #gnb, #header .container', function(){
+    $(document).on('mouseleave','.global-search', function(){
         $('.global-search').removeClass('action');
         $('.global-search .form-group').removeClass('d-block');
         $('.global-search .form-group').addClass('d-none');
