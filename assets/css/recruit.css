@@ -486,4 +486,128 @@ a {
       .recruit-person .container > ol li > div dl dd {
         margin-top: 10px; } }
 
+.walfare article {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-repeat: no-repeat;
+  background-position: 70% 0; }
+  .walfare article ~ article {
+    margin-top: 30px; }
+  .walfare article.health {
+    padding-top: 150px;
+    background-image: url(/assets/images/recruit/img_walfare01.jpg);
+    background-size: auto 370px; }
+  .walfare article.happy {
+    padding-top: 165px;
+    background-image: url(/assets/images/recruit/img_walfare02.jpg);
+    background-size: auto 340px; }
+    .walfare article.happy .info ol li {
+      margin-top: 18px; }
+      .walfare article.happy .info ol li:first-child {
+        margin-top: 0; }
+  .walfare article.stable {
+    padding-top: 170px;
+    background-image: url(/assets/images/recruit/img_walfare03.jpg);
+    background-size: auto 400px; }
+  .walfare article .info {
+    padding: 25px 20px 45px;
+    background: #fff;
+    box-shadow: 2px 5px 18px 0px rgba(0, 0, 0, 0.08); }
+    .walfare article .info h5 {
+      font-size: 18px;
+      color: #333;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #ccc; }
+    .walfare article .info ol {
+      padding-top: 25px; }
+      .walfare article .info ol li {
+        position: relative; }
+        .walfare article .info ol li ~ li {
+          margin-top: 35px; }
+        .walfare article .info ol li > p {
+          font-size: 15px;
+          color: #333;
+          line-height: 20px;
+          font-weight: 500;
+          padding-left: 30px; }
+        .walfare article .info ol li span {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          font-size: 11px;
+          color: #fff;
+          line-height: 21px;
+          border-radius: 50%;
+          text-align: center;
+          margin-right: 10px;
+          background-color: #ea212f;
+          vertical-align: middle;
+          font-family: 'Roboto', sans-serif; }
+        .walfare article .info ol li dl {
+          padding-left: 30px; }
+          .walfare article .info ol li dl dt {
+            font-size: 15px;
+            color: #333;
+            line-height: 20px;
+            font-weight: 500; }
+          .walfare article .info ol li dl dd {
+            font-size: 12px;
+            color: #666;
+            line-height: 22px;
+            margin-top: 10px; }
+@media (min-width: 768px) {
+  .walfare article {
+    padding-left: 40px;
+    padding-right: 40px; }
+    .walfare article ~ article {
+      margin-top: 60px; }
+    .walfare article.health {
+      padding-top: 250px;
+      background-size: auto 475px; }
+    .walfare article.happy {
+      padding-top: 250px;
+      background-size: auto 475px; }
+      .walfare article.happy .info ol li {
+        margin-top: 27px; }
+    .walfare article.stable {
+      padding-top: 250px;
+      background-size: auto 475px; }
+    .walfare article .info h5 {
+      font-size: 20px; }
+    .walfare article .info ol {
+      padding-top: 35px; }
+      .walfare article .info ol li ~ li {
+        margin-top: 30px; }
+      .walfare article .info ol li > p {
+        font-size: 16px; }
+      .walfare article .info ol li dl dt {
+        font-size: 16px; }
+      .walfare article .info ol li dl dd {
+        font-size: 13px;
+        line-height: 24px; } }
+@media (min-width: 1200px) {
+  .walfare article {
+    padding-left: 70px;
+    padding-right: 70px; }
+    .walfare article ~ article {
+      margin-top: 100px; }
+    .walfare article.health {
+      padding-top: 235px;
+      background-size: auto 475px; }
+    .walfare article.happy {
+      padding-top: 235px;
+      background-size: auto 475px; }
+      .walfare article.happy .info ol li {
+        margin-top: 40px; }
+    .walfare article.stable {
+      padding-top: 235px;
+      background-size: auto 475px; }
+    .walfare article .info ol li ~ li {
+      margin-top: 35px; }
+    .walfare article .info ol li dl dd {
+      font-size: 14px; } }
+
 /*# sourceMappingURL=recruit.css.map */

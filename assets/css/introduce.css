@@ -408,8 +408,7 @@ a {
       color: #fff;
       line-height: 22px; }
   .greetings article .details {
-    margin-top: 45px;
-    padding-bottom: 60px; }
+    margin-top: 45px; }
     .greetings article .details b {
       font-size: 22px;
       color: #333;
@@ -438,7 +437,6 @@ a {
         line-height: 24px; }
     .greetings article .details {
       margin-top: 50px;
-      padding-bottom: 80px;
       word-break: keep-all; }
       .greetings article .details b {
         font-size: 24px; }
@@ -458,8 +456,7 @@ a {
         line-height: 26px; }
     .greetings article .details {
       margin-top: 145px;
-      padding-right: 10px;
-      padding-bottom: 120px; }
+      padding-right: 10px; }
       .greetings article .details > p {
         font-size: 14px;
         line-height: 26px;
