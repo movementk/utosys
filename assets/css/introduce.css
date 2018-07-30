@@ -1079,4 +1079,33 @@ a {
   .certification .row .col-6:nth-of-type(4) ~ li a {
     margin-top: 80px; } }
 
+.modal-dialog {
+  margin: 120px auto; }
+  .modal-dialog .modal-content {
+    width: 80%;
+    margin: 0 auto;
+    margin-right: 38px; }
+    .modal-dialog .modal-content .close {
+      position: absolute;
+      right: -25px;
+      top: -10px;
+      font-size: 30px;
+      color: #fff;
+      font-weight: 400;
+      text-shadow: none !important;
+      z-index: 5; }
+  @media (min-width: 768px) {
+    .modal-dialog .modal-content {
+      width: 100%;
+      margin: 0 auto; }
+      .modal-dialog .modal-content .close {
+        right: -35px;
+        top: -15px;
+        font-size: 45px; } }
+  @media (min-width: 1200px) {
+    .modal-dialog .modal-content .close {
+      right: -47px;
+      top: -17px;
+      font-size: 50px; } }
+
 /*# sourceMappingURL=introduce.css.map */

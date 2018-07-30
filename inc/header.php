@@ -65,17 +65,17 @@
 					</ul>
 				</li>
 				<li>
-					<a href="#">사업영역</a>
+					<a href="/business/loader.php">사업영역</a>
 					<ul>
-						<li><a href="#">FPD Transfer System<span></span></a></li>
+						<li><a href="/business/loader.php">FPD Transfer System<span></span></a></li>
 						<li><a href="#">FPD Inspection System<span></span></a></li>
 					</ul>
 				</li>
 				<li>
-					<a href="#">인재채용<span></span></a>
+					<a href="/recruit/recruit_person.php">인재채용<span></span></a>
 					<ul>
-						<li><a href="#">인재상<span></span></a></li>
-						<li><a href="#">복지제도<span></span></a></li>
+						<li><a href="/recruit/recruit_person.php">인재상<span></span></a></li>
+						<li><a href="/recruit/walfare.php">복지제도<span></span></a></li>
 						<li><a href="#">채용안내<span></span></a></li>
 					</ul>
 				</li>
