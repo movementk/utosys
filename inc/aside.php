@@ -42,10 +42,10 @@
 							<a href="#" class="arrow">FPD Transfer System</a>
 							<ul class="depth-3">
 								<li>
-									<a href="#">마스크 로더</a>
+									<a href="/business/loader.php">마스크 로더</a>
 								</li>
 								<li>
-									<a href="#">2단 반전기</a>
+									<a href="/business/panel_reversal.php">2단 반전기</a>
 								</li>
 								<li>
 									<a href="#">Gluon 교체 반전기</a>
@@ -78,10 +78,10 @@
 					<a href="#">인재채용</a>
 					<ul class="depth-2">
 						<li>
-							<a href="#">인재상</a>
+							<a href="/recruit/recruit_person.php">인재상</a>
 						</li>
 						<li>
-							<a href="#">복지제도</a>
+							<a href="/recruit/walfare.php">복지제도</a>
 						</li>
 						<li> 
 							<a href="#">채용안내</a>

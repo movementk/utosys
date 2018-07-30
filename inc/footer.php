@@ -11,7 +11,7 @@
 						<a href="/introduce/location.php">찾아오시는 길</a>
 					</li>
 					<li>
-						<a href="#">인재채용</a>
+						<a href="/recruit/recruit_person.php">인재채용</a>
 					</li>
 					<li>
 						<a href="/customer/qna_list.php">문의하기</a>
