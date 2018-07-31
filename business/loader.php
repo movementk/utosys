@@ -43,18 +43,18 @@
 					<li class="active">
 						<a href="#" >Loader/Unloader</a> 
 					</li>
-					<li><a href="#">Panel Reversal<br class="d-sm-block d-md-none">System</a></li>
-					<li><a href="#">Gluon Mask Change<br class="d-sm-block d-md-none"> System</a></li>
+					<li><a href="#" class="space">Panel Reversal<br class="d-sm-block d-md-none">System</a></li>
+					<li><a href="#" class="space">Gluon Mask Change<br class="d-sm-block d-md-none"> System</a></li>
 					<li><a href="#">Mask Loader</a></li>
-					<li><a href="#">Packing &amp; Unpacking<br class="d-sm-block d-md-none"> System</a></li>
+					<li><a href="#" class="space">Packing &amp; Unpacking<br class="d-sm-block d-md-none"> System</a></li>
 				</ul>
 			</nav>
 			<div class="row">
 				<div class="col-12 col-xl-6">
 					<figure>
 						<img src="/assets/images/business/img_loader_sm.jpg" class="img-fluid d-md-none" alt="">
-						<img src="/assets/images/business/img_loader_md.jpg" class="img-fluid d-sm-none d-md-block d-xl-none" alt="">
-						<img src="/assets/images/business/img_loader_xl.jpg" class="img-fluid d-sm-none d-md-none d-xl-block" alt="">
+						<img src="/assets/images/business/img_loader_md.jpg" class="img-fluid d-none d-sm-none d-md-block d-xl-none" alt="">
+						<img src="/assets/images/business/img_loader_xl.jpg" class="img-fluid d-none d-sm-none d-md-none d-xl-block" alt="">
 					</figure>
 				</div> 
 				<div class="col-12 col-xl-6">

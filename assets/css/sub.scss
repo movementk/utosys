@@ -1237,7 +1237,180 @@
 	}
 }
 
-
+//제품검색
+.result {
+	.form-group {
+		position: relative;
+		margin-top: 25px;
+		.btn-search {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 45px;
+			height: 45px;
+			text-align: center;
+			background-color: #002e79;
+			&:before {
+				content: "\E800";
+				font-family: "fontello";
+				font-size: 16px;
+				color: #fff;
+			}
+		}
+		.form-control {
+			height: 45px;
+			padding-left: 10px;
+			padding-right: 70px;
+			border-color: #e3e3e3;
+			&::-webkit-input-placeholder {
+                color: #999;
+            }
+            &::-moz-placeholder {
+                color: #999;
+            }
+            &:-ms-input-placeholder {
+                color: #999;
+            }
+            &:-moz-placeholder {
+                color: #999;
+            }
+		}	
+	}
+	.result-title {
+		padding-top: 40px;
+		padding-bottom: 60px;
+		font-size: 18px;
+		color: #333;
+		font-weight: 400;
+		text-align: center;
+		> span {
+			color: #00a1e9;
+			font-weight: 500;
+		}
+	}
+	article {
+		& ~ article {
+			margin-top: 40px;
+		}
+		> h3 {
+			font-size: 14px;
+			color: #333;
+			font-weight: 400;
+		}
+		.article-content {
+			margin-top: 15px;
+			background-color: #fff;
+			> ul {
+				padding: 30px;
+				> li {
+					& ~ li {
+						margin-top: 20px;
+					}
+					> a {
+						font-size: 13px;
+						color: #333;
+						@include roboto();
+						&:before {
+							content: "-";
+							display: inline-block;
+							margin-right: 5px;
+							font-size: 13px;
+						}
+						&:hover {
+							color: #00a1e9;
+							font-weight: 400;
+						}	
+					}
+				}
+			}
+			> figure {
+				padding: 80px 0;
+				text-align: center; 
+				figcaption {
+					font-size: 15px;
+					color: #333;
+					margin-top: 22px;
+					text-align: center;
+				}
+			}
+		}
+	}
+	@media (min-width: $md) {
+		.form-group {
+			width: 410px;
+			margin: 0 auto;
+			margin-top: 60px;
+			.form-control {
+				padding-left: 25px;
+			}	
+		}
+		.result-title {
+			font-size: 24px;
+			padding-top: 45px;
+			padding-bottom: 90px;
+		}
+		article {
+			& ~ article {
+				margin-top: 60px;
+			}
+			> h3 {
+				font-size: 18px;
+			}
+			.article-content {
+				margin-top: 20px;
+				> ul {
+					font-size: 0;
+					padding: 50px;
+					> li {
+						display: inline-block;
+						width: 33%;
+						vertical-align: top;  
+						& ~ li {
+							margin-top: 0;
+						}
+						&:nth-of-type(3) ~ li {
+							margin-top: 35px;
+						} 
+						> a {
+							font-size: 14px;
+							vertical-align: top;
+						}
+					}
+				}
+				> figure {
+					padding: 50px 0;
+					figcaption {
+						font-size: 17px;
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $xl) {
+		.form-group {
+			margin-top: 50px;
+		}
+		.result-title {
+			font-size: 24px;
+			padding-bottom: 70px;
+		}
+		article {
+			.article-content {
+				> ul {
+					> li {
+						width: 25%;
+						&:nth-of-type(3) ~ li {
+							margin-top: 0;
+						} 
+						&:nth-of-type(4) ~ li {
+							margin-top: 35px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
 
 
 

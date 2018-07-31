@@ -1243,4 +1243,124 @@ a {
   .preparing .container > figure {
     padding-top: 220px; } }
 
+.result .form-group {
+  position: relative;
+  margin-top: 25px; }
+  .result .form-group .btn-search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background-color: #002e79; }
+    .result .form-group .btn-search:before {
+      content: "\E800";
+      font-family: "fontello";
+      font-size: 16px;
+      color: #fff; }
+  .result .form-group .form-control {
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 70px;
+    border-color: #e3e3e3; }
+    .result .form-group .form-control::-webkit-input-placeholder {
+      color: #999; }
+    .result .form-group .form-control::-moz-placeholder {
+      color: #999; }
+    .result .form-group .form-control:-ms-input-placeholder {
+      color: #999; }
+    .result .form-group .form-control:-moz-placeholder {
+      color: #999; }
+.result .result-title {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-size: 18px;
+  color: #333;
+  font-weight: 400;
+  text-align: center; }
+  .result .result-title > span {
+    color: #00a1e9;
+    font-weight: 500; }
+.result article ~ article {
+  margin-top: 40px; }
+.result article > h3 {
+  font-size: 14px;
+  color: #333;
+  font-weight: 400; }
+.result article .article-content {
+  margin-top: 15px;
+  background-color: #fff; }
+  .result article .article-content > ul {
+    padding: 30px; }
+    .result article .article-content > ul > li ~ li {
+      margin-top: 20px; }
+    .result article .article-content > ul > li > a {
+      font-size: 13px;
+      color: #333;
+      font-family: 'Roboto', sans-serif; }
+      .result article .article-content > ul > li > a:before {
+        content: "-";
+        display: inline-block;
+        margin-right: 5px;
+        font-size: 13px; }
+      .result article .article-content > ul > li > a:hover {
+        color: #00a1e9;
+        font-weight: 400; }
+  .result article .article-content > figure {
+    padding: 80px 0;
+    text-align: center; }
+    .result article .article-content > figure figcaption {
+      font-size: 15px;
+      color: #333;
+      margin-top: 22px;
+      text-align: center; }
+@media (min-width: 768px) {
+  .result .form-group {
+    width: 410px;
+    margin: 0 auto;
+    margin-top: 60px; }
+    .result .form-group .form-control {
+      padding-left: 25px; }
+  .result .result-title {
+    font-size: 24px;
+    padding-top: 45px;
+    padding-bottom: 90px; }
+  .result article ~ article {
+    margin-top: 60px; }
+  .result article > h3 {
+    font-size: 18px; }
+  .result article .article-content {
+    margin-top: 20px; }
+    .result article .article-content > ul {
+      font-size: 0;
+      padding: 50px; }
+      .result article .article-content > ul > li {
+        display: inline-block;
+        width: 33%;
+        vertical-align: top; }
+        .result article .article-content > ul > li ~ li {
+          margin-top: 0; }
+        .result article .article-content > ul > li:nth-of-type(3) ~ li {
+          margin-top: 35px; }
+        .result article .article-content > ul > li > a {
+          font-size: 14px;
+          vertical-align: top; }
+    .result article .article-content > figure {
+      padding: 50px 0; }
+      .result article .article-content > figure figcaption {
+        font-size: 17px; } }
+@media (min-width: 1200px) {
+  .result .form-group {
+    margin-top: 50px; }
+  .result .result-title {
+    font-size: 24px;
+    padding-bottom: 70px; }
+  .result article .article-content > ul > li {
+    width: 25%; }
+    .result article .article-content > ul > li:nth-of-type(3) ~ li {
+      margin-top: 0; }
+    .result article .article-content > ul > li:nth-of-type(4) ~ li {
+      margin-top: 35px; } }
+
 /*# sourceMappingURL=sub.css.map */
