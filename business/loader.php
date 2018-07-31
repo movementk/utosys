@@ -108,9 +108,16 @@
 					</div>
 				</div>
 				<div class="col-12">
-					<video class="video" controls loop="" muted="" autoplay="">
+					<!-- Transfer -->
+					<video class="video" controls loop muted autoplay>
 						<source src="/assets/video/26529263-preview.mp4" type="video/mp4">이 브라우저는 동영상을 지원하지 않습니다.
 					</video>
+					
+					<!-- Inspection
+					<video class="video" controls loop muted autoplay>
+						<source src="/assets/video/411421-preview.mp4" type="video/mp4">이 브라우저는 동영상을 지원하지 않습니다.
+					</video>
+					-->
 				</div>
 			</div>
 		</div>
