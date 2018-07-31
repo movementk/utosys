@@ -213,7 +213,7 @@
 					bottom: 50%;
 					left: 100%;
 					margin-top: -11px;
-					margin-left: 14px;
+					margin-left: 50px;
 				}
 				&:first-child {
 					> .icon {
@@ -1077,6 +1077,8 @@
 		margin: 0 auto;
 		margin-right: 38px;
 		border-radius: 0;
+		border: none;
+		background: none;
 		.close {
 			position: absolute;
 			right: -25px; 
@@ -1085,6 +1087,7 @@
 			color: #fff;
 			font-weight: 400;
 			outline: none;
+			text-shadow: none;
 			z-index: 5;
 		}
 		.modal-body {
