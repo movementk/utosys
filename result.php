@@ -17,14 +17,14 @@
 	<!-- Content -->
     <main id="content" class="result">
     	<div class="container">
-			<div class="form-group">
-				<form action="#">			
-					<lavel for="pd-search" class="sr-only">검색하기</lavel>
-					<input type="text" id="pd-search" class="form-control" placeholder="Loader">
+    		<form action="#">
+				<div class="form-group">
+					<lavel for="search" class="sr-only">검색하기</lavel>
+					<input type="text" id="search" class="form-control" placeholder="Loader">
 					<button type="submit" class="btn btn-search">					
 					</button>
-				</form>	
-			</div>
+				</div>
+			</form>	
 			<h2 class="result-title">
 				‘<span>Loader</span>’ 로 검색하신 결과입니다.
 			</h2>
