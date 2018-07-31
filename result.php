@@ -19,14 +19,14 @@
     	<div class="container">
     		<form action="#">
 				<div class="form-group">
-					<lavel for="search" class="sr-only">검색하기</lavel>
+					<label for="search" class="sr-only">검색하기</label>
 					<input type="text" id="search" class="form-control" placeholder="Loader">
 					<button type="submit" class="btn btn-search">					
 					</button>
 				</div>
 			</form>	
 			<h2 class="result-title">
-				‘<span>Loader</span>’ 로 검색하신 결과입니다.
+				‘ <span>Loader</span> ’ 로 검색하신 결과입니다.
 			</h2>
 			<article>
 				<h3>FPD Transfer System (물류설비)</h3>
