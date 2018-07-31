@@ -562,5 +562,14 @@ a {
   @media (min-width: 1200px) {
     .fpd-system .table-wrap {
       margin-top: 70px; } }
+.fpd-system .video {
+  width: 100%;
+  margin-top: 20px; }
+  @media (min-width: 768px) {
+    .fpd-system .video {
+      margin-top: 50px; } }
+  @media (min-width: 1200px) {
+    .fpd-system .video {
+      margin-top: 60px; } }
 
 /*# sourceMappingURL=business.css.map */
