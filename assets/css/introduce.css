@@ -1024,9 +1024,8 @@ a {
           .location .main-office .container > .row > .col-12 > dl dd {
             margin-top: 30px; }
             .location .main-office .container > .row > .col-12 > dl dd > .items {
-              height: 60px; }
-              .location .main-office .container > .row > .col-12 > dl dd > .items > img {
-                height: 100%; }
+              height: 60px;
+              line-height: 60px; }
             .location .main-office .container > .row > .col-12 > dl dd > p {
               font-size: 16px;
               margin-top: 20px; }
@@ -1046,7 +1045,8 @@ a {
         .location .main-office .container > .row > .col-12 > dl dt {
           font-size: 17px; }
         .location .main-office .container > .row > .col-12 > dl dd > .items {
-          height: auto; }
+          height: 65px;
+          line-height: 65px; }
         .location .main-office .container > .row > .col-12 > dl dd small {
           font-size: 13px; } }
 
