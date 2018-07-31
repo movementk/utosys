@@ -46,19 +46,6 @@
 			$('body').removeClass("opened");
 		}
 	});
-    
-    // main modal popup
-    $('.main-popup').modal().show();
-    $(window).ready(function(){
-        $('.main-popup .modal-slide').slick({
-            autoplay: true,
-            autoplaySpeed: 5000,
-            adaptiveHeight: true,
-            arrows: false,
-            dots: true,
-            infinite: true,
-        });
-    });
 
     // global-search
     $(document).on('click','.global-search .btn-search', function(){

@@ -54,7 +54,7 @@
 					<figure>
 						<img src="/assets/images/business/img_loader_sm.jpg" class="img-fluid d-md-none" alt="">
 						<img src="/assets/images/business/img_loader_md.jpg" class="img-fluid d-sm-none d-md-block d-xl-none" alt="">
-						<img src="/assets/images/business/img_loader_xl.jpg" class="img-fluid d-sm-none d-md-none d-xl-block"alt="">
+						<img src="/assets/images/business/img_loader_xl.jpg" class="img-fluid d-sm-none d-md-none d-xl-block" alt="">
 					</figure>
 				</div> 
 				<div class="col-12 col-xl-6">
