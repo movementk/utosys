@@ -758,6 +758,11 @@
 					display: inline-block;
 					width: 49%;
 					background-position: 85% 50%;
+					&:hover {
+						border-color: #002e79;
+						box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.15);
+						@include transition();  
+					}
 					& ~ li {
 						margin-top: 0;
 					}
@@ -815,7 +820,7 @@
 		}
 		.bg-utosys {
 			height: 383px;
-			padding: 45px 40px;
+			padding: 45px 0 0 40px;
 			margin-top: 20px;
 			> h4 {
 				font-size: 27px;

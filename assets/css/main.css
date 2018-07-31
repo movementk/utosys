@@ -946,6 +946,17 @@ a {
           display: inline-block;
           width: 49%;
           background-position: 85% 50%; }
+          .quick .quick-menu .qucik-info > li:hover {
+            border-color: #002e79;
+            box-shadow: 2px 3px 8px 0px rgba(0, 0, 0, 0.15);
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
           .quick .quick-menu .qucik-info > li ~ li {
             margin-top: 0; }
           .quick .quick-menu .qucik-info > li:nth-of-type(1) {
@@ -984,7 +995,7 @@ a {
             top: 33px; }
       .quick .bg-utosys {
         height: 383px;
-        padding: 45px 40px;
+        padding: 45px 0 0 40px;
         margin-top: 20px; }
         .quick .bg-utosys > h4 {
           font-size: 27px;
