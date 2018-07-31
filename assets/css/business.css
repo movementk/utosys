@@ -427,6 +427,8 @@ a {
       text-align: center;
       padding-top: 15px;
       font-family: 'Roboto', sans-serif; }
+      .tab-list ul li a.space {
+        padding-top: 7px; }
     .tab-list ul li:nth-of-type(2n+1) {
       border-left: 1px solid #d6d6d6; }
       .tab-list ul li:nth-of-type(2n+1).active {
@@ -443,18 +445,12 @@ a {
       border-top: 1px solid #d6d6d6; }
       .tab-list ul li:nth-of-type(2).active {
         border: 1px solid #072d68; }
-      .tab-list ul li:nth-of-type(2) a {
-        padding-top: 7px; }
       .tab-list ul li:nth-of-type(2):hover {
         border-color: #072d68; }
-    .tab-list ul li:nth-of-type(3) a {
-      padding-top: 7px; }
     .tab-list ul li:nth-of-type(4).active {
       border: 1px solid #072d68; }
     .tab-list ul li:nth-of-type(4):hover {
       border-color: #072d68; }
-    .tab-list ul li:nth-of-type(5) a {
-      padding-top: 7px; }
 @media (min-width: 768px) {
   .tab-list ul li {
     width: 33.33%;
@@ -463,43 +459,31 @@ a {
     border-right: 1px solid #d6d6d6; }
     .tab-list ul li a {
       padding-top: 0;
-      font-size: 15px;
+      font-size: 14px;
       height: 55px;
       line-height: 55px; }
+      .tab-list ul li a.space {
+        padding-top: 0; }
     .tab-list ul li:nth-of-type(2n+1) {
       border-left: 0; }
     .tab-list ul li:first-child {
       border-left: 1px solid #d6d6d6; }
       .tab-list ul li:first-child:hover {
         border-color: #072d68; }
-    .tab-list ul li:nth-of-type(2) a {
-      padding: 0; }
     .tab-list ul li:nth-of-type(2):hover {
       border-color: #072d68;
       border-bottom: 1px solid #072d68; }
     .tab-list ul li:nth-of-type(2) ~ li {
       border-bottom: 1px solid #d6d6d6; }
-    .tab-list ul li:nth-of-type(3) a {
-      padding-top: 0; }
     .tab-list ul li:nth-of-type(4) {
-      border-left: 1px solid #d6d6d6; }
-    .tab-list ul li:nth-of-type(5) a {
-      padding-top: 0; } }
+      border-left: 1px solid #d6d6d6; } }
 @media (min-width: 1200px) {
   .tab-list ul li {
     width: 20%;
-    border: 0;
     border: 1px solid #d6d6d6;
     border-left: 0; }
-    .tab-list ul li a {
-      padding-top: 0;
-      font-size: 15px;
-      height: 55px;
-      line-height: 55px; }
     .tab-list ul li:nth-of-type(2n+1) {
       border-left: 0; }
-    .tab-list ul li:first-child {
-      border-left: 1px solid #d6d6d6; }
     .tab-list ul li:nth-of-type(4) {
       border-left: 0; } }
 
