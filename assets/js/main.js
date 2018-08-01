@@ -9,7 +9,7 @@
         $('.jumbotron ul').slick({
             autoplay: true,
             dots: true,
-            autoplaySpeed: 7000,
+            autoplaySpeed: 5000,
             slidesToShow: 1,
             slidesToScroll: 1,
             prevArrow: '<button class="slick-prev"><i class="icon-left"></i></button>',
