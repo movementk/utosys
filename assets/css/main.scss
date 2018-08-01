@@ -706,37 +706,39 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
-		> h4 {
-			font-size: 18px;
-			color: #fff;
-			line-height: 28px;
-			font-weight: 400;
-			letter-spacing: -.8px;
-			text-shadow: 2px 3px 7px rgba(0, 0, 0, 0.35); 
-			> b {
-				display: block;
-				font-size: 22px;
-				font-weight: 500;
-			}
-		}
-		> .btn-area {
-			margin-top: 30px;
-			p {
-				.btn-details {
-					width: 110px;
-					line-height: 35px;
-					font-size: 12px;
-					color: #fff;
-					text-align: center;
-					border: 1px solid #fff;
-					&:hover, &:focus {
-						border: 1px solid #1e97cd;
-						background-color: rgba(0, 161, 233, .6);
-						@include transition();
-					}
-				}
-			}
-		}
+        .summary {
+            > h4 {
+                font-size: 18px;
+                color: #fff;
+                line-height: 28px;
+                font-weight: 400;
+                letter-spacing: -.8px;
+                text-shadow: 2px 3px 7px rgba(0, 0, 0, 0.35); 
+                > b {
+                    display: block;
+                    font-size: 22px;
+                    font-weight: 500;
+                }
+            }
+            > .btn-area {
+                margin-top: 30px;
+                p {
+                    .btn-details {
+                        width: 110px;
+                        line-height: 35px;
+                        font-size: 12px;
+                        color: #fff;
+                        text-align: center;
+                        border: 1px solid #fff;
+                        &:hover, &:focus {
+                            border: 1px solid #1e97cd;
+                            background-color: rgba(0, 161, 233, .6);
+                            @include transition();
+                        }
+                    }
+                }
+            }
+        }
 	}
 	@media (min-width: $md) {
 		padding: 40px 0;
@@ -822,21 +824,24 @@
 			height: 383px;
 			padding: 45px 0 0 40px;
 			margin-top: 20px;
-			> h4 {
-				font-size: 27px;
-				line-height: 40px;
-				> b {
-					font-size: 31px;
-				}
-			}
-			> .btn-area {
-				p {
-					.btn-details {
-						width: 125px;
-						font-size: 13px;
-					}
-				}
-			}
+            .summary {
+                > h4 {
+                    font-size: 27px;
+                    line-height: 40px;
+                    font-weight: 300;
+                    > b {
+                        font-size: 31px;
+                    }
+                }
+                > .btn-area {
+                    p {
+                        .btn-details {
+                            width: 125px;
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
 		}
 	}
 	@media (min-width: $xl) {
@@ -848,14 +853,32 @@
 			}
 		}
 		.bg-utosys {
+            position: relative;
 			margin-top: 0;
-			> .btn-area {
-				p {
-					.btn-details {
-						width: 120px;
-					}
-				}
-			}
+            background: none;
+            overflow: hidden;
+            &:hover {
+                figure {
+                    transform: scale(1.2);
+                }
+            }
+            figure {
+                position: absolute;
+                top: 0;
+                left: 0;
+                @include transition($duration: .50s);
+            }
+            .summary {
+                position: relative;
+                z-index: 1;
+                > .btn-area {
+                    p {
+                        .btn-details {
+                            width: 120px;
+                        }
+                    }
+                }
+            }
 		}
 	} 
 }

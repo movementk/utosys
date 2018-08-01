@@ -225,15 +225,20 @@
 					</div>
 					<div class="col-12 col-xl-5 order-xl-first">
 						<div class="bg-utosys">
-							<h4>
-								사람이 건강하고, 회사가 건강한 <br>
-								<b>백년가치의 기업 (주)유토시스</b>
-							</h4>
-							<div class="btn-area">
-								<p>
-									<a href="#" class="btn btn-details" role="button">자세히보기</a>
-								</p>
-							</div>
+                            <figure class="d-none d-xl-block">
+						        <img src="/assets/images/img_utosys.jpg" class="img-fluid" alt="">
+                            </figure>
+                            <div class="summary">
+                                <h4>
+                                    사람이 건강하고, 회사가 건강한 <br>
+                                    <b>백년가치의 기업 (주)유토시스</b>
+                                </h4>
+                                <div class="btn-area">
+                                    <p>
+                                        <a href="#" class="btn btn-details" role="button">자세히보기</a>
+                                    </p>
+                                </div>
+                            </div>
 						</div>
 					</div>
 				</div>

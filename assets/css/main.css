@@ -899,27 +899,27 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }
-    .quick .bg-utosys > h4 {
+    .quick .bg-utosys .summary > h4 {
       font-size: 18px;
       color: #fff;
       line-height: 28px;
       font-weight: 400;
       letter-spacing: -.8px;
       text-shadow: 2px 3px 7px rgba(0, 0, 0, 0.35); }
-      .quick .bg-utosys > h4 > b {
+      .quick .bg-utosys .summary > h4 > b {
         display: block;
         font-size: 22px;
         font-weight: 500; }
-    .quick .bg-utosys > .btn-area {
+    .quick .bg-utosys .summary > .btn-area {
       margin-top: 30px; }
-      .quick .bg-utosys > .btn-area p .btn-details {
+      .quick .bg-utosys .summary > .btn-area p .btn-details {
         width: 110px;
         line-height: 35px;
         font-size: 12px;
         color: #fff;
         text-align: center;
         border: 1px solid #fff; }
-        .quick .bg-utosys > .btn-area p .btn-details:hover, .quick .bg-utosys > .btn-area p .btn-details:focus {
+        .quick .bg-utosys .summary > .btn-area p .btn-details:hover, .quick .bg-utosys .summary > .btn-area p .btn-details:focus {
           border: 1px solid #1e97cd;
           background-color: rgba(0, 161, 233, 0.6);
           -webkit-transition-property: all;
@@ -997,12 +997,13 @@ a {
         height: 383px;
         padding: 45px 0 0 40px;
         margin-top: 20px; }
-        .quick .bg-utosys > h4 {
+        .quick .bg-utosys .summary > h4 {
           font-size: 27px;
-          line-height: 40px; }
-          .quick .bg-utosys > h4 > b {
+          line-height: 40px;
+          font-weight: 300; }
+          .quick .bg-utosys .summary > h4 > b {
             font-size: 31px; }
-        .quick .bg-utosys > .btn-area p .btn-details {
+        .quick .bg-utosys .summary > .btn-area p .btn-details {
           width: 125px;
           font-size: 13px; } }
   @media (min-width: 1200px) {
@@ -1013,9 +1014,29 @@ a {
         .quick .quick-menu .qucik-list {
           margin-top: 30px; }
       .quick .bg-utosys {
-        margin-top: 0; }
-        .quick .bg-utosys > .btn-area p .btn-details {
-          width: 120px; } }
+        position: relative;
+        margin-top: 0;
+        background: none;
+        overflow: hidden; }
+        .quick .bg-utosys:hover figure {
+          transform: scale(1.2); }
+        .quick .bg-utosys figure {
+          position: absolute;
+          top: 0;
+          left: 0;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+        .quick .bg-utosys .summary {
+          position: relative;
+          z-index: 1; }
+          .quick .bg-utosys .summary > .btn-area p .btn-details {
+            width: 120px; } }
 
 .modal .modal-dialog {
   margin-top: 100px;
