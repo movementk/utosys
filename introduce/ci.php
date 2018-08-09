@@ -53,17 +53,17 @@
 					<div class="bg-square">
 						<img src="/assets/images/introduce/img_ci_logo.png" alt="로고">
 					</div>
-					<div class="btn-area">
+					<!--div class="btn-area">
 						<p>
 							<a href="#" class="btn btn-white" role="button">AI 파일 다운로드</a>
 							<a href="#" class="btn btn-navy" role="button">PDF 파일 다운로드</a>
 						</p>
 					</div>
-					<p>로고타입은 절대로 임의로 타이핑하여 사용, 색상 임의 조절, 로고 일부만 사용하는 등의 변형을 할 수 없습니다.</p>
+					<p>로고타입은 절대로 임의로 타이핑하여 사용, 색상 임의 조절, 로고 일부만 사용하는 등의 변형을 할 수 없습니다.</p-->
 				</div>
 			</div>
 		</section>
-		<section class="ci-color">
+		<!--section class="ci-color">
 			<div class="container">
 				<div class="section-header">
 					<div class="page-title">
@@ -112,7 +112,7 @@
 					</ul>
 				</div>
 			</div>
-		</section>
+		</section-->
 		
 	</main>
 		

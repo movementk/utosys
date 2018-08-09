@@ -74,14 +74,14 @@
 								<div class="system-wrap">
 									<div class="system content1">
 										<div class="item">
-											<img src="/assets/images/img_content1.png" class="img-fluid" alt="FPD Transfer System">
+											<img src="/assets/images/img_content2.png" class="img-fluid" alt="FPD Inspection System">
 										</div>
 										<div class="details">
-											<h3>FPD Transfer<br class="d-xl-none"> System</h3>
+											<h3>FPD Inspection<br class="d-xl-none"> System</h3>
 											<p class="d-none d-xl-block">
-												FPD Transfer System의 간략한 설명이
-												노출되며 해당 제품군으로 바로가기 할
-												수 있는 영역입니다.
+												FPD  Inspection System의 간략한
+												설명이노출되며 해당 제품군으로 바로가기
+												할 수 있는 영역입니다.
 											</p>
 											<div class="btn-area d-none d-md-block">
 												<p>
@@ -96,14 +96,14 @@
 								<div class="system-wrap">
 									<div class="system content2">
 										<div class="item">
-											<img src="/assets/images/img_content2.png" class="img-fluid" alt="FPD Inspection System">
+											<img src="/assets/images/img_content1.png" class="img-fluid" alt="FPD Transfer System">
 										</div>
 										<div class="details">
-											<h3>FPD Inspection<br class="d-xl-none"> System</h3>
+											<h3>FPD Transfer<br class="d-xl-none"> System</h3>
 											<p class="d-none d-xl-block">
-												FPD  Inspection System의 간략한
-												설명이노출되며 해당 제품군으로 바로가기
-												할 수 있는 영역입니다.
+												FPD Transfer System의 간략한 설명이
+												노출되며 해당 제품군으로 바로가기 할
+												수 있는 영역입니다.
 											</p>
 											<div class="btn-area d-none d-md-block">
 												<p>
@@ -226,7 +226,7 @@
 					<div class="col-12 col-xl-5 order-xl-first">
 						<div class="bg-utosys">
                             <figure class="d-none d-xl-block">
-						        <img src="/assets/images/img_utosys.jpg" class="img-fluid" alt="">
+						        <img src="/assets/images/img_utosys02.jpg" class="img-fluid" alt="">
                             </figure>
                             <div class="summary">
                                 <h4>
