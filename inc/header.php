@@ -76,7 +76,7 @@
 					<ul>
 						<li><a href="/recruit/recruit_person.php">인재상<span></span></a></li>
 						<li><a href="/recruit/walfare.php">복지제도<span></span></a></li>
-						<li><a href="#">채용안내<span></span></a></li>
+						<li><a href="/recruit/recruitment.php">채용안내<span></span></a></li>
 					</ul>
 				</li>
 				<li>

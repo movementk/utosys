@@ -84,7 +84,7 @@
 							<a href="/recruit/walfare.php">복지제도</a>
 						</li>
 						<li> 
-							<a href="#">채용안내</a>
+							<a href="/recruit/recruitment.php">채용안내</a>
 						</li>
 					</ul>
 				</li>
