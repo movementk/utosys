@@ -46,35 +46,75 @@
 						<h2>오시는길</h2>
 					</div> 
 				</div>
-				<div class="section-content">
-					<h4>본사 (구미사업장)</h4>
-					<ul class="details">
-						<li>
-							<dl>
-								<dt>주소</dt>
-								<dd>경북 구미시 도신로 162-32</dd>
-							</dl>
-						</li>
-						<li>
-							<dl>
-								<dt>대표번호</dt>
-								<dd><a href="tel:0544738122">054-473-8122</a></dd>
-							</dl>
-						</li>
-						<li>
-							<dl>
-								<dt>FAX</dt>
-								<dd>054-473-8123</dd>
-							</dl>
-						</li>
-					</ul>
-					<div class="maps">
-						<img src="/assets/images/introduce/img_maps.jpg" class="img-fluid" alt="지도">
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">본사 (구미사업장)</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="paju-tab" data-toggle="tab" href="#paju" role="tab" aria-controls="profile" aria-selected="false">파주사무소</a>
+					</li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+						<div class="section-content">
+							<h4>본사 (구미사업장)</h4>
+							<ul class="details">
+								<li>
+									<dl>
+										<dt>주소</dt>
+										<dd>경북 구미시 도신로 162-32</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt>대표번호</dt>
+										<dd><a href="tel:0544738122">054-473-8122</a></dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt>FAX</dt>
+										<dd>054-473-8123</dd>
+									</dl>
+								</li>
+							</ul>
+							<div class="maps">
+								<img src="/assets/images/introduce/img_maps.jpg" class="img-fluid" alt="지도">
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="paju" role="tabpanel" aria-labelledby="paju-tab">
+						<div class="section-content">
+							<h4>파주사무소</h4>
+							<ul class="details">
+								<li>
+									<dl>
+										<dt>주소</dt>
+										<dd>파주시 월롱면 덕은리 1248-2(엘씨디로 241번지 8-9) 함께하는 친구들 1층 103호</dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt>대표번호</dt>
+										<dd><a href="tel:0544738122">054-473-8122</a></dd>
+									</dl>
+								</li>
+								<li>
+									<dl>
+										<dt>FAX</dt>
+										<dd>054-473-8123</dd>
+									</dl>
+								</li>
+							</ul>
+							<div class="maps">
+								<img src="/assets/images/introduce/img_maps.jpg" class="img-fluid" alt="지도">
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="main-office">
+		<!--section class="main-office">
 			<div class="container">
 				<h4>본사현황</h4>
 				<ul class="row">
@@ -129,7 +169,7 @@
 					</li>
 				</ul>
 			</div>
-		</section>
+		</section-->
 		
 	</main>
 		

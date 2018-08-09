@@ -736,7 +736,45 @@
 	padding-bottom: 0 !important;
 	.route {
 		padding-bottom: 50px;
+		.nav-tabs {
+			overflow: hidden;
+			width: 100%;
+			border: 0;
+			background-color: #fff;
+			.nav-item {
+				margin: 0;
+				float: left;
+				width: 50%;
+				& ~ li {
+					.nav-link {
+						border-left: 0;
+					}
+				}
+				
+				.nav-link {
+					border: 0;
+					padding: 0;
+					border-radius: 0;
+					font-size: 14px;
+					text-align: center;
+					line-height: 45px;
+					border: 1px solid #d6d6d6;
+					&:hover {
+						color: #fff;
+						border: 1px solid #072d68;
+						background-color: #072d68;
+						@include transition();
+					}
+					&.active {
+						color: #fff;
+						border: 1px solid #072d68;
+						background-color: #072d68; 
+					}
+				}
+			}
+		}
 		.section-content {
+			padding-top: 40px;
 			> h4 {
 				font-size: 15px;
 				color: #333;
@@ -811,7 +849,16 @@
 		}
 		@media (min-width: $md) {
 			padding-bottom: 70px;
+			.nav-tabs {
+				.nav-item {
+					.nav-link {
+						font-size: 15px;
+						line-height: 55px;
+					}
+				}
+			}
 			.section-content {
+				padding-top: 50px;
 				> h4 {
 					font-size: 18px;
 					padding-bottom: 15px; 
@@ -836,6 +883,7 @@
 		@media (min-width: $xl) {
 			padding-bottom: 100px;
 			.section-content {
+				padding-top: 70px;
 				.details {
 					padding: 25px 0 25px 30px;
 					> li {
