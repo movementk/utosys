@@ -641,4 +641,124 @@ a {
     .walfare article .info ol li dl dd {
       font-size: 14px; } }
 
+.recruitment .process .article-header {
+  padding-bottom: 60px;
+  border-bottom: 1px solid #000; }
+  .recruitment .process .article-header > ol {
+    overflow: hidden; }
+    .recruitment .process .article-header > ol > li {
+      width: 50%;
+      float: left;
+      text-align: center; }
+      .recruitment .process .article-header > ol > li:nth-of-type(2) ~ li {
+        margin-top: 55px; }
+      .recruitment .process .article-header > ol > li figure {
+        text-align: center;
+        display: inline-block;
+        padding: 0 10%;
+        /*img {
+            display: inline-block;
+            width: 110px;
+        }*/ }
+        .recruitment .process .article-header > ol > li figure figcaption {
+          margin-top: 15px; }
+          .recruitment .process .article-header > ol > li figure figcaption small {
+            font-size: 10px;
+            color: #00a1e9;
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block; }
+          .recruitment .process .article-header > ol > li figure figcaption p {
+            font-size: 15px;
+            color: #333;
+            font-weight: 400; }
+.recruitment .process .article-content {
+  background-color: #fff; }
+  .recruitment .process .article-content ol li {
+    padding: 30px 20px;
+    border-bottom: 1px dotted #ccc; }
+    .recruitment .process .article-content ol li:last-child {
+      border-bottom: 1px solid #ccc; }
+  .recruitment .process .article-content strong {
+    @ionclude lato();
+    font-weight: bold;
+    color: #00a1e9;
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: top; }
+  .recruitment .process .article-content h4 {
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+    display: inline-block; }
+  .recruitment .process .article-content .summary {
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+    font-weight: 300;
+    margin-top: 35px; }
+@media (min-width: 768px) {
+  .recruitment .process .article-header {
+    padding-bottom: 80px; }
+    .recruitment .process .article-header > ol {
+      overflow: hidden; }
+      .recruitment .process .article-header > ol > li {
+        position: relative;
+        width: 33.33%;
+        text-align: center; }
+        .recruitment .process .article-header > ol > li:nth-of-type(2) ~ li {
+          margin-top: 0; }
+        .recruitment .process .article-header > ol > li:nth-of-type(3) ~ li {
+          margin-top: 55px; }
+        .recruitment .process .article-header > ol > li:nth-of-type(3):after {
+          display: none; }
+        .recruitment .process .article-header > ol > li:nth-of-type(5):after {
+          display: none; }
+        .recruitment .process .article-header > ol > li:nth-of-type(4) {
+          margin-left: 16.55%; }
+        .recruitment .process .article-header > ol > li:after {
+          position: absolute;
+          top: 68px;
+          right: -5px;
+          font-size: 20px;
+          color: #000;
+          font-family: "fontello";
+          content: "\F006"; }
+        .recruitment .process .article-header > ol > li figure {
+          text-align: center;
+          display: inline-block;
+          padding: 0; }
+          .recruitment .process .article-header > ol > li figure figcaption {
+            margin-top: 30px; }
+            .recruitment .process .article-header > ol > li figure figcaption p {
+              font-size: 18px; }
+  .recruitment .process .article-content ol li {
+    padding: 30px 0; }
+  .recruitment .process .article-content h4 {
+    font-size: 16px; }
+  .recruitment .process .article-content strong {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 50px 0 40px; }
+  .recruitment .process .article-content .summary {
+    font-size: 15px;
+    line-height: 26px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0; } }
+@media (min-width: 1200px) {
+  .recruitment .process .article-header {
+    padding-bottom: 110px; }
+    .recruitment .process .article-header > ol {
+      overflow: hidden; }
+      .recruitment .process .article-header > ol > li {
+        position: relative;
+        width: 20%;
+        float: left;
+        text-align: center;
+        margin: 0 !important; }
+        .recruitment .process .article-header > ol > li:nth-of-type(3):after {
+          display: block; } }
+
 /*# sourceMappingURL=recruit.css.map */

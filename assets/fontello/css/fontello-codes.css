@@ -13,6 +13,8 @@
 .icon-location:before { content: '\e80b'; } /* '' */
 .icon-lock:before { content: '\e80c'; } /* '' */
 .icon-ok:before { content: '\e80d'; } /* '' */
+.icon-right-open:before { content: '\f006'; } /* '' */
+.icon-left-open:before { content: '\f007'; } /* '' */
 .icon-sort-down:before { content: '\f0dd'; } /* '' */
 .icon-doc-text:before { content: '\f0f6'; } /* '' */
 .icon-angle-double-left:before { content: '\f100'; } /* '' */

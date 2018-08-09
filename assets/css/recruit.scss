@@ -356,18 +356,175 @@
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// recruitment
+.recruitment {
+    .process {
+        .article-header {
+            padding-bottom: 60px;
+            border-bottom: 1px solid #000;
+            > ol {
+                overflow: hidden;
+                > li {
+                    width: 50%;
+                    float: left;
+                    text-align: center;
+                    &:nth-of-type(2) ~ li {
+                        margin-top: 55px;
+                    }
+                    figure {
+                        text-align: center;
+                        display: inline-block;
+                        padding: 0 10%;
+                        /*img {
+                            display: inline-block;
+                            width: 110px;
+                        }*/
+                        figcaption {
+                            margin-top: 15px;
+                            small {
+                                font-size: 10px;
+                                color: #00a1e9;
+                                @include lato();
+                                font-weight: bold;
+                                margin-bottom: 5px;
+                                display: block;
+                            }
+                            p {
+                                font-size: 15px;
+                                color: #333;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .article-content {
+            background-color: #fff;
+            ol {
+                li {
+                    padding: 30px 20px;
+                    border-bottom: 1px dotted #ccc;
+                    &:last-child {
+                        border-bottom: 1px solid #ccc;
+                    }
+                }
+            }
+            strong {
+                @ionclude lato();
+                font-weight: bold;
+                color: #00a1e9;
+                display: inline-block;
+                margin-right: 30px;
+                vertical-align: top;
+            }
+            h4 {
+                font-size: 16px;
+                color: #333;
+                font-weight: 400;
+                display: inline-block;
+            }
+            .summary {
+                font-size: 14px;
+                color: #666;
+                line-height: 24px;
+                font-weight: 300;
+                margin-top: 35px;
+            }
+        }
+        @media(min-width: $md) {
+            .article-header {
+                padding-bottom: 80px;
+                > ol {
+                    overflow: hidden;
+                    > li {
+                        position: relative;
+                        width: 33.33%;
+                        text-align: center;
+                        &:nth-of-type(2) ~ li {
+                            margin-top: 0;
+                        }
+                        &:nth-of-type(3) ~ li {
+                            margin-top: 55px;
+                        }
+                        &:nth-of-type(3) {
+                            &:after {
+                                display: none;
+                            }
+                        }
+                        &:nth-of-type(5) {
+                            &:after {
+                                display: none;
+                            }
+                        }
+                        &:nth-of-type(4) {
+                            margin-left: 16.55%;
+                        }
+                        &:after {
+                            position: absolute;
+                            top: 68px;
+                            right: -5px;
+                            font-size: 20px;
+                            color: #000;
+                            font-family: "fontello";
+                            content: "\F006";
+                        }
+                        figure {
+                            text-align: center;
+                            display: inline-block;
+                            padding: 0;
+                            figcaption {
+                                margin-top: 30px;
+                                p {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .article-content {
+                ol {
+                    li {
+                        padding: 30px 0;
+                    }
+                }
+                h4 {
+                    font-size: 16px;
+                }
+                strong {
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin: 0 50px 0 40px;
+                }
+                .summary {
+                    font-size: 15px;
+                    line-height: 26px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    margin: 0;
+                }
+            }
+        }
+        @media(min-width: $xl) {
+            .article-header {
+                padding-bottom: 110px;
+                > ol {
+                    overflow: hidden;
+                    > li {
+                        position: relative;
+                        width: 20%;
+                        float: left;
+                        text-align: center;
+                        margin: 0 !important;
+                        &:nth-of-type(3) {
+                            &:after {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
