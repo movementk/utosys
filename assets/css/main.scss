@@ -466,22 +466,11 @@
 				line-height: 45px;
 				background-color: #fff;
 				&:hover {
-					background-color: #ea212f;
-					@include transition();
 					.row {
-						.col-2 {
-							> span {
-								color: #fff;
-							}
-						}
 						.col-12 {
 							a {
 								> h4 {
 									font-weight: bold;
-									color: #fff;
-									&:after {
-										color: #fff;
-									}
 								}
 							}
 						}

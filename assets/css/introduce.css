@@ -2,6 +2,7 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
 @import url("https://fonts.googleapis.com/css?family=Nanum+Myeongjo");
+@import url("https://fonts.googleapis.com/css?family=Lato");
 @font-face {
   font-family: 'Noto Sans KR';
   font-style: normal;
@@ -493,109 +494,189 @@ a {
         line-height: 26px;
         /*word-break: keep-all;*/ } }
 
-.ideology .ideology-list > li {
-  position: relative;
-  display: block;
-  width: 210px;
-  height: 210px;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 45px;
+.ideology .ideology-bg {
+  height: 370px;
+  padding-top: 230px;
+  padding-left: 10px;
+  padding-right: 50px;
+  margin-bottom: 70px;
+  background-image: url(/assets/images/introduce/bg_ideology.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
-  .ideology .ideology-list > li ~ li {
-    margin-top: 60px; }
-  .ideology .ideology-list > li:after {
-    content: " ";
-    position: absolute;
-    bottom: -44px;
-    left: 50%;
-    margin-left: -11px;
+  background-position: center;
+  background-size: cover; }
+  .ideology .ideology-bg strong {
+    font-size: 22px;
+    color: #333;
+    font-weight: 500; }
+  .ideology .ideology-bg p {
+    font-size: 14px;
+    color: #333;
+    line-height: 22px;
+    margin-top: 20px;
+    word-break: keep-all; }
+    .ideology .ideology-bg p > b {
+      font-weight: 500; }
+@media (min-width: 768px) {
+  .ideology .ideology-bg {
+    height: 425px;
+    padding-top: 270px;
+    padding-left: 40px;
+    padding-right: 0;
+    margin-bottom: 80px; }
+    .ideology .ideology-bg strong {
+      font-size: 26px; }
+    .ideology .ideology-bg p {
+      font-size: 16px;
+      line-height: 24px; } }
+@media (min-width: 1200px) {
+  .ideology .ideology-bg {
+    height: 500px;
+    padding-top: 340px;
+    padding-left: 70px;
+    margin-bottom: 135px; } }
+.ideology .vision {
+  text-align: center;
+  padding: 50px 10px;
+  background-color: #326cc9; }
+  .ideology .vision h3 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400; }
+  .ideology .vision figure img {
+    padding: 50px; }
+  .ideology .vision figure figcaption {
+    color: #fff; }
+    .ideology .vision figure figcaption > h4 {
+      font-size: 30px;
+      font-weight: 400;
+      text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
+      font-family: 'Lato', sans-serif; }
+    .ideology .vision figure figcaption > p {
+      font-size: 14px;
+      line-height: 26px;
+      margin-top: 25px; }
+@media (min-width: 768px) {
+  .ideology .vision {
+    padding: 65px 0; }
+    .ideology .vision h3 {
+      font-size: 34px; }
+    .ideology .vision figure figcaption > h4 {
+      font-size: 50px; }
+    .ideology .vision figure figcaption > p {
+      font-size: 14px;
+      line-height: 26px;
+      margin-top: 25px; } }
+.ideology .core-value {
+  text-align: center;
+  padding-top: 90px; }
+  .ideology .core-value h3 {
+    font-size: 25px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 40px; }
+  .ideology .core-value .ideology-list > li {
+    position: relative;
     display: block;
-    width: 22px;
-    height: 22px;
-    background-image: url(/assets/images/introduce/ideology_list_plus.png);
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 45px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
-  .ideology .ideology-list > li:first-child {
-    background-image: url(/assets/images/introduce/ideology_list01.png); }
-    .ideology .ideology-list > li:first-child > .icon img {
-      width: 30px;
-      height: 40px; }
-  .ideology .ideology-list > li:nth-of-type(2) {
-    background-image: url(/assets/images/introduce/ideology_list02.png); }
-    .ideology .ideology-list > li:nth-of-type(2) > .icon img {
-      width: 45px;
-      height: 40px; }
-  .ideology .ideology-list > li:last-child {
-    background-image: url(/assets/images/introduce/ideology_list03.png); }
-    .ideology .ideology-list > li:last-child > .icon img {
-      width: 40px;
-      height: 40px; }
-    .ideology .ideology-list > li:last-child:after {
-      display: none; }
-  .ideology .ideology-list > li > .icon {
-    display: block;
-    margin-bottom: 15px; }
-  .ideology .ideology-list > li > h3 {
-    font-size: 18px;
-    color: #333;
-    font-weight: 400; }
-  .ideology .ideology-list > li > p {
-    font-size: 13px;
-    color: #666;
-    font-weight: 300;
-    line-height: 18px;
-    margin-top: 8px; }
-@media (min-width: 768px) {
-  .ideology .ideology-list {
-    font-size: 0;
-    text-align: center; }
-    .ideology .ideology-list > li {
-      display: inline-block;
-      vertical-align: top;
-      margin-right: 40px; }
-      .ideology .ideology-list > li ~ li {
-        margin-top: 0; }
-      .ideology .ideology-list > li:after {
+    .ideology .core-value .ideology-list > li ~ li {
+      margin-top: 60px; }
+    .ideology .core-value .ideology-list > li:after {
+      content: " ";
+      position: absolute;
+      bottom: -44px;
+      left: 50%;
+      margin-left: -11px;
+      display: block;
+      width: 22px;
+      height: 22px;
+      background-image: url(/assets/images/introduce/ideology_list_plus.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center; }
+    .ideology .core-value .ideology-list > li:first-child {
+      background-image: url(/assets/images/introduce/ideology_list01.png); }
+      .ideology .core-value .ideology-list > li:first-child > .icon img {
+        width: 30px;
+        height: 40px; }
+    .ideology .core-value .ideology-list > li:nth-of-type(2) {
+      background-image: url(/assets/images/introduce/ideology_list02.png); }
+      .ideology .core-value .ideology-list > li:nth-of-type(2) > .icon img {
+        width: 45px;
+        height: 40px; }
+    .ideology .core-value .ideology-list > li:last-child {
+      background-image: url(/assets/images/introduce/ideology_list03.png); }
+      .ideology .core-value .ideology-list > li:last-child > .icon img {
+        width: 40px;
+        height: 40px; }
+      .ideology .core-value .ideology-list > li:last-child:after {
+        display: none; }
+    .ideology .core-value .ideology-list > li > .icon {
+      display: block;
+      margin-bottom: 15px; }
+    .ideology .core-value .ideology-list > li > h4 {
+      font-size: 18px;
+      color: #333;
+      font-weight: 400; }
+    .ideology .core-value .ideology-list > li > p {
+      font-size: 13px;
+      color: #666;
+      font-weight: 300;
+      line-height: 18px;
+      margin-top: 8px; }
+  @media (min-width: 768px) {
+    .ideology .core-value .ideology-list {
+      font-size: 0;
+      text-align: center; }
+      .ideology .core-value .ideology-list > li {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 40px; }
+        .ideology .core-value .ideology-list > li ~ li {
+          margin-top: 0; }
+        .ideology .core-value .ideology-list > li:after {
+          position: absolute;
+          bottom: 50%;
+          left: 100%;
+          margin-top: -11px;
+          margin-left: 10px; }
+        .ideology .core-value .ideology-list > li:last-child {
+          margin-right: 0; } }
+  @media (min-width: 1200px) {
+    .ideology .core-value .ideology-list > li {
+      width: 300px;
+      height: 300px;
+      padding-top: 70px;
+      margin-right: 130px; }
+      .ideology .core-value .ideology-list > li:after {
         position: absolute;
         bottom: 50%;
         left: 100%;
         margin-top: -11px;
-        margin-left: 10px; }
-      .ideology .ideology-list > li:last-child {
-        margin-right: 0; } }
-@media (min-width: 1200px) {
-  .ideology .ideology-list > li {
-    width: 300px;
-    height: 300px;
-    padding-top: 70px;
-    margin-right: 130px; }
-    .ideology .ideology-list > li:after {
-      position: absolute;
-      bottom: 50%;
-      left: 100%;
-      margin-top: -11px;
-      margin-left: 50px; }
-    .ideology .ideology-list > li:first-child > .icon img {
-      width: 40px;
-      height: 57px; }
-    .ideology .ideology-list > li:nth-of-type(2) > .icon img {
-      width: 65px;
-      height: 57px; }
-    .ideology .ideology-list > li:last-child > .icon img {
-      width: 55px;
-      height: 57px; }
-    .ideology .ideology-list > li > .icon {
-      margin-bottom: 20px; }
-    .ideology .ideology-list > li > h3 {
-      font-size: 22px; }
-    .ideology .ideology-list > li > p {
-      font-size: 15px;
-      line-height: 22px;
-      margin-top: 15px; } }
+        margin-left: 50px; }
+      .ideology .core-value .ideology-list > li:first-child > .icon img {
+        width: 40px;
+        height: 57px; }
+      .ideology .core-value .ideology-list > li:nth-of-type(2) > .icon img {
+        width: 65px;
+        height: 57px; }
+      .ideology .core-value .ideology-list > li:last-child > .icon img {
+        width: 55px;
+        height: 57px; }
+      .ideology .core-value .ideology-list > li > .icon {
+        margin-bottom: 20px; }
+      .ideology .core-value .ideology-list > li > h3 {
+        font-size: 22px; }
+      .ideology .core-value .ideology-list > li > p {
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 15px; } }
 .ideology .vision-box {
   margin-top: 55px; }
   .ideology .vision-box > figure {
