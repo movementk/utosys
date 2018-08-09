@@ -1398,7 +1398,147 @@
 
 // 연혁
 .history {
-    
+    .history-list {
+        position: relative;
+        &:before {
+            position: absolute;
+            top: 10px;
+            left: 50px;
+            display: block;
+            content: " ";
+            height: 90%;
+            border-left:  1px solid #e4e4e4;
+        }
+        > li {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+            & ~ li {
+                margin-top: 80px;
+            }
+            .year {
+                position: relative;
+                z-index: 1;
+                display: table-cell;
+                font-size: 20px;
+                color: #fff;
+                line-height: 100px;
+                text-align: center;
+                width: 100px;
+                height: 100px;
+                font-weight: 400;
+                background-repeat: no-repeat;
+                background-size: 100px auto;
+                background-position: 0 0;
+                @include roboto();
+                &.year-15 {
+                    background-image: url(/assets/images/introduce/img_years_circle01.png);
+                }
+                &.year-12 {
+                    background-image: url(/assets/images/introduce/img_years_circle02.png);
+                }
+                &.year-11 {
+                    background-image: url(/assets/images/introduce/img_years_circle03.png);
+                }
+                &.year-09 {
+                    background-image: url(/assets/images/introduce/img_years_circle04.png);
+                }
+                &.year-07 {
+                    background-image: url(/assets/images/introduce/img_years_circle05.png);
+                }
+            }
+            > ol {
+                display: table-cell;
+                vertical-align: middle;
+                padding-left: 20px;
+                > li {
+                    position: relative;
+                    padding-left: 15px;
+                    & ~ li {
+                        margin-top: 20px;
+                    }
+                    &:before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        color: #0ca4ea;
+                        content: "\E809";
+                        font-family: "fontello";
+                    }
+                    dl {
+                        display: table;
+                        width: 100%;
+                        table-layout: fixed;
+                        dt {
+                            display: table-cell;
+                            width: 70px;
+                            font-size: 13px;
+                            color: #333;
+                            font-weight: bold;
+                            line-height: 18px;
+                            vertical-align: top;
+                            @include roboto();
+                        }
+                        dd {
+                            display: table-cell;
+                            vertical-align: top;
+                            font-size: 13px;
+                            color: #666;
+                            font-weight: 400;
+                            line-height: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $md) {
+        .history-list {
+            &:before {
+                left: 55px;
+            }
+            > li {
+                display: inline-block;
+                margin: 0 auto;
+                & ~ li {
+                    margin-top: 130px;
+                }
+                .year {
+                    width: 110px;
+                    height: 110px;
+                    font-size: 22px;
+                    line-height: 110px;
+                    background-size: 110px auto;
+                }
+                > ol {
+                    
+                    > li {
+                        
+                        & ~ li {
+                            
+                        }
+                        &:before {
+                            
+                        }
+                        dl {
+                            
+                            dt {
+                                font-size: 15px;
+                                line-height: 22px;
+                            }
+                            dd {
+                                font-size: 15px;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width: $lg) {
+        
+    }
 }
 
 
