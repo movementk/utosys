@@ -43,10 +43,6 @@
 			<!-- page-title -->
 			<div class="page-title">
 				<h2>연혁/사업실적</h2>
-				<p>
-					<i>(주)유토시스</i>가 걸어온 발자취를 소개합니다<br>
-					늘 한곳만을 바라보면 열심히 전진 합니다
-				</p>
 			</div>
 			<ol class="history-list">
 				<li>
