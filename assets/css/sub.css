@@ -1458,24 +1458,27 @@ a {
             font-weight: 400;
             line-height: 18px; }
 @media (min-width: 768px) {
-  .history .history-list:before {
-    left: 55px; }
-  .history .history-list > li {
-    display: inline-block;
-    margin: 0 auto; }
-    .history .history-list > li ~ li {
-      margin-top: 130px; }
-    .history .history-list > li .year {
-      width: 110px;
-      height: 110px;
-      font-size: 22px;
-      line-height: 110px;
-      background-size: 110px auto; }
-    .history .history-list > li > ol > li dl dt {
-      font-size: 15px;
-      line-height: 22px; }
-    .history .history-list > li > ol > li dl dd {
-      font-size: 15px;
-      line-height: 22px; } }
+  .history .history-list {
+    width: 455px;
+    margin: 60px auto 0; }
+    .history .history-list:before {
+      left: 55px; }
+    .history .history-list > li {
+      display: inline-block;
+      margin: 0 auto; }
+      .history .history-list > li ~ li {
+        margin-top: 130px; }
+      .history .history-list > li .year {
+        width: 110px;
+        height: 110px;
+        font-size: 22px;
+        line-height: 110px;
+        background-size: 110px auto; }
+      .history .history-list > li > ol > li dl dt {
+        font-size: 15px;
+        line-height: 22px; }
+      .history .history-list > li > ol > li dl dd {
+        font-size: 15px;
+        line-height: 22px; } }
 
 /*# sourceMappingURL=sub.css.map */
