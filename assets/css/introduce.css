@@ -548,7 +548,7 @@ a {
     color: #fff; }
     .ideology .vision figure figcaption > h4 {
       font-size: 30px;
-      font-weight: 400;
+      font-weight: 600;
       text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
       font-family: 'Lato', sans-serif; }
     .ideology .vision figure figcaption > p {
@@ -557,15 +557,16 @@ a {
       margin-top: 25px; }
 @media (min-width: 768px) {
   .ideology .vision {
-    padding: 65px 0; }
+    padding: 65px 0 80px; }
     .ideology .vision h3 {
       font-size: 34px; }
     .ideology .vision figure figcaption > h4 {
       font-size: 50px; }
     .ideology .vision figure figcaption > p {
-      font-size: 14px;
-      line-height: 26px;
-      margin-top: 25px; } }
+      font-size: 15px; } }
+@media (min-width: 1200px) {
+  .ideology .vision {
+    padding: 80px 0 100px; } }
 .ideology .core-value {
   text-align: center;
   padding-top: 90px; }
@@ -574,6 +575,15 @@ a {
     color: #333;
     font-weight: 400;
     margin-bottom: 40px; }
+  @media (min-width: 768px) {
+    .ideology .core-value {
+      padding-top: 100px; }
+      .ideology .core-value h3 {
+        font-size: 34px;
+        margin-bottom: 50px; } }
+  @media (min-width: 1200px) {
+    .ideology .core-value h3 {
+      margin-bottom: 70px; } }
   .ideology .core-value .ideology-list > li {
     position: relative;
     display: block;
