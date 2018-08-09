@@ -48,7 +48,7 @@
 					늘 한곳만을 바라보면 열심히 전진 합니다
 				</p>
 			</div>
-			<ol class="history-list">
+			<!--<ol class="history-list">
 				<li>
 					<div class="row">
 						<div class="col-12 col-md-7 col-xl-5 offset-xl-1">
@@ -184,7 +184,7 @@
 						</div>
 					</div>
 				</li>
-			</ol>
+			</ol>-->
 		</div>
 	</main>
 		

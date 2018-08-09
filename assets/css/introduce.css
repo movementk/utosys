@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
 @import url("https://fonts.googleapis.com/css?family=Nanum+Myeongjo");
@@ -667,131 +668,201 @@ a {
         padding: 70px 0;
         margin-top: -30px; } }
 
-.history .page-title > p > i {
-  font-style: normal;
-  color: #00a0e9; }
-.history .history-list > li {
-  position: relative;
-  padding-bottom: 50px; }
-  .history .history-list > li:before {
-    position: absolute;
-    top: 6px;
-    left: 41px;
-    content: "";
-    height: 100%;
-    display: block;
-    border-left: 1px solid #e4e4e4; }
-  .history .history-list > li:last-child {
-    padding-bottom: 0; }
-    .history .history-list > li:last-child:before {
-      display: none; }
-  .history .history-list > li .row .col-12 .info {
-    font-size: 0; }
-    .history .history-list > li .row .col-12 .info > .year {
-      position: absolute;
-      top: 6px;
-      left: 6px;
-      width: 80px;
-      height: 80px;
-      font-size: 20px;
-      color: #fff;
-      line-height: 80px;
-      font-weight: 500;
-      text-align: center;
-      border-radius: 50%;
-      box-shadow: 0px 0px 7.2px 1.8px rgba(0, 0, 0, 0.23);
-      font-family: 'Roboto', sans-serif; }
-      .history .history-list > li .row .col-12 .info > .year.year-15 {
-        background-color: #03307b; }
-      .history .history-list > li .row .col-12 .info > .year.year-12 {
-        background-color: #114ea2; }
-      .history .history-list > li .row .col-12 .info > .year.year-11 {
-        background-color: #1259c3; }
-      .history .history-list > li .row .col-12 .info > .year.year-09 {
-        background-color: #0084e9; }
-      .history .history-list > li .row .col-12 .info > .year.year-07 {
-        background-color: #00a1e9; }
-    .history .history-list > li .row .col-12 .info > .details {
-      display: inline-block;
-      width: 100%;
-      padding-left: 100px; }
-      .history .history-list > li .row .col-12 .info > .details.space {
-        padding-top: 20px; }
-      .history .history-list > li .row .col-12 .info > .details > li {
-        line-height: 30px; }
-        .history .history-list > li .row .col-12 .info > .details > li dl {
-          overflow: hidden; }
-          .history .history-list > li .row .col-12 .info > .details > li dl dt {
-            position: relative;
-            float: left;
-            clear: both;
-            font-size: 13px;
-            color: #333;
-            font-weight: 500;
-            padding-left: 10px;
-            vertical-align: top;
-            margin-right: 20px;
-            font-family: 'Roboto', sans-serif; }
-            .history .history-list > li .row .col-12 .info > .details > li dl dt:before {
-              position: absolute;
-              top: 1px;
-              left: 0;
-              content: "\E809";
-              font-family: "fontello";
-              color: #00a0e9;
-              display: inline-block; }
-          .history .history-list > li .row .col-12 .info > .details > li dl dd {
-            font-size: 13px;
-            color: #333;
-            padding-left: 80px; }
-  .history .history-list > li .row .col-12 .history-img {
-    padding-left: 100px;
-    margin-top: 20px; }
-@media (min-width: 768px) {
-  .history .history-list > li {
-    padding-bottom: 30px; }
-    .history .history-list > li:before {
-      top: 50%; }
-    .history .history-list > li .row .col-12 .info {
-      vertical-align: middle; }
-      .history .history-list > li .row .col-12 .info > .year {
-        top: 50%;
-        margin-top: -47px;
-        width: 95px;
-        height: 95px;
-        font-size: 22px;
-        line-height: 95px; }
-      .history .history-list > li .row .col-12 .info > .details {
-        padding-left: 120px;
-        padding-top: 50px; }
-        .history .history-list > li .row .col-12 .info > .details.space {
-          padding-top: 68px; }
-        .history .history-list > li .row .col-12 .info > .details > li dl dt {
-          font-size: 15px;
-          padding-left: 15px; }
-          .history .history-list > li .row .col-12 .info > .details > li dl dt:before {
-            top: 0; }
-        .history .history-list > li .row .col-12 .info > .details > li dl dd {
-          font-size: 15px;
-          padding-left: 95px; }
-    .history .history-list > li .row .col-12 .history-img {
-      padding-left: 0;
-      margin-top: 0; } }
-@media (min-width: 1200px) {
-  .history .history-list > li {
-    padding-bottom: 25px; }
-    .history .history-list > li:before {
-      left: 141px; }
-    .history .history-list > li .row .col-12 .info > .details {
-      padding-top: 65px; }
-      .history .history-list > li .row .col-12 .info > .details.space {
-        padding-top: 90px; }
-      .history .history-list > li .row .col-12 .info > .details > li dl dd {
-        padding-left: 100px; }
-    .history .history-list > li .row .col-12 .history-img {
-      padding-left: 0;
-      margin-top: 0; } }
-
+/*연혁/사업실적
+.history {
+	.page-title {
+		> p {
+			> i {
+				font-style: normal;
+				color: #00a0e9;
+			}	
+		}
+	}
+	.history-list {
+		> li {
+			position: relative;
+			padding-bottom: 50px;
+			&:before {
+				position: absolute;
+				top: 6px;
+				left: 41px;
+				content: "";
+				height: 100%;
+				display: block;
+				border-left: 1px solid #e4e4e4;
+			}
+			&:last-child {
+				padding-bottom: 0;
+				&:before {
+					display: none;
+				}
+			}
+			.row {
+				.col-12 {
+					.info {
+						font-size: 0;
+						> .year {
+							position: absolute;
+							top: 6px;
+							left: 6px;
+							width: 80px;
+							height: 80px;
+							font-size: 20px;
+							color: #fff;
+							line-height: 80px;
+							font-weight: 500;
+							text-align: center;
+							border-radius: 50%;
+							box-shadow: 0px 0px 7.2px 1.8px rgba(0, 0, 0, 0.23); 
+							@include roboto();
+							&.year-15 {
+								background-color: #03307b;
+							}
+							&.year-12 {
+								background-color: #114ea2;
+							}
+							&.year-11 {
+								background-color: #1259c3;
+							}
+							&.year-09 {
+								background-color: #0084e9;
+							}
+							&.year-07 {
+								background-color: #00a1e9;
+							}
+						}
+						> .details {
+							display: inline-block;
+							width: 100%;
+							padding-left: 100px;
+							&.space {
+								padding-top: 20px;
+							}
+							> li {
+								line-height: 30px;
+								dl {
+									overflow: hidden;
+									dt {
+										position: relative;
+										float: left;
+										clear: both;
+										font-size: 13px;
+										color: #333;
+										font-weight: 500;
+										padding-left: 10px;
+										vertical-align: top;
+										margin-right: 20px;
+										@include roboto();
+										&:before {
+											position: absolute;
+											top: 1px;
+											left: 0;
+											content: "\E809";
+											font-family: "fontello";
+											color: #00a0e9;
+											display: inline-block;
+										}
+									}
+									dd {
+										font-size: 13px;
+										color: #333;
+										padding-left: 80px; 
+									}
+								}
+							}
+						}
+					}
+					.history-img {
+						padding-left: 100px;
+						margin-top: 20px;
+					}
+					
+				}
+			}	
+		}
+		@media (min-width: $md) {
+			> li {
+				padding-bottom: 30px;
+				&:before {
+					top: 50%;
+				}
+				.row {
+					.col-12 {
+						.info {
+							vertical-align: middle; 
+							> .year {
+								top: 50%;
+								margin-top: -47px;
+								width: 95px;
+								height: 95px;
+								font-size: 22px;
+								line-height: 95px;
+							}
+							> .details {
+								padding-left: 120px;
+								padding-top: 50px;
+								&.space {
+									padding-top: 68px;
+								}
+								> li {
+									dl {
+										dt {
+											font-size: 15px;
+											padding-left: 15px;
+											&:before {
+												top: 0;
+											}
+										}
+										dd {
+											font-size: 15px;
+											padding-left: 95px; 
+										}
+									}
+								}
+							}
+						}
+						.history-img {
+							padding-left: 0;
+							margin-top: 0; 
+						}
+					}
+				}	
+			}
+		}
+		@media (min-width: $xl) {
+			> li {
+				padding-bottom: 25px;
+				&:before {
+					left: 141px;
+				}
+				.row {
+					.col-12 {
+						.info {
+							> .details {
+								padding-top: 65px;
+								&.space {
+									padding-top: 90px;
+								}
+								> li {
+									dl {
+										dd {
+											padding-left: 100px; 
+										}
+									}
+								}
+							}
+						}
+						.history-img {
+							padding-left: 0;
+							margin-top: 0; 
+						}
+					}
+				}	
+			}
+		}
+	}
+}
+*/
 .organization .container > figure {
   padding-left: 70px; }
   .organization .container > figure img {
