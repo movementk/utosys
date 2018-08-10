@@ -502,7 +502,7 @@ a {
   margin-bottom: 70px;
   background-image: url(/assets/images/introduce/bg_ideology.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 70% center;
   background-size: cover; }
   .ideology .ideology-bg strong {
     font-size: 22px;
@@ -522,7 +522,8 @@ a {
     padding-top: 270px;
     padding-left: 40px;
     padding-right: 0;
-    margin-bottom: 80px; }
+    margin-bottom: 80px;
+    background-position: center; }
     .ideology .ideology-bg strong {
       font-size: 26px; }
     .ideology .ideology-bg p {

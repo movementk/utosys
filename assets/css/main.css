@@ -420,6 +420,16 @@ a {
     .container {
       max-width: 1200px; } }
 
+@media (min-width: 1200px) {
+  .restrict.col-xl-8 {
+    max-width: 70% !important;
+    width: 70% !important;
+    flex: 0 0 70% !important; }
+  .restrict.col-xl-4 {
+    max-width: 30% !important;
+    width: 30% !important;
+    flex: 0 0 30% !important; } }
+
 .jumbotron {
   position: relative;
   width: 100%;

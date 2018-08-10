@@ -12,7 +12,7 @@
     	<div class="jumbotron">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-12 col-xl-9">
+					<div class="col-12 col-xl-8 restrict">
 						<ul>
 							<li class="visual-list">
 								<video class="video" loop muted autoplay>
@@ -68,11 +68,11 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-12 col-xl-3">
+					<div class="col-12 col-xl-4 restrict">
 						<div class="row">
 							<div class="col-6 col-xl-12 expand">
 								<div class="system-wrap">
-									<div class="system content1">
+									<div class="system content2">
 										<div class="item">
 											<img src="/assets/images/img_content2.png" class="img-fluid" alt="FPD Inspection System">
 										</div>
@@ -94,7 +94,7 @@
 							</div>
 							<div class="col-6 col-xl-12 expand">
 								<div class="system-wrap">
-									<div class="system content2">
+									<div class="system content1">
 										<div class="item">
 											<img src="/assets/images/img_content1.png" class="img-fluid" alt="FPD Transfer System">
 										</div>

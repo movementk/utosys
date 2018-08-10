@@ -36,7 +36,7 @@
     <main id="content" class="loader fpd-system">
 		<div class="container">
 			<div class="page-title">
-				<h2>FPD Transfer System (물류설비)</h2>
+				<h2>FPD Transfer System</h2>
 			</div> 
 			<nav class="tab-list">
 				<ul>
@@ -107,18 +107,11 @@
 						</table>
 					</div>
 				</div>
-				<div class="col-12">
-					<!-- Transfer -->
+				<!--div class="col-12">
 					<video class="video" controls loop muted autoplay>
 						<source src="/assets/video/26529263-preview.mp4" type="video/mp4">이 브라우저는 동영상을 지원하지 않습니다.
 					</video>
-					
-					<!-- Inspection
-					<video class="video" controls loop muted autoplay>
-						<source src="/assets/video/411421-preview.mp4" type="video/mp4">이 브라우저는 동영상을 지원하지 않습니다.
-					</video>
-					-->
-				</div>
+				</div-->
 			</div>
 		</div>
 	</main>

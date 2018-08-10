@@ -112,7 +112,7 @@
 		margin-bottom: 70px;
 		background-image: url(/assets/images/introduce/bg_ideology.jpg);
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: 70% center;
 		background-size: cover;
 		strong {
 			font-size: 22px;
@@ -137,6 +137,7 @@
 			padding-left: 40px;
 			padding-right: 0;
 			margin-bottom: 80px;
+			background-position: center;  
 			strong {
 				font-size: 26px;
 			}
@@ -151,7 +152,7 @@
 			height: 500px;
 			padding-top: 340px;
 			padding-left: 70px;
-			margin-bottom: 135px; 
+			margin-bottom: 135px;
 		}
 	}
 	.vision {

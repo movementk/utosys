@@ -514,7 +514,7 @@ body {
     #gnb .container > ul.menu > li > a {
       margin: 0 55px; }
     #gnb .container > ul.menu > li:hover, #gnb .container > ul.menu > li:focus {
-      color: #ea212f; }
+      color: #002e79; }
     #gnb .container > ul.menu > li:last-child a {
       margin-right: 70px; }
     #gnb .container > ul.menu > li > ul {
@@ -879,7 +879,7 @@ body {
               line-height: 30px;
               padding: 0 30px; }
               #aside .aside-wrap .aside-body > .depth-1 > li .depth-2 li.on > .depth-3 > li > a:hover {
-                color: #ea212f; }
+                color: #002e79; }
               #aside .aside-wrap .aside-body > .depth-1 > li .depth-2 li.on > .depth-3 > li > a:before {
                 content: "-";
                 margin-right: 3px; }
