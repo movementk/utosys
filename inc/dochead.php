@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>유토시스</title>
 		<link rel="stylesheet" href="/assets/fontello/css/fontello.css">
+		<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
 		<link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/assets/css/flags/flag-icon.css">
 		<link rel="stylesheet" href="/assets/css/default.css">

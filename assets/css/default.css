@@ -483,7 +483,7 @@ body {
     top: 90px;
     left: 0;
     width: 285px;
-    height: 245px;
+    height: 270px;
     text-align: center;
     color: #fff;
     padding-top: 65px;
@@ -570,7 +570,7 @@ body {
 
 .nav-expanded #header {
   overflow: visible;
-  height: 337px;
+  height: 362px;
   background-color: rgba(255, 255, 255, 0.95); }
   .nav-expanded #header #gnb hr {
     display: block; }
