@@ -68,10 +68,10 @@
 					</ul>
 				</li>
 				<li>
-					<a href="/business/product.php?cat=transfer">사업영역</a>
+					<a href="/business/loader.php">사업영역</a>
 					<ul>
-						<li><a href="/business/product.php?cat=transfer">FPD Transfer System<span></span></a></li>
-						<li><a href="/business/product.php?cat=inspection">FPD Inspection System<span></span></a></li>
+						<li><a href="/business/loader.php">FPD Transfer System<span></span></a></li>
+						<li><a href="/business/loader.php">FPD Inspection System<span></span></a></li>
 					</ul>
 				</li>
 				<li>
