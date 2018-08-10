@@ -41,6 +41,7 @@
 	margin-top: -30px;
 	.breadcrumb {
 		position: relative;
+		z-index: 2;
 		font-size: 0;
 		margin: 0;
 		padding: 0;
@@ -67,7 +68,7 @@
 					&.btn-secondary {
 						min-width: 100%;
 						font-size: 15px;
-						color: #ea212f;
+						color: #002e79;
 						font-weight: 400;
 						line-height: 60px;
 						text-align: left;
@@ -155,10 +156,10 @@
 								border-right: 0;
 							}
 							&:hover {
-								border-bottom: 1px solid #ea212f;
+								border-bottom: 1px solid #002e79;
 							}
 							&.active {
-								border-bottom: 1px solid #ea212f;
+								border-bottom: 1px solid #002e79;
 								color: #333;
 							}
 						}

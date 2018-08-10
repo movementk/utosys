@@ -452,6 +452,7 @@ a {
   margin-top: -30px; }
   .page-path .breadcrumb {
     position: relative;
+    z-index: 2;
     font-size: 0;
     margin: 0;
     padding: 0;
@@ -470,7 +471,7 @@ a {
         .page-path .breadcrumb > li .dropdown button.btn-secondary {
           min-width: 100%;
           font-size: 15px;
-          color: #ea212f;
+          color: #002e79;
           font-weight: 400;
           line-height: 60px;
           text-align: left;
@@ -540,9 +541,9 @@ a {
               .page-path .breadcrumb > li .dropdown .dropdown-menu > .dropdown-item:last-child {
                 border-right: 0; }
               .page-path .breadcrumb > li .dropdown .dropdown-menu > .dropdown-item:hover {
-                border-bottom: 1px solid #ea212f; }
+                border-bottom: 1px solid #002e79; }
               .page-path .breadcrumb > li .dropdown .dropdown-menu > .dropdown-item.active {
-                border-bottom: 1px solid #ea212f;
+                border-bottom: 1px solid #002e79;
                 color: #333; } }
 
 .sub #content {
