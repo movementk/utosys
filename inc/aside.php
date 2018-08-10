@@ -26,6 +26,9 @@
 						<li> 
 							<a href="/introduce/organization.php">조직도</a>
 						</li>
+						<li>
+							<a href="/introduce/ci.php">CI</a>
+						</li>
 						<li> 
 							<a href="/introduce/certification.php">인증현황</a>
 						</li>
@@ -42,6 +45,22 @@
 							<a href="#" class="arrow">FPD Transfer System</a>
 							<ul class="depth-3">
 								<li>
+									<a href="/business/product.php?cat=transfer&idx=1">마스크 로더</a>
+								</li>
+								<li>
+									<a href="/business/product.php?cat=transfer&idx=2">Panel Reversal</a>
+								</li>
+								<li>
+									<a href="/business/product.php?cat=transfer&idx=3">Gluon Mask Change</a>
+								</li>
+								<li>
+									<a href="/business/product.php?cat=transfer&idx=4">Mask Loader</a>
+								</li>
+								<li>
+									<a href="/business/product.php?cat=transfer&idx=5">Packing &amp; Unpacking</a>
+								</li>
+
+								<!--<li>
 									<a href="/business/loader.php">마스크 로더</a>
 								</li>
 								<li>
@@ -55,20 +74,26 @@
 								</li>
 								<li>
 									<a href="#">HIRATA ROBOT</a>
-								</li>
+								</li>-->
 							</ul>
 						</li>
 						<li>
 							<a href="#" class="arrow">FPD Inspection System</a>
 							<ul class="depth-3">
 								<li>
-									<a href="#">엣지검사기</a>
+									<a href="/business/product.php?cat=inspection&idx=6">Panel Edge 검사기</a>
 								</li>
 								<li>
-									<a href="#">노치/압흔 검사기</a>
+									<a href="/business/product.php?cat=inspection&idx=7">Notch 연마량 검사기</a>
 								</li>
 								<li>
-									<a href="#">표면검사기</a>
+									<a href="/business/product.php?cat=inspection&idx=8">Module Denting Inspection</a>
+								</li>
+								<li>
+									<a href="/business/product.php?cat=inspection&idx=9">Surface Measuring</a>
+								</li>
+								<li>
+									<a href="/business/product.php?cat=inspection&idx=10">Tab Height Measuring</a>
 								</li>
 							</ul>
 						</li>

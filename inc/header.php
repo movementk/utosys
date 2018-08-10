@@ -57,6 +57,9 @@
 							<a href="/introduce/organization.php">조직도<span></span></a>
 						</li>
 						<li>
+							<a href="/introduce/ci.php">CI<span></span></a>
+						</li>
+						<li>
 							<a href="/introduce/certification.php">인증현황<span></span></a>
 						</li>
 						<li>
@@ -65,10 +68,10 @@
 					</ul>
 				</li>
 				<li>
-					<a href="/business/loader.php">사업영역</a>
+					<a href="/business/product.php?cat=transfer">사업영역</a>
 					<ul>
-						<li><a href="/business/loader.php">FPD Transfer System<span></span></a></li>
-						<li><a href="#">FPD Inspection System<span></span></a></li>
+						<li><a href="/business/product.php?cat=transfer">FPD Transfer System<span></span></a></li>
+						<li><a href="/business/product.php?cat=inspection">FPD Inspection System<span></span></a></li>
 					</ul>
 				</li>
 				<li>
