@@ -658,12 +658,6 @@ a {
       text-align: center;
       vertical-align: middle;
       background-color: #eff3f7; }
-      .jumbotron .col-12 .row .col-6 .system-wrap .system .details > h3 {
-        font-size: 13px;
-        color: #333;
-        line-height: 18px;
-        font-weight: 400;
-        font-family: 'Roboto', sans-serif; }
       .jumbotron .col-12 .row .col-6 .system-wrap .system.content1 .item {
         margin: 0 auto; }
         .jumbotron .col-12 .row .col-6 .system-wrap .system.content1 .item img {
@@ -676,27 +670,66 @@ a {
           width: 70px; }
       .jumbotron .col-12 .row .col-6 .system-wrap .system.content2 .details {
         margin-top: 10px; }
+      .jumbotron .col-12 .row .col-6 .system-wrap .system > a .details > h3 {
+        font-size: 13px;
+        color: #333;
+        line-height: 18px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif; }
     @media (min-width: 768px) {
-      .jumbotron .col-12 .row .col-6 .system-wrap .system {
+      .jumbotron .col-12 .row .col-6 .system-wrap .system > a {
         display: table;
         width: 100%;
         height: 100%; }
-        .jumbotron .col-12 .row .col-6 .system-wrap .system > .item {
+        .jumbotron .col-12 .row .col-6 .system-wrap .system > a:hover .details > .btn-box {
+          color: #fff;
+          border: 1px solid #002e79;
+          background-color: #002e79;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+        .jumbotron .col-12 .row .col-6 .system-wrap .system > a .item {
           display: table-cell;
           width: 50%;
           vertical-align: middle; }
-        .jumbotron .col-12 .row .col-6 .system-wrap .system .details {
+        .jumbotron .col-12 .row .col-6 .system-wrap .system > a .details {
           display: table-cell;
           width: 50%;
           text-align: left;
-          vertical-align: middle; }
-          .jumbotron .col-12 .row .col-6 .system-wrap .system .details > h3 {
+          vertical-align: middle;
+          /*.btn-area {
+          	p {
+          		.btn {
+          			&.btn-default {
+          				display: block;
+          				width: 120px;
+          				font-size: 13px;
+          				color: #888;
+          				text-align: center;
+          				line-height: 35px;
+          				border: 1px solid #bbb;
+          				margin-top: 20px;
+          			}
+          			&:hover, &:focus {
+          				color: #fff;
+          				border: 1px solid #002e79;
+          				background-color: #002e79;
+          				@include transition();
+          			}
+          		}
+          	}
+          }*/ }
+          .jumbotron .col-12 .row .col-6 .system-wrap .system > a .details > h3 {
             font-size: 16px;
             line-height: 28px;
             font-weight: 400;
             letter-spacing: -0.5px; }
-          .jumbotron .col-12 .row .col-6 .system-wrap .system .details .btn-area p .btn.btn-default {
-            display: block;
+          .jumbotron .col-12 .row .col-6 .system-wrap .system > a .details .btn-box {
             width: 120px;
             font-size: 13px;
             color: #888;
@@ -704,37 +737,37 @@ a {
             line-height: 35px;
             border: 1px solid #bbb;
             margin-top: 20px; }
-          .jumbotron .col-12 .row .col-6 .system-wrap .system .details .btn-area p .btn:hover, .jumbotron .col-12 .row .col-6 .system-wrap .system .details .btn-area p .btn:focus {
-            color: #fff;
-            border: 1px solid #002e79;
-            background-color: #002e79;
-            -webkit-transition-property: all;
-            transition-property: all;
-            -webkit-transition-duration: 0.15s;
-            transition-duration: 0.15s;
-            -webkit-transition-timing-function: linear;
-            transition-timing-function: linear;
-            -webkit-transition-delay: 0s;
-            transition-delay: 0s; }
-        .jumbotron .col-12 .row .col-6 .system-wrap .system.content1 .item img {
-          width: 120px; }
-        .jumbotron .col-12 .row .col-6 .system-wrap .system.content1 .details {
-          margin-top: 0; }
-        .jumbotron .col-12 .row .col-6 .system-wrap .system.content2 .item img {
-          width: 100px; }
-        .jumbotron .col-12 .row .col-6 .system-wrap .system.content2 .details {
-          margin-top: 0; } }
+            .jumbotron .col-12 .row .col-6 .system-wrap .system > a .details .btn-box:hover, .jumbotron .col-12 .row .col-6 .system-wrap .system > a .details .btn-box:focus {
+              color: #fff;
+              border: 1px solid #002e79;
+              background-color: #002e79;
+              -webkit-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.15s;
+              transition-duration: 0.15s;
+              -webkit-transition-timing-function: linear;
+              transition-timing-function: linear;
+              -webkit-transition-delay: 0s;
+              transition-delay: 0s; }
+      .jumbotron .col-12 .row .col-6 .system-wrap .system.content1 > a .item img {
+        width: 120px; }
+      .jumbotron .col-12 .row .col-6 .system-wrap .system.content1 > a .details {
+        margin-top: 0; }
+      .jumbotron .col-12 .row .col-6 .system-wrap .system.content2 > a .item img {
+        width: 100px; }
+      .jumbotron .col-12 .row .col-6 .system-wrap .system.content2 > a .details {
+        margin-top: 0; } }
     @media (min-width: 1200px) {
       .jumbotron .col-12 .row .col-6 .system-wrap {
         height: 265px;
         margin-left: -15px; }
-        .jumbotron .col-12 .row .col-6 .system-wrap .system > .item {
+        .jumbotron .col-12 .row .col-6 .system-wrap .system > a .item {
           width: 40%;
           padding: 0 20px; }
-        .jumbotron .col-12 .row .col-6 .system-wrap .system .details {
+        .jumbotron .col-12 .row .col-6 .system-wrap .system > a .details {
           width: 60%;
           padding-right: 10px; }
-          .jumbotron .col-12 .row .col-6 .system-wrap .system .details > p {
+          .jumbotron .col-12 .row .col-6 .system-wrap .system > a .details > p {
             font-size: 13px;
             color: #333;
             opacity: .6;
@@ -743,19 +776,19 @@ a {
             margin-top: 10px;
             letter-spacing: -.5px;
             word-break: keep-all; }
-            .jumbotron .col-12 .row .col-6 .system-wrap .system .details > p > .space {
+            .jumbotron .col-12 .row .col-6 .system-wrap .system > a .details > p > .space {
               display: none; } }
     @media (min-width: 1400px) {
-      .jumbotron .col-12 .row .col-6 .system-wrap .system > .item {
+      .jumbotron .col-12 .row .col-6 .system-wrap .system > a .item {
         width: 40%;
         padding: 0 10px; }
-      .jumbotron .col-12 .row .col-6 .system-wrap .system .details {
+      .jumbotron .col-12 .row .col-6 .system-wrap .system > a .details {
         width: 60%;
         padding-right: 40px; }
-        .jumbotron .col-12 .row .col-6 .system-wrap .system .details .btn-area p .btn.btn-default {
+        .jumbotron .col-12 .row .col-6 .system-wrap .system > a .details .btn-area p .btn.btn-default {
           margin-top: 35px; } }
     @media (min-width: 1600px) {
-      .jumbotron .col-12 .row .col-6 .system-wrap .system .details > p > .space {
+      .jumbotron .col-12 .row .col-6 .system-wrap .system > a .details > p > .space {
         display: block; } }
 
 .news {

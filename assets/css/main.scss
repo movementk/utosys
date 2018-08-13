@@ -291,15 +291,6 @@
 						text-align: center;
 						vertical-align: middle;
 						background-color: #eff3f7;
-						.details {
-							> h3 {
-								font-size: 13px;
-								color: #333;
-								line-height: 18px;
-								font-weight: 400;
-								@include roboto();
-							}
-						}
 						&.content1 {
 							.item {
 								margin: 0 auto;
@@ -322,13 +313,35 @@
 								margin-top: 10px;
 							}
 						}
+						> a {
+							.details {
+								> h3 {
+									font-size: 13px;
+									color: #333;
+									line-height: 18px;
+									font-weight: 400;
+									@include roboto();
+								}
+							}
+						}
 					}
 					@media (min-width: $md) {
 						.system {
+							> a {
 							display: table;
 							width: 100%;
 							height: 100%;
-							> .item {
+							&:hover {
+								.details {
+									> .btn-box {
+										color: #fff;
+										border: 1px solid #002e79;
+										background-color: #002e79;
+										@include transition();
+									}
+								}
+							}
+							.item {
 								display: table-cell;
 								width: 50%;
 								vertical-align: middle;
@@ -344,7 +357,22 @@
 									font-weight: 400;
 									letter-spacing: -0.5px;
 								}
-								.btn-area {
+								.btn-box {
+									width: 120px;
+									font-size: 13px;
+									color: #888;
+									text-align: center;
+									line-height: 35px;
+									border: 1px solid #bbb;
+									margin-top: 20px;
+									&:hover, &:focus {
+										color: #fff;
+										border: 1px solid #002e79;
+										background-color: #002e79;
+										@include transition();
+									}
+								}
+								/*.btn-area {
 									p {
 										.btn {
 											&.btn-default {
@@ -365,26 +393,31 @@
 											}
 										}
 									}
+								}*/
 								}
 							}
 							&.content1 {
-								.item {
-									img {
-										width: 120px;
+								> a {
+									.item {
+										img {
+											width: 120px;
+										}
 									}
-								}
-								.details {
-									margin-top: 0;
+									.details {
+										margin-top: 0;
+									}
 								}
 							}
 							&.content2 {
-								.item {
-									img {
-										width: 100px;
+								> a {
+									.item {
+										img {
+											width: 100px;
+										}
 									}
-								}
-								.details {
-									margin-top: 0;
+									.details {
+										margin-top: 0;
+									}
 								}
 							}
 						}
@@ -393,24 +426,26 @@
 						height: 265px;
 						margin-left: -15px;
 						.system {
-							> .item {
-								width: 40%;
-								padding: 0 20px;
-							}
-							.details {
-								width: 60%;
-								padding-right: 10px;
-								> p {
-									font-size: 13px;
-									color: #333;
-									opacity: .6;
-									font-weight: 300;
-									line-height: 20px;
-									margin-top: 10px;
-									letter-spacing: -.5px;
-									word-break: keep-all;
-									> .space {
-										display: none;	
+							> a{
+								.item {
+									width: 40%;
+									padding: 0 20px;
+								}
+								.details {
+									width: 60%;
+									padding-right: 10px;
+									> p {
+										font-size: 13px;
+										color: #333;
+										opacity: .6;
+										font-weight: 300;
+										line-height: 20px;
+										margin-top: 10px;
+										letter-spacing: -.5px;
+										word-break: keep-all;
+										> .space {
+											display: none;	
+										}
 									}
 								}
 							}
@@ -418,18 +453,20 @@
 					}
 					@media (min-width: 1400px) {
 						.system {
-							> .item {
-								width: 40%;
-								padding: 0 10px;
-							} 
-							.details {
-								width: 60%;
-								padding-right: 40px;
-								.btn-area {
-									p {
-										.btn {
-											&.btn-default {
-												margin-top: 35px;
+							> a {
+								.item {
+									width: 40%;
+									padding: 0 10px;
+								} 
+								.details {
+									width: 60%;
+									padding-right: 40px;
+									.btn-area {
+										p {
+											.btn {
+												&.btn-default {
+													margin-top: 35px;
+												}
 											}
 										}
 									}
@@ -439,10 +476,12 @@
 					}
 					@media (min-width: 1600px) {
 						.system {
-							.details {
-								> p {
-									> .space {
-										display: block;
+							> a {
+								.details {
+									> p {
+										> .space {
+											display: block;
+										}
 									}
 								}
 							}
