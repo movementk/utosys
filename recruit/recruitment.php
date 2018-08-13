@@ -63,19 +63,19 @@
 			            </li>
 			            <li>
 			                <figure>
-			                    <img src="/assets/images/recruit/img_recruitment03.png" class="img-fluid" alt="">
+		                    	<img src="/assets/images/recruit/img_recruitment04.png" class="img-fluid" alt="">
 			                    <figcaption>
-			                        <small class="d-md-none">STEP 03</small>
-			                        <p>2차면접<br class="d-md-none">(경영진)</p>
+			                        <small class="d-md-none">STEP 04</small>
+			                        <p>1차면접<br class="d-md-none">(실무진)</p>
 			                    </figcaption>
 			                </figure>
 			            </li>
 			            <li>
 			                <figure>
-			                    <img src="/assets/images/recruit/img_recruitment04.png" class="img-fluid" alt="">
+			                    <img src="/assets/images/recruit/img_recruitment03.png" class="img-fluid" alt="">
 			                    <figcaption>
-			                        <small class="d-md-none">STEP 04</small>
-			                        <p>1차면접<br class="d-md-none">(실무진)</p>
+			                        <small class="d-md-none">STEP 03</small>
+			                        <p>2차면접<br class="d-md-none">(경영진)</p>
 			                    </figcaption>
 			                </figure>
 			            </li>
@@ -127,7 +127,7 @@
                                 </div>
                                 <div class="col-12 col-md-7 col-xl-9">
                                     <p class="summary">
-                                        서류전형 합격자를 대상으로 면접이 실시되며, 면접전형은 실무진 면접과 경영진 면접이 있습니다. 이를 통해 자사 인재상과의 적합한 성품, 가치관 등을 평가하며, 업무 수행을 위한 능력과 열정,  실무역량 등을 평가합니다.
+                                        서류전형 합격자를 대상으로 면접이 실시되며, 면접전형은 실무진 면접과 경영진 면접이 있습니다. <br class="d-none d-xl-block">이를 통해 자사 인재상과의 적합한 성품, 가치관 등을 평가하며, 업무 수행을 위한 능력과 열정,  실무역량 등을 평가합니다.
                                     </p>
                                 </div>
                             </div>                            
