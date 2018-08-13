@@ -57,6 +57,22 @@
 						<img src="/assets/images/introduce/img_vision_list_sm.png" class="d-sm-block d-md-none d-xl-none" alt=""> 
 						<img src="/assets/images/introduce/img_vision_list_md.png" class="d-none d-md-block d-xl-none" alt=""> 
 						<img src="/assets/images/introduce/img_vision_list_xl.png" class="d-none d-md-none d-xl-block" alt="">
+						<figcaption class="sr-only">
+							<ul>
+								<li>
+									<h4>구성원 중심</h4>
+									<p>상호존중, 상생/성장을 위해 소통을 중시 합니다.</p>
+								</li>
+								<li>
+									<h4>고객중심</h4>
+									<p>고객만족 실현을 위한 노력</p>
+								</li>
+								<li>
+									<h4>성과 공유</h4>
+									<p>모두와 함께하며 앞으로의 발전을 위해 노력합니다.</p>
+								</li>
+							</ul>
+						</figcaption>
 					</figure>
 				</div>
 			</article>
