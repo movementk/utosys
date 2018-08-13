@@ -494,271 +494,88 @@ a {
         line-height: 26px;
         /*word-break: keep-all;*/ } }
 
-.ideology .ideology-bg {
-  height: 370px;
-  padding-top: 230px;
-  padding-left: 10px;
-  padding-right: 50px;
-  margin-bottom: 70px;
-  background-image: url(/assets/images/introduce/bg_ideology.jpg);
-  background-repeat: no-repeat;
-  background-position: 70% center;
-  background-size: cover; }
-  .ideology .ideology-bg strong {
-    font-size: 22px;
+.ideology .management {
+  text-align: center;
+  padding-top: 35px; }
+  .ideology .management > h3 {
+    width: 140px;
+    font-size: 18px;
+    line-height: 45px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 30px;
+    margin: 0 auto;
+    background-color: #00a1e9; }
+  .ideology .management > p {
+    font-size: 18px;
     color: #333;
-    font-weight: 500; }
-  .ideology .ideology-bg p {
-    font-size: 14px;
-    color: #333;
-    line-height: 22px;
+    line-height: 30px;
+    font-weight: 300;
     margin-top: 20px;
-    word-break: keep-all; }
-    .ideology .ideology-bg p > b {
+    word-break: break-all; }
+    .ideology .management > p > b {
       font-weight: 500; }
-@media (min-width: 768px) {
-  .ideology .ideology-bg {
-    height: 425px;
-    padding-top: 270px;
-    padding-left: 40px;
-    padding-right: 0;
-    margin-bottom: 80px;
-    background-position: center; }
-    .ideology .ideology-bg strong {
-      font-size: 26px; }
-    .ideology .ideology-bg p {
-      font-size: 16px;
-      line-height: 24px; } }
-@media (min-width: 1200px) {
-  .ideology .ideology-bg {
-    height: 500px;
-    padding-top: 340px;
-    padding-left: 70px;
-    margin-bottom: 135px; } }
+  @media (min-width: 768px) {
+    .ideology .management {
+      padding-top: 60px; }
+      .ideology .management > p {
+        font-size: 22px; } }
 .ideology .vision {
   text-align: center;
-  padding: 50px 10px;
-  background-color: #326cc9; }
-  .ideology .vision h3 {
-    font-size: 25px;
-    color: #fff;
-    font-weight: 400; }
-  .ideology .vision figure img {
-    padding: 50px; }
-  .ideology .vision figure figcaption {
-    color: #fff; }
-    .ideology .vision figure figcaption > h4 {
-      font-size: 30px;
-      font-weight: 600;
-      text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1);
-      font-family: 'Lato', sans-serif; }
-    .ideology .vision figure figcaption > p {
-      font-size: 14px;
-      line-height: 26px;
-      margin-top: 25px; }
-@media (min-width: 768px) {
-  .ideology .vision {
-    padding: 65px 0 80px; }
-    .ideology .vision h3 {
-      font-size: 34px; }
-    .ideology .vision figure figcaption > h4 {
-      font-size: 50px; }
-    .ideology .vision figure figcaption > p {
-      font-size: 15px; } }
-@media (min-width: 1200px) {
-  .ideology .vision {
-    padding: 80px 0 100px; } }
-.ideology .core-value {
-  text-align: center;
-  padding-top: 90px; }
-  .ideology .core-value h3 {
-    font-size: 25px;
-    color: #333;
-    font-weight: 400;
-    margin-bottom: 40px; }
-  @media (min-width: 768px) {
-    .ideology .core-value {
-      padding-top: 100px; }
-      .ideology .core-value h3 {
-        font-size: 34px;
-        margin-bottom: 50px; } }
-  @media (min-width: 1200px) {
-    .ideology .core-value h3 {
-      margin-bottom: 70px; } }
-  .ideology .core-value .ideology-list > li {
-    position: relative;
-    display: block;
-    width: 210px;
-    height: 210px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 45px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; }
-    .ideology .core-value .ideology-list > li ~ li {
-      margin-top: 60px; }
-    .ideology .core-value .ideology-list > li:after {
-      content: " ";
-      position: absolute;
-      bottom: -44px;
-      left: 50%;
-      margin-left: -11px;
-      display: block;
-      width: 22px;
-      height: 22px;
-      background-image: url(/assets/images/introduce/ideology_list_plus.png);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center; }
-    .ideology .core-value .ideology-list > li:first-child {
-      background-image: url(/assets/images/introduce/ideology_list01.png); }
-      .ideology .core-value .ideology-list > li:first-child > .icon img {
-        width: 30px;
-        height: 40px; }
-    .ideology .core-value .ideology-list > li:nth-of-type(2) {
-      background-image: url(/assets/images/introduce/ideology_list02.png); }
-      .ideology .core-value .ideology-list > li:nth-of-type(2) > .icon img {
-        width: 45px;
-        height: 40px; }
-    .ideology .core-value .ideology-list > li:last-child {
-      background-image: url(/assets/images/introduce/ideology_list03.png); }
-      .ideology .core-value .ideology-list > li:last-child > .icon img {
-        width: 40px;
-        height: 40px; }
-      .ideology .core-value .ideology-list > li:last-child:after {
-        display: none; }
-    .ideology .core-value .ideology-list > li > .icon {
-      display: block;
-      margin-bottom: 15px; }
-    .ideology .core-value .ideology-list > li > h4 {
-      font-size: 18px;
-      color: #333;
-      font-weight: 400; }
-    .ideology .core-value .ideology-list > li > p {
-      font-size: 13px;
-      color: #666;
-      font-weight: 300;
-      line-height: 18px;
-      margin-top: 8px; }
-  @media (min-width: 768px) {
-    .ideology .core-value .ideology-list {
-      font-size: 0;
-      text-align: center; }
-      .ideology .core-value .ideology-list > li {
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 40px; }
-        .ideology .core-value .ideology-list > li ~ li {
-          margin-top: 0; }
-        .ideology .core-value .ideology-list > li:after {
-          position: absolute;
-          bottom: 50%;
-          left: 100%;
-          margin-top: -11px;
-          margin-left: 10px; }
-        .ideology .core-value .ideology-list > li:last-child {
-          margin-right: 0; } }
-  @media (min-width: 1200px) {
-    .ideology .core-value .ideology-list > li {
-      width: 300px;
-      height: 300px;
-      padding-top: 70px;
-      margin-right: 130px; }
-      .ideology .core-value .ideology-list > li:after {
-        position: absolute;
-        bottom: 50%;
-        left: 100%;
-        margin-top: -11px;
-        margin-left: 50px; }
-      .ideology .core-value .ideology-list > li:first-child > .icon img {
-        width: 40px;
-        height: 57px; }
-      .ideology .core-value .ideology-list > li:nth-of-type(2) > .icon img {
-        width: 65px;
-        height: 57px; }
-      .ideology .core-value .ideology-list > li:last-child > .icon img {
-        width: 55px;
-        height: 57px; }
-      .ideology .core-value .ideology-list > li > .icon {
-        margin-bottom: 20px; }
-      .ideology .core-value .ideology-list > li > h3 {
-        font-size: 22px; }
-      .ideology .core-value .ideology-list > li > p {
-        font-size: 15px;
-        line-height: 22px;
-        margin-top: 15px; } }
-.ideology .vision-box {
   margin-top: 55px; }
-  .ideology .vision-box > figure {
-    position: relative;
-    margin: 0 auto; }
-    .ideology .vision-box > figure img {
-      display: block;
-      width: 175px;
-      height: 75px;
-      margin: 0 auto; }
-    .ideology .vision-box > figure > figcaption {
-      position: absolute;
-      top: 15px;
-      left: 50%;
-      font-size: 15px;
-      color: #092f6c;
-      margin-left: -24px;
-      font-weight: 600;
-      font-family: 'Roboto', sans-serif; }
-  .ideology .vision-box > .details {
+  .ideology .vision > h3 {
+    width: 140px;
+    font-size: 18px;
+    line-height: 45px;
+    color: #fff;
+    font-weight: 400;
     text-align: center;
-    border-radius: 20px;
-    border: 1px solid #dadada;
-    padding: 45px 0;
-    margin-top: -20px;
-    background-color: #fff;
-    box-shadow: 2px 5px 18px 0px rgba(0, 0, 0, 0.08); }
-    .ideology .vision-box > .details > .logo img {
-      width: 155px;
-      height: 40px; }
-    .ideology .vision-box > .details p {
-      font-size: 18px;
-      color: #666;
-      margin-top: 25px; }
-      .ideology .vision-box > .details p > i {
-        font-style: normal;
-        color: #00a0e9; }
+    border-radius: 30px;
+    margin: 0 auto;
+    background-color: #00a1e9; }
+  .ideology .vision > strong {
+    display: block;
+    font-size: 36px;
+    color: #00a1e9;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif; }
+    .ideology .vision > strong > i {
+      font-style: normal;
+      color: #082e6d; }
+  .ideology .vision > p {
+    font-size: 16px;
+    color: #666;
+    line-height: 32px;
+    margin-top: 10px; }
+  .ideology .vision > .vision-list {
+    padding-top: 130px;
+    background-image: url(/assets/images/introduce/bg_vision_list.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 350px auto; }
+    .ideology .vision > .vision-list figure img {
+      display: block;
+      margin: 0 auto; }
+    @media (min-width: 768px) {
+      .ideology .vision > .vision-list {
+        padding-top: 200px;
+        background-size: 680px auto; } }
   @media (min-width: 768px) {
-    .ideology .vision-box {
+    .ideology .vision {
       margin-top: 70px; }
-      .ideology .vision-box > figure img {
-        width: 230px;
-        height: 100px; }
-      .ideology .vision-box > figure > figcaption {
-        top: 20px;
-        font-size: 20px;
-        margin-left: -32px; }
-      .ideology .vision-box > .details {
-        text-align: center;
-        border-radius: 100px;
-        padding: 60px 0;
-        margin-top: -25px; }
-        .ideology .vision-box > .details > .logo {
-          display: inline-block;
-          vertical-align: top; }
-          .ideology .vision-box > .details > .logo img {
-            width: 180px;
-            height: 50px; }
-        .ideology .vision-box > .details p {
-          display: inline-block;
-          vertical-align: top;
-          font-size: 22px;
-          margin-top: 0;
-          margin-left: 55px;
-          text-align: left; } }
+      .ideology .vision > strong {
+        font-size: 50px; }
+      .ideology .vision > p {
+        font-size: 18px;
+        line-height: 26px; }
+      .ideology .vision > .vision-list {
+        padding-top: 200px;
+        background-size: 680px auto; } }
   @media (min-width: 1200px) {
-    .ideology .vision-box {
-      margin-top: 60px; }
-      .ideology .vision-box > .details {
-        padding: 70px 0;
-        margin-top: -30px; } }
+    .ideology .vision > .vision-list {
+      padding-top: 220px; } }
 
 /*연혁/사업실적
 .history {
