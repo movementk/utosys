@@ -77,11 +77,11 @@
 											<img src="/assets/images/img_content2.png" class="img-fluid" alt="FPD Inspection System">
 										</div>
 										<div class="details">
-											<h3>FPD Inspection<br class="d-xl-none"> System</h3>
+											<h3>FPD Transfer<br class="d-xl-none"> System</h3>
 											<p class="d-none d-xl-block">
-												FPD  Inspection System의 간략한
-												설명이노출되며 해당 제품군으로 바로가기
-												할 수 있는 영역입니다.
+												FPD Transfer System의 간략한 설명이
+												노출되며 해당 제품군으로 바로가기 할
+												수 있는 영역입니다.
 											</p>
 											<div class="btn-area d-none d-md-block">
 												<p>
@@ -99,11 +99,11 @@
 											<img src="/assets/images/img_content1.png" class="img-fluid" alt="FPD Transfer System">
 										</div>
 										<div class="details">
-											<h3>FPD Transfer<br class="d-xl-none"> System</h3>
+											<h3>FPD Inspection<br class="d-xl-none"> System</h3>
 											<p class="d-none d-xl-block">
-												FPD Transfer System의 간략한 설명이
-												노출되며 해당 제품군으로 바로가기 할
-												수 있는 영역입니다.
+												FPD  Inspection System의 간략한
+												설명이노출되며 해당 제품군으로 바로가기
+												할 수 있는 영역입니다.
 											</p>
 											<div class="btn-area d-none d-md-block">
 												<p>
