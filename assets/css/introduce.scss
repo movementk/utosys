@@ -230,15 +230,15 @@
 		padding-bottom: 65px;
 		.section-content {
 			.bg-square {
-				width: 100%;
-				height: 240px;
-				line-height: 240px;
+				width: 300px;
+				padding: 60px 0;
+                margin: 0 auto;
 				text-align: center;
 				border: 1px solid #ebebeb;
 				background-image: url(/assets/images/introduce/bg_ci.jpg);
-				background-repeat: repeat;
+				/*background-repeat: repeat;
 				background-size: cover;
-				background-position: center;
+				background-position: center;*/
 				> img {
 					width: 165px;
 				}
@@ -289,8 +289,8 @@
 			padding-bottom: 95px;
 			.section-content {
 				.bg-square {
-					height: 330px;
-					line-height: 330px;
+                    width: 600px;
+					padding: 80px 0;
 					> img {
 						width: 260px;
 					}
@@ -317,6 +317,8 @@
 			padding-bottom: 120px;
 			.section-content {
 				.bg-square {
+                    width: 800px;
+                    padding: 100px 0;
 					> img {
 						width: 350px;
 					}
