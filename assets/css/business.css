@@ -456,6 +456,7 @@ a {
       height: 45px;
       font-size: 13px;
       line-height: 16px;
+      letter-spacing: -.5px;
       text-align: center;
       padding-top: 15px;
       font-family: 'Roboto', sans-serif; }
