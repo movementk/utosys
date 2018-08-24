@@ -231,8 +231,9 @@
 		}
 	}
 	@media (min-width: $xl) {
-		padding-top: 80px;
-		padding-bottom: 65px;
+		/*padding-top: 80px;
+		padding-bottom: 65px;*/
+        padding: 40px 0;
 		> p {
 			font-size: 16px;
 			line-height: 28px;
