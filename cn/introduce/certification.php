@@ -9,7 +9,7 @@
 	<!-- page-header -->
     <div class="page-header">
         <div class="page-summary">
-            <h2>회사소개</h2>
+            <h2>关于我们</h2>
         </div>
 		<!-- page-path -->
 		<div class="page-path">
@@ -19,16 +19,16 @@
 					<li> 
 						<div class="dropdown">
 							<button class="btn btn-secondary dropdown-toggle" type="button" id="depth-list" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								인증현황
+								认证现状
 							</button>
 							<div class="dropdown-menu" aria-labelledby="depth-list">
-								<a class="dropdown-item" href="/introduce/greetings.php">CEO 인사말</a>
-								<a class="dropdown-item" href="/introduce/ideology.php">경영이념</a>
-								<a class="dropdown-item" href="/introduce/history.php">연혁/사업실적</a>
-								<a class="dropdown-item" href="/introduce/organization.php">조직도</a>
-								<a class="dropdown-item" href="/introduce/ci.php">CI</a>
-								<a class="dropdown-item active" href="/introduce/certification.php">인증현황</a>
-								<a class="dropdown-item" href="/introduce/location.php">오시는길</a>
+								<a class="dropdown-item" href="/cn/introduce/greetings.php">CEO问候</a>
+								<a class="dropdown-item" href="/cn/introduce/ideology.php">经营理念</a>
+								<a class="dropdown-item" href="/cn/introduce/history.php">历史/业务绩效</a>
+								<a class="dropdown-item" href="/cn/introduce/organization.php">组织图</a>
+								<a class="dropdown-item" href="/cn/introduce/ci.php">CI</a>
+								<a class="dropdown-item active" href="/cn/introduce/certification.php">认证现状</a>
+								<a class="dropdown-item" href="/cn/introduce/location.php">路线</a>
 							</div> 
 						</div>
 					</li>
@@ -42,7 +42,7 @@
     	<div class="container">
 			<!-- page-title -->
 			<div class="page-title">
-				<h2>인증현황</h2>
+				<h2>认证现状</h2>
 			</div>
 			<ul class="row">
 				<li class="col-6 col-md-4 col-xl-3">

@@ -1,10 +1,10 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/dochead.php'); ?>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/cn/assets/css/main.css">
 </head>
 <body>
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/aside.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/header.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/aside.php'); ?>
     
 	<!-- Content -->
     <main id="content">
@@ -16,52 +16,52 @@
 						<ul>
 							<li class="visual-list">
 								<video class="video" loop muted autoplay>
-									<source src="/assets/video/33480139-preview.mp4" type="video/mp4">이 브라우저는 동영상을 지원하지 않습니다.
+									<source src="/cn/assets/video/33480139-preview.mp4" type="video/mp4">이 브라우저는 동영상을 지원하지 않습니다.
 								</video>
 								<div class="summary">
 									<h2>
-										사람이 건강하고 <br>
-										회사가 건강한 <br>
-										<b>백년가치의 기업</b>
+										人们健康 <br>
+										会社健康 <br>
+										<b>百年价值的企业</b>
 									</h2>
-									<p>한 사람이 꾸면 꿈이지만, 여럿이 함께하면 현실이 됩니다</p>
+									<p>一个人做梦只是梦，许多人一起可以圆梦</p>
 									<div class="btn-area">
 										<p>
-											<a href="#" class="btn btn-default" role="button">회사소개 보러가기</a>
+											<a href="#" class="btn btn-default" role="button">仔细查看</a>
 										</p>
 									</div>
 								</div>
 							</li>
 							<li class="visual-list">
-								<img src="/assets/images/img_visual_md.jpg" class="img-fluid d-sm-block d-xl-none" alt="">
-								<img src="/assets/images/img_visual_xl.jpg" class="img-fluid d-none d-xl-block" alt="">
+								<img src="/cn/assets/images/img_visual_md.jpg" class="img-fluid d-sm-block d-xl-none" alt="">
+								<img src="/cn/assets/images/img_visual_xl.jpg" class="img-fluid d-none d-xl-block" alt="">
 								<div class="summary">
 									<h2>
-										사람이 건강하고 <br>
-										회사가 건강한 <br>
-										<b>백년가치의 기업</b>
+										人们健康 <br>
+										会社健康 <br>
+										<b>百年价值的企业</b>
 									</h2>
-									<p>한 사람이 꾸면 꿈이지만, 여럿이 함께하면 현실이 됩니다</p>
+									<p>一个人做梦只是梦，许多人一起可以圆梦</p>
 									<div class="btn-area">
 										<p>
-											<a href="#" class="btn btn-default" role="button">회사소개 보러가기</a>
+											<a href="#" class="btn btn-default" role="button">仔细查看</a>
 										</p>
 									</div>
 								</div>
 							</li>
 							<li class="visual-list">
-								<img src="/assets/images/img_visual_md.jpg" class="img-fluid d-sm-block d-xl-none" alt="">
-								<img src="/assets/images/img_visual_xl.jpg" class="img-fluid d-none d-xl-block" alt="">
+								<img src="/cn/assets/images/img_visual_md.jpg" class="img-fluid d-sm-block d-xl-none" alt="">
+								<img src="/cn/assets/images/img_visual_xl.jpg" class="img-fluid d-none d-xl-block" alt="">
 								<div class="summary">
 									<h2>
-										사람이 건강하고 <br>
-										회사가 건강한 <br>
-										<b>백년가치의 기업</b>
+										人们健康 <br>
+										会社健康 <br>
+										<b>百年价值的企业</b>
 									</h2>
-									<p>한 사람이 꾸면 꿈이지만, 여럿이 함께하면 현실이 됩니다</p>
+									<p>一个人做梦只是梦，许多人一起可以圆梦</p>
 									<div class="btn-area">
 										<p>
-											<a href="#" class="btn btn-default" role="button">회사소개 보러가기</a>
+											<a href="#" class="btn btn-default" role="button">仔细查看</a>
 										</p>
 									</div>
 								</div>
@@ -75,7 +75,7 @@
 									<div class="system content2">
 										<a href="#">
 											<div class="item">
-												<img src="/assets/images/img_content2.png" class="img-fluid" alt="FPD Inspection System">
+												<img src="/cn/assets/images/img_content2.png" class="img-fluid" alt="FPD Inspection System">
 											</div>
 											<div class="details">
 												<h3>FPD Transfer<br class="d-xl-none"> System</h3>
@@ -85,12 +85,12 @@
 													수 있는 영역입니다.
 												</p>
 												<div class="btn-box d-none d-md-block">
-													바로가기
+													进入
 												</div>
 											</div>
 										</a>
 										<!--div class="item">
-											<img src="/assets/images/img_content2.png" class="img-fluid" alt="FPD Inspection System">
+											<img src="/cn/assets/images/img_content2.png" class="img-fluid" alt="FPD Inspection System">
 										</div>
 										<div class="details">
 											<h3>FPD Transfer<br class="d-xl-none"> System</h3>
@@ -113,7 +113,7 @@
 									<div class="system content1">
 										<a href="#">
 											<div class="item">
-												<img src="/assets/images/img_content1.png" class="img-fluid" alt="FPD Transfer System">
+												<img src="/cn/assets/images/img_content1.png" class="img-fluid" alt="FPD Transfer System">
 											</div>
 											<div class="details">
 												<h3>FPD Inspection<br class="d-xl-none"> System</h3>
@@ -123,7 +123,7 @@
 													할 수 있는 영역입니다.
 												</p>
 												<div class="btn-box d-none d-md-block">
-													바로가기
+													进入
 												</div>
 											</div>
 										</a>
@@ -149,7 +149,7 @@
 								</div>
 								<div class="col-12 col-md-10">
 									<a href="#">
-										<h4>[공지사항] 홈페이지 리뉴얼 되었습니다.</h4>
+										<h4>UTOSYS website已更新</h4>
 									</a>
 								</div>
 							</div>
@@ -189,7 +189,7 @@
 						<form action="#">
 							<div class="form-group">
 								<label for="search" class="sr-only">검색하기</label>
-								<input type="text" id="search" class="form-control" placeholder="검색어를 입력해주세요.">
+								<input type="text" id="search" class="form-control" placeholder="在此输入关键词">
 								<button type="submit" class="btn btn-search"></button>
 							</div>
 						</form>
@@ -198,13 +198,13 @@
 								<li>
 									<a href="#">
 										<h4>Q&amp;A</h4>
-										<p>궁금하신 사항을<br> 문의해 주시면 친절히<br> 답변 드리겠습니다.</p>
+										<p>如果您有任何疑问，<br>请随时与我们联系。</p>
 									</a>
 								</li>
 								<li>
 									<a href="#">
-										<h4>인재채용</h4>
-										<p>인재존중을 실현하는<br> 유토시스에서 인재를<br> 찾고 있습니다.</p>
+										<h4>人才录用</h4>
+										<p>尊重人才的UTOSYS，<br>正在寻找人才。</p>
 									</a>
 								</li>
 							</ul>
@@ -213,8 +213,8 @@
 									<a href="#">
 										<div class="items"></div>
 										<div class="info">
-											<h4>인증현황</h4>
-											<p>바로가기</p>
+											<h4>认证现状</h4>
+											<p>进入</p>
 										</div>
 									</a>
 								</li>
@@ -222,8 +222,8 @@
 									<a href="#">
 										<div class="items"></div>
 										<div class="info">
-											<h4>오시는 길</h4>
-											<p>바로가기</p>
+											<h4>路线</h4>
+											<p>进入</p>
 										</div>
 									</a>
 								</li>
@@ -231,8 +231,8 @@
 									<a href="#">
 										<div class="items"></div>
 										<div class="info">
-											<h4>공지사항</h4>
-											<p>바로가기</p>
+											<h4>公告</h4>
+											<p>进入</p>
 										</div>
 									</a>
 								</li>
@@ -242,16 +242,16 @@
 					<div class="col-12 col-xl-5 order-xl-first">
 						<div class="bg-utosys">
                             <figure class="d-none d-xl-block">
-						        <img src="/assets/images/img_utosys02.jpg" class="img-fluid" alt="">
+						        <img src="/cn/assets/images/img_utosys02.jpg" class="img-fluid" alt="">
                             </figure>
                             <div class="summary">
                                 <h4>
-                                    사람이 건강하고, 회사가 건강한 <br>
-                                    <b>백년가치의 기업 (주)유토시스</b>
+                                    人们健康，会社健康, <br>
+                                    <b>百年价值的企业（株）<br>UTOSYS</b>
                                 </h4>
                                 <div class="btn-area">
                                     <p>
-                                        <a href="#" class="btn btn-details" role="button">자세히보기</a>
+                                        <a href="#" class="btn btn-details" role="button">仔细查看</a>
                                     </p>
                                 </div>
                             </div>
@@ -271,21 +271,21 @@
                         <li>
                             <a href="#">
                                 <figure>
-                                    <img src="/assets/images/bg_utosys.gif" class="img-fluid" alt="">
+                                    <img src="/cn/assets/images/bg_utosys.gif" class="img-fluid" alt="">
                                 </figure>
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <figure>
-                                    <img src="/assets/images/img_visual_md.jpg" class="img-fluid" alt="">
+                                    <img src="/cn/assets/images/img_visual_md.jpg" class="img-fluid" alt="">
                                 </figure>
                             </a>
                         </li>
                         <li>
                             <a href="#">
                                 <figure>
-                                    <img src="/assets/images/img_visual_xl.jpg" class="img-fluid" alt="">
+                                    <img src="/cn/assets/images/img_visual_xl.jpg" class="img-fluid" alt="">
                                 </figure>
                             </a>
                         </li>
@@ -301,10 +301,10 @@
         </div>
     </div>
     
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/footer.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/docfoot.php'); ?>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="/assets/js/main.js"></script>
+    <script src="/cn/assets/js/main.js"></script>
     <script>
 		(function($){
 			// main modal popup

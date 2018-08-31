@@ -2,8 +2,8 @@
 <header id="header">          
 	<div class="container">
 		<h1 class="logo">
-			<a href="/">
-				<img src="/assets/images/logo.jpg" alt="유토시스 로고">
+			<a href="/cn/">
+				<img src="/cn/assets/images/logo.jpg" alt="유토시스 로고">
 			</a>
 		</h1>
 		<div class="nav-btn-area">
@@ -20,7 +20,7 @@
 					<input type="text" id="global-search" class="form-control" placeholder="검색어를 입력하세요">
                     <label for="global-search" class="sr-only">검색영역</label>
                 </div>
-                <a href="javascript:;" class="btn btn-search default-btn" role="button">
+                <a href="/cnjavascript:;" class="btn btn-search default-btn" role="button">
                     <i class="icon-search">
                         <span class="sr-only">검색하기</span>
                     </i>
@@ -42,57 +42,57 @@
 			</div>
 			<ul class="menu">
 				<li>
-					<a href="/introduce/greetings.php">회사소개</a>
+					<a href="/cn/introduce/greetings.php">关于我们</a>
 					<ul>
 						<li>
-							<a href="/introduce/greetings.php">CEO 인사말<span></span></a>
+							<a href="/cn/introduce/greetings.php">CEO 인사말<span></span></a>
 						</li>
 						<li>
-							<a href="/introduce/ideology.php">경영이념<span></span></a>
+							<a href="/cn/introduce/ideology.php">경영이념<span></span></a>
 						</li>
 						<li>
-							<a href="/introduce/history.php">연혁/사업실적<span></span></a>
+							<a href="/cn/introduce/history.php">연혁/사업실적<span></span></a>
 						</li>
 						<li>
-							<a href="/introduce/organization.php">조직도<span></span></a>
+							<a href="/cn/introduce/organization.php">조직도<span></span></a>
 						</li>
 						<li>
-							<a href="/introduce/ci.php">CI<span></span></a>
+							<a href="/cn/introduce/ci.php">CI<span></span></a>
 						</li>
 						<li>
-							<a href="/introduce/certification.php">인증현황<span></span></a>
+							<a href="/cn/introduce/certification.php">인증현황<span></span></a>
 						</li>
 						<li>
-							<a href="/introduce/location.php">오시는 길<span></span></a>
+							<a href="/cn/introduce/location.php">오시는 길<span></span></a>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<a href="/business/loader.php">사업영역</a>
+					<a href="/cn/business/loader.php">事业领域</a>
 					<ul>
-						<li><a href="/business/loader.php">FPD Transfer System<span></span></a></li>
-						<li><a href="/business/loader.php">FPD Inspection System<span></span></a></li>
+						<li><a href="/cn/business/loader.php">FPD Transfer System<span></span></a></li>
+						<li><a href="/cn/business/loader.php">FPD Inspection System<span></span></a></li>
 					</ul>
 				</li>
 				<li>
-					<a href="/recruit/recruit_person.php">인재채용<span></span></a>
+					<a href="/cn/recruit/recruit_person.php">人才录用<span></span></a>
 					<ul>
-						<li><a href="/recruit/recruit_person.php">인재상<span></span></a></li>
-						<li><a href="/recruit/walfare.php">복지제도<span></span></a></li>
-						<li><a href="/recruit/recruitment.php">채용안내<span></span></a></li>
+						<li><a href="/cn/recruit/recruit_person.php">인재상<span></span></a></li>
+						<li><a href="/cn/recruit/walfare.php">복지제도<span></span></a></li>
+						<li><a href="/cn/recruit/recruitment.php">채용안내<span></span></a></li>
 					</ul>
 				</li>
 				<li>
-					<a href="/customer/notice_list.php">고객센터<span></span></a>
+					<a href="/cn/customer/notice_list.php">顾客中心<span></span></a>
 					<ul>
-						<li><a href="/customer/notice_list.php">공지사항<span></span></a></li>
-						<li><a href="/customer/qna_list.php">Q&amp;A<span></span></a></li>
+						<li><a href="/cn/customer/notice_list.php">공지사항<span></span></a></li>
+						<li><a href="/cn/customer/qna_list.php">Q&amp;A<span></span></a></li>
 					</ul>
 				</li>
 			</ul>
 			<ul class="laguage">
 				<li>
-					<a href="#">
+					<a href="/">
 						<span class="flag-icon flag-icon-kr"></span>
 					</a>
 				</li>
@@ -102,7 +102,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="/cn/">
 						<span class="flag-icon flag-icon-cn"></span>
 					</a>
 				</li>

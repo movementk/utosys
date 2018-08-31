@@ -5,22 +5,22 @@
 			<div class="col-12 col-lg-9 col-xl-10">
 				<ul class="information">
 					<li>
-						<a href="/introduce/greetings.php">회사소개</a>
+						<a href="/introduce/greetings.php">关于我们</a>
 					</li>
 					<li>
-						<a href="/introduce/location.php">찾아오시는 길</a>
+						<a href="/introduce/location.php">路线</a>
 					</li>
 					<li>
-						<a href="/recruit/recruit_person.php">인재채용</a>
+						<a href="/recruit/recruit_person.php">人才录用</a>
 					</li>
 					<li>
-						<a href="/customer/qna_list.php">문의하기</a>
+						<a href="/customer/qna_list.php">联系我们</a>
 					</li>
 				</ul>
 				<div class="company">
 					<ul>
 						<li>
-							<address>경북 구미시 해평면 도신로 162-32 (주)유토시스</address>
+							<address>庆尚北道龟尾市海平面道新路162-32</address>
 						</li>
 						<li>
 							<dl>
@@ -36,8 +36,8 @@
 						</li>
 						<li>
 							<dl>
-								<dt>대표자</dt>
-								<dd>백차흠</dd>
+								<dt>代表</dt>
+								<dd>白次钦</dd>
 							</dl>
 						</li>
 					</ul>
