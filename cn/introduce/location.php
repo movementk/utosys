@@ -1,15 +1,15 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link rel="stylesheet" href="/assets/css/sub.css">
-<link rel="stylesheet" href="/assets/css/introduce.css">
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/dochead.php'); ?>
+<link rel="stylesheet" href="/cn/assets/css/sub.css">
+<link rel="stylesheet" href="/cn/assets/css/introduce.css">
 </head>
 <body>
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/aside.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/header.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/aside.php'); ?>
     
 	<!-- page-header -->
     <div class="page-header">
         <div class="page-summary">
-            <h2>회사소개</h2>
+            <h2>关于我们</h2>
         </div>
 		<!-- page-path -->
 		<div class="page-path">
@@ -19,16 +19,16 @@
 					<li> 
 						<div class="dropdown">
 							<button class="btn btn-secondary dropdown-toggle" type="button" id="depth-list" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								오시는길
+								路线
 							</button>
 							<div class="dropdown-menu" aria-labelledby="depth-list">
-								<a class="dropdown-item" href="/introduce/greetings.php">CEO 인사말</a>
-								<a class="dropdown-item" href="/introduce/ideology.php">경영이념</a>
-								<a class="dropdown-item" href="/introduce/history.php">연혁/사업실적</a>
-								<a class="dropdown-item" href="/introduce/organization.php">조직도</a>
-								<a class="dropdown-item" href="/introduce/ci.php">CI</a>
-								<a class="dropdown-item" href="/introduce/certification.php">인증현황</a>
-								<a class="dropdown-item active" href="/introduce/location.php">오시는길</a>
+								<a class="dropdown-item" href="/cn/introduce/greetings.php">CEO问候</a>
+								<a class="dropdown-item" href="/cn/introduce/ideology.php">经营理念</a>
+								<a class="dropdown-item" href="/cn/introduce/history.php">历史/业务绩效</a>
+								<a class="dropdown-item" href="/cn/introduce/organization.php">组织图</a>
+								<a class="dropdown-item" href="/cn/introduce/ci.php">CI</a>
+								<a class="dropdown-item" href="/cn/introduce/certification.php">认证现状</a>
+								<a class="dropdown-item active" href="/cn/introduce/location.php">路线</a>
 							</div> 
 						</div>
 					</li>
@@ -43,31 +43,31 @@
 			<div class="container">
 				<div class="section-header">
 					<div class="page-title">
-						<h2>오시는길</h2>
+						<h2>路线</h2>
 					</div> 
 				</div>
 				<ul class="nav nav-tabs" id="myTab" role="tablist">
 					<li class="nav-item">
-						<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">본사 (구미사업장)</a>
+						<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">总部（龟尾营业场所）</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" id="paju-tab" data-toggle="tab" href="#paju" role="tab" aria-controls="profile" aria-selected="false">파주사무소</a>
+						<a class="nav-link" id="paju-tab" data-toggle="tab" href="#paju" role="tab" aria-controls="profile" aria-selected="false">坡州办事处</a>
 					</li>
 				</ul>
 				<div class="tab-content" id="myTabContent">
 					<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 						<div class="section-content">
-							<h4>본사 (구미사업장)</h4>
+							<h4>总部（龟尾营业场所）</h4>
 							<ul class="details">
 								<li>
 									<dl>
-										<dt>주소</dt>
-										<dd>경북 구미시 도신로 162-32</dd>
+										<dt>地址</dt>
+										<dd>庆尚北道龟尾市海平面道新路162-32</dd>
 									</dl>
 								</li>
 								<li>
 									<dl>
-										<dt>대표번호</dt>
+										<dt>电话</dt>
 										<dd><a href="tel:0544738122">054-473-8122</a></dd>
 									</dl>
 								</li>
@@ -79,23 +79,23 @@
 								</li>
 							</ul>
 							<div class="maps">
-								<img src="/assets/images/introduce/img_maps.jpg" class="img-fluid" alt="지도">
+								<img src="/cn/assets/images/introduce/img_maps.jpg" class="img-fluid" alt="지도">
 							</div>
 						</div>
 					</div>
 					<div class="tab-pane fade" id="paju" role="tabpanel" aria-labelledby="paju-tab">
 						<div class="section-content">
-							<h4>파주사무소</h4>
+							<h4>坡州办事处</h4>
 							<ul class="details">
 								<li>
 									<dl>
-										<dt>주소</dt>
-										<dd>파주시 월롱면 덕은리 1248-2(엘씨디로 241번지 8-9) 함께하는 친구들 1층 103호</dd>
+										<dt>地址</dt>
+										<dd>京畿道坡州市月笼面德隐里1248-2</dd>
 									</dl>
 								</li>
 								<li>
 									<dl>
-										<dt>대표번호</dt>
+										<dt>电话</dt>
 										<dd><a href="tel:0544738122">054-473-8122</a></dd>
 									</dl>
 								</li>
@@ -107,7 +107,7 @@
 								</li>
 							</ul>
 							<div class="maps">
-								<img src="/assets/images/introduce/img_maps.jpg" class="img-fluid" alt="지도">
+								<img src="/cn/assets/images/introduce/img_maps.jpg" class="img-fluid" alt="지도">
 							</div>
 						</div>
 					</div>
@@ -173,7 +173,7 @@
 		
 	</main>
 		
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/footer.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/docfoot.php'); ?>
 </body>
 </html>

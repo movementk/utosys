@@ -1,15 +1,15 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link rel="stylesheet" href="/assets/css/sub.css">
-<link rel="stylesheet" href="/assets/css/recruit.css">
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/dochead.php'); ?>
+<link rel="stylesheet" href="/cn/assets/css/sub.css">
+<link rel="stylesheet" href="/cn/assets/css/recruit.css">
 </head>
 <body>
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/aside.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/header.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/aside.php'); ?>
     
 	<!-- page-header -->
     <div class="page-header">
         <div class="page-summary">
-            <h2>인재채용</h2>
+            <h2>人才录用</h2>
         </div>
 		<!-- page-path -->
 		<div class="page-path">
@@ -19,12 +19,12 @@
 					<li> 
 						<div class="dropdown">
 							<button class="btn btn-secondary dropdown-toggle" type="button" id="depth-list" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								인재상
+								人才奖
 							</button>
 							<div class="dropdown-menu" aria-labelledby="depth-list">
-								<a class="dropdown-item" href="/recruit/recruit_person.php">인재상</a>
-								<a class="dropdown-item" href="/recruit/walfare.php">복지제도</a>
-								<a class="dropdown-item active" href="/recruit/recruitment.php">채용안내</a>
+								<a class="dropdown-item" href=/cn/recruit/recruit_person.php>人才奖</a>
+								<a class="dropdown-item" href="/cn/recruit/walfare.php">福利制度</a>
+								<a class="dropdown-item active" href="/cn/recruit/recruitment.php">招聘信息</a>
 							</div> 
 						</div>
 					</li>
@@ -38,53 +38,53 @@
     	<div class="container">
 			<!-- page-title -->
 			<div class="page-title">
-				<h2>채용절차</h2>
+				<h2>招聘信息</h2>
 			</div>
 			<article class="process">
 			    <div class="article-header">
 			        <ol>
 			            <li>
 			                <figure>
-			                    <img src="/assets/images/recruit/img_recruitment01.png" class="img-fluid" alt="">
+			                    <img src="/cn/assets/images/recruit/img_recruitment01.png" class="img-fluid" alt="">
 			                    <figcaption>
 			                        <small class="d-md-none">STEP 01</small>
-			                        <p>지원서 접수</p>
+			                        <p>接收申请</p>
 			                    </figcaption>
 			                </figure>
 			            </li>
 			            <li>
 			                <figure>
-			                    <img src="/assets/images/recruit/img_recruitment02.png" class="img-fluid" alt="">
+			                    <img src="/cn/assets/images/recruit/img_recruitment02.png" class="img-fluid" alt="">
 			                    <figcaption>
 			                        <small class="d-md-none">STEP 02</small>
-			                        <p>서류전형</p>
+			                        <p>筛选简历</p>
 			                    </figcaption>
 			                </figure>
 			            </li>
 			            <li>
 			                <figure>
-		                    	<img src="/assets/images/recruit/img_recruitment04.png" class="img-fluid" alt="">
+		                    	<img src="/cn/assets/images/recruit/img_recruitment04.png" class="img-fluid" alt="">
 			                    <figcaption>
 			                        <small class="d-md-none">STEP 04</small>
-			                        <p>1차면접<br class="d-md-none">(실무진)</p>
+			                        <p>第1次面试<br class="d-md-none">（工作组）</p>
 			                    </figcaption>
 			                </figure>
 			            </li>
 			            <li>
 			                <figure>
-			                    <img src="/assets/images/recruit/img_recruitment03.png" class="img-fluid" alt="">
+			                    <img src="/cn/assets/images/recruit/img_recruitment03.png" class="img-fluid" alt="">
 			                    <figcaption>
 			                        <small class="d-md-none">STEP 03</small>
-			                        <p>2차면접<br class="d-md-none">(경영진)</p>
+			                        <p>第2次面试<br class="d-md-none">（管理层）</p>
 			                    </figcaption>
 			                </figure>
 			            </li>
 			            <li>
 			                <figure>
-			                    <img src="/assets/images/recruit/img_recruitment05.png" class="img-fluid" alt="">
+			                    <img src="/cn/assets/images/recruit/img_recruitment05.png" class="img-fluid" alt="">
 			                    <figcaption>
 			                        <small class="d-md-none">STEP 05</small>
-			                        <p>최종합격</p>
+			                        <p>最终合格</p>
 			                    </figcaption>
 			                </figure>
 			            </li>
@@ -96,11 +96,11 @@
                             <div class="row">
                                 <div class="col-12 col-md-5 col-xl-3">
                                     <strong>STEP 01</strong>
-                                    <h4>지원서접수</h4>
+                                    <h4>接收申请</h4>
                                 </div>
                                 <div class="col-12 col-md-7 col-xl-9">
                                     <p class="summary">
-                                        채용공고를 바탕으로 자신에게 적합한 분야를 선택하여 지원서를 작성/제출합니다.
+                                        根据招聘信息，您可以选择并提交合适您岗位的申请表。
                                     </p>
                                 </div>
                             </div>                            
@@ -109,12 +109,12 @@
                             <div class="row">
                                 <div class="col-12 col-md-5 col-xl-3">
                                     <strong>STEP 02</strong>
-                                    <h4>서류전형</h4>
+                                    <h4>筛选简历</h4>
                                 </div>
                                 <div class="col-12 col-md-7 col-xl-9">
                                     <p class="summary">
-                                        지원자의 입사 지원서를 바탕으로 지원자의 기본 역량/유토시스 인재상 기준에 적합 여부를 평가합니다.<br>
-                                        이력서와 자기소개서는 면접전형에 활용되므로 성실하고 허위사실 없이 기재를 하셔야 합니다.
+                                        根据申请人的申请表，评估申请人的基本能力来判断适不适合UTOSYS.<br>
+                                        您提交的简历和个人介绍需要写的真实，不可有虚假。
                                     </p>
                                 </div>
                             </div>                            
@@ -123,11 +123,12 @@
                             <div class="row">
                                 <div class="col-12 col-md-5 col-xl-3">
                                     <strong>STEP 03</strong>
-                                    <h4>면접전형<br class="d-none d-md-block"> (실무진,경영진)</h4>
+                                    <h4>面试<br class="d-none d-md-block">(工作组，<br class="d-none d-md-block">管理层)</h4>
                                 </div>
                                 <div class="col-12 col-md-7 col-xl-9">
                                     <p class="summary">
-                                        서류전형 합격자를 대상으로 면접이 실시되며, 면접전형은 실무진 면접과 경영진 면접이 있습니다. <br class="d-none d-xl-block">이를 통해 자사 인재상과의 적합한 성품, 가치관 등을 평가하며, 업무 수행을 위한 능력과 열정,  실무역량 등을 평가합니다.
+                                        面试的对象是提交简历的人员，是由工作组和管理层来面试。<br class="d-none d-xl-block">	
+                                        通过它来评估面试对象的性格和价值观，评估工作能力，热情和展开业务的实际能力。
                                     </p>
                                 </div>
                             </div>                            
@@ -136,11 +137,11 @@
                             <div class="row">
                                 <div class="col-12 col-md-5 col-xl-3">
                                     <strong>STEP 04</strong>
-                                    <h4>최종합격</h4>
+                                    <h4>最终合格</h4>
                                 </div>
                                 <div class="col-12 col-md-7 col-xl-9">
                                     <p class="summary">
-                                        최종합격 후 입사자는 부서배치 후 OJT를 통하여 유토시스인으로 육성됩니다.
+                                        最终录取后，会安排部属，通过OJT成为UTOSYS的员工。
                                     </p>
                                 </div>
                             </div>                            
@@ -151,7 +152,7 @@
 		</div>	
 	</main>
 		
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/footer.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/docfoot.php'); ?>
 </body>
 </html>

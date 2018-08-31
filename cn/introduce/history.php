@@ -1,15 +1,15 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link rel="stylesheet" href="/assets/css/sub.css">
-<link rel="stylesheet" href="/assets/css/introduce.css">
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/dochead.php'); ?>
+<link rel="stylesheet" href="/cn/assets/css/sub.css">
+<link rel="stylesheet" href="/cn/assets/css/introduce.css">
 </head>
 <body>
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/aside.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/header.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/aside.php'); ?>
     
 	<!-- page-header -->
     <div class="page-header">
         <div class="page-summary">
-            <h2>회사소개</h2>
+            <h2>关于我们</h2>
         </div>
 		<!-- page-path -->
 		<div class="page-path">
@@ -19,16 +19,16 @@
 					<li> 
 						<div class="dropdown">
 							<button class="btn btn-secondary dropdown-toggle" type="button" id="depth-list" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								연혁/사업실적
+								历史/业务绩效
 							</button>
 							<div class="dropdown-menu" aria-labelledby="depth-list">
-								<a class="dropdown-item" href="/introduce/greetings.php">CEO 인사말</a>
-								<a class="dropdown-item" href="/introduce/ideology.php">경영이념</a>
-								<a class="dropdown-item active" href="/introduce/history.php">연혁/사업실적</a>
-								<a class="dropdown-item" href="/introduce/organization.php">조직도</a>
-								<a class="dropdown-item" href="/introduce/ci.php">CI</a>
-								<a class="dropdown-item" href="/introduce/certification.php">인증현황</a>
-								<a class="dropdown-item" href="/introduce/location.php">오시는길</a>
+								<a class="dropdown-item" href="/cn/introduce/greetings.php">CEO问候</a>
+								<a class="dropdown-item" href="/cn/introduce/ideology.php">经营理念</a>
+								<a class="dropdown-item  active" href="/cn/introduce/history.php">历史/业务绩效</a>
+								<a class="dropdown-item" href="/cn/introduce/organization.php">组织图</a>
+								<a class="dropdown-item" href="/cn/introduce/ci.php">CI</a>
+								<a class="dropdown-item" href="/cn/introduce/certification.php">认证现状</a>
+								<a class="dropdown-item" href="/cn/introduce/location.php">路线</a>
 							</div> 
 						</div>
 					</li>
@@ -42,7 +42,7 @@
     	<div class="container">
 			<!-- page-title -->
 			<div class="page-title">
-				<h2>연혁/사업실적</h2>
+				<h2>历史/业务绩效</h2>
 			</div>
 			<ol class="history-list">
 			    <li>
@@ -51,19 +51,19 @@
 			            <li>
 			                <dl>
 			                    <dt>2015. 12</dt>
-			                    <dd>부설 연구소 설립</dd>
+			                    <dd>成立研发中心</dd>
 			                </dl>
 			            </li>
 			            <li>
 			                <dl>
 			                    <dt>2015. 04</dt>
-			                    <dd>회사 신축 이전</dd>
+			                    <dd>新公司搬迁</dd>
 			                </dl>
 			            </li>
 			            <li>
 			                <dl>
 			                    <dt>2015. 03</dt>
-			                    <dd>사명 변경 (디에스엔티 → 유토시스) </dd>
+			                    <dd>2015.03  更变公司名（DSNT ---UTOSYS) </dd>
 			                </dl>
 			            </li>
 			        </ol>
@@ -74,7 +74,7 @@
 			            <li>
 			                <dl>
 			                    <dt>2012. 03</dt>
-			                    <dd>LGD 1차 협력 업체 등록</dd>
+			                    <dd> LGD 第一次合作企业登录</dd>
 			                </dl>
 			            </li>
 			        </ol>
@@ -85,7 +85,7 @@
 			            <li>
 			                <dl>
 			                    <dt>2011. 08</dt>
-			                    <dd>벤처 기업 인증 ISO 9001/14001 인증</dd>
+			                    <dd>创业企业认证 ISO 9001/14001 认证</dd>
 			                </dl>
 			            </li>
 			        </ol>
@@ -96,7 +96,7 @@
 			            <li>
 			                <dl>
 			                    <dt>2009. 06</dt>
-			                    <dd>사명 변경 (다스나노텍 → 디엔스엔티)</dd>
+			                    <dd>更变公司名 （DAS Nanotech --- DSNT)</dd>
 			                </dl>
 			            </li>
 			        </ol>
@@ -107,149 +107,12 @@
 			            <li>
 			                <dl>
 			                    <dt>200. 01</dt>
-			                    <dd>다스나노텍 설립</dd>
+			                    <dd>设立 DAS Nanotech</dd>
 			                </dl>
 			            </li>
 			        </ol>
 			    </li>
 			</ol>
-			<!--<ol class="history-list">
-				<li>
-					<div class="row">
-						<div class="col-12 col-md-7 col-xl-5 offset-xl-1">
-							<div class="info">
-								<div class="year year-15">
-									2015
-								</div>
-								<ol class="details">
-									<li>
-										<dl>
-											<dt>2015. 12</dt>
-											<dd>부설 연구소 설립</dd>
-										</dl>
-									</li>
-									<li>
-										<dl>
-											<dt>2015. 04</dt>
-											<dd>회사 신축 이전</dd>
-										</dl>
-									</li>
-									<li>
-										<dl>
-											<dt>2015. 03</dt>
-											<dd>사명 변경 (디에스엔티 → 유토시스)</dd>
-										</dl>
-									</li>
-								</ol>
-							</div>
-						</div>
-						<div class="col-12 col-md-5 col-xl-5 offset-xl-1">
-							<div class="history-img">
-								<img src="/assets/images/introduce/img_history01.jpg" class="img-fluid" alt="2015">
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="row">
-						<div class="col-12 col-md-7 col-xl-5 offset-xl-1">
-							<div class="info">
-								<div class="year year-12">
-									2012 
-								</div>
-								<ol class="details space">
-									<li>
-										<dl>
-											<dt>2012. 03</dt>
-											<dd>LGD 1차 협력 업체 등록</dd>
-										</dl>
-									</li>
-								</ol>
-							</div>
-						</div>
-						<div class="col-12 col-md-5 col-xl-5 offset-xl-1">
-							<div class="history-img">
-								<img src="/assets/images/introduce/img_history02.jpg" class="img-fluid" alt="2012">
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="row">
-						<div class="col-12 col-md-7 col-xl-5 offset-xl-1">
-							<div class="info">
-								<div class="year year-11">
-									2011
-								</div>
-								<ol class="details space">
-									<li>
-										<dl>
-											<dt>2011. 08</dt>
-											<dd>
-												벤처 기업 인증
-												ISO 9001/14001 인증
-											</dd>
-										</dl>
-									</li>
-								</ol>
-							</div>
-						</div>
-						<div class="col-12 col-md-5 col-xl-5 offset-xl-1">
-							<div class="history-img">
-								<img src="/assets/images/introduce/img_history03.jpg" class="img-fluid" alt="2011">
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="row">
-						<div class="col-12 col-md-7 col-xl-5 offset-xl-1">
-							<div class="info">
-								<div class="year year-09">
-									2009
-								</div>
-								<ol class="details space">
-									<li>
-										<dl>
-											<dt>2009. 06</dt>
-											<dd>사명 변경 (다스나노텍 → 디엔스엔티)</dd>
-										</dl>
-									</li>
-								</ol>
-							</div>
-						</div>
-						<div class="col-12 col-md-5 col-xl-5 offset-xl-1">
-							<div class="history-img">
-								<img src="/assets/images/introduce/img_history04.jpg" class="img-fluid" alt="2009">
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="row">
-						<div class="col-12 col-md-7 col-xl-5 offset-xl-1">
-							<div class="info">
-								<div class="year year-07">
-									2007
-								</div>
-								<ol class="details space">
-									<li>
-										<dl>
-											<dt>2007. 01</dt>
-											<dd>다스나노텍 설립</dd>
-										</dl>
-									</li>
-								</ol>
-							</div>
-						</div>
-						<div class="col-12 col-md-5 col-xl-5 offset-xl-1">
-							<div class="history-img">
-								<img src="/assets/images/introduce/img_history05.jpg" class="img-fluid" alt="2007">
-							</div>
-						</div>
-					</div>
-				</li>
-			</ol>-->
 		</div>
 	</main>
 		

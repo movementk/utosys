@@ -1,15 +1,15 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link rel="stylesheet" href="/assets/css/sub.css">
-<link rel="stylesheet" href="/assets/css/recruit.css">
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/dochead.php'); ?>
+<link rel="stylesheet" href="/cn/assets/css/sub.css">
+<link rel="stylesheet" href="/cn/assets/css/recruit.css">
 </head>
 <body>
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/aside.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/header.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/aside.php'); ?>
     
 	<!-- page-header -->
     <div class="page-header">
         <div class="page-summary">
-            <h2>인재채용</h2>
+            <h2>人才录用</h2>
         </div>
 		<!-- page-path -->
 		<div class="page-path">
@@ -19,12 +19,12 @@
 					<li> 
 						<div class="dropdown">
 							<button class="btn btn-secondary dropdown-toggle" type="button" id="depth-list" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								인재상
+								人才奖
 							</button>
 							<div class="dropdown-menu" aria-labelledby="depth-list">
-								<a class="dropdown-item" href="/recruit/recruit_person.php">인재상</a>
-								<a class="dropdown-item active" href="/recruit/walfare.php">복지제도</a>
-								<a class="dropdown-item" href="/recruit/recruitment.php">채용안내</a>
+								<a class="dropdown-item" href=/cn/recruit/recruit_person.php>人才奖</a>
+								<a class="dropdown-item active" href="/cn/recruit/walfare.php">福利制度</a>
+								<a class="dropdown-item" href="/cn/recruit/recruitment.php">招聘信息</a>
 							</div> 
 						</div>
 					</li>
@@ -38,37 +38,36 @@
     	<div class="container">
 			<!-- page-title -->
 			<div class="page-title">
-				<h2>복지제도</h2>
+				<h2>福利制度</h2>
 			</div>
 			<article class="health">
 				<div class="info">
-					<h5>건강한 생활 지원</h5>
+					<h5>健康生活的支持</h5>
 					<ol>
 						<li>
 							<dl>
 								<dt>
-									<span>1</span>휴가
+									<span>1</span>休假
 								</dt>
 								<dd>
-									법정공휴일, 유급하계휴가, Re-Fresh 
-									휴가 등을 통하여 임직원들의 워라벨
-									(Work&amp;Life Balance)을 지원합니다.
+									通过法定节假日，带薪休假， Re-Fresh 
+									休假支持员工的健康生活。
 								</dd>
 							</dl>
 						</li>
 						<li>
 							<dl>
-								<dt><span>2</span>임직원 건강검진</dt>
+								<dt><span>2</span>员工健康检查</dt>
 								<dd>
-									정기적인 건강진단으로 임직원의 건강을 유지하고 있습니다.
+									定期的健康检查能保证员工的健康。
 								</dd>
 							</dl>
 						</li>
 						<li>
 							<dl>
-								<dt><span>3</span>동호회 활동</dt>
+								<dt><span>3</span>社内活动</dt>
 								<dd>
-									볼링, 탁구, 축구 등 다양한 동호회 활동을 지원하여 직원들의 건강과 조직 유대감 형성에 기여하고 있습니다. 
+									通过保龄球，台球，足球等活动来保证员工的健康生活。
 								</dd>
 							</dl>
 						</li>
@@ -78,19 +77,19 @@
 			
 			<article class="happy">
 				<div class="info">
-					<h5>행복한 생활지원</h5>
+					<h5>幸福生活的支持</h5>
 					<ol>
 						<li>
 							<span>1</span>
-							<p>생일 및 결혼기념일 선물 지급</p>
+							<p>生日或结婚纪念日有礼品赠送</p>
 						</li>
 						<li>
 							<span>2</span>
-							<p>명절선물 및 귀향비 지원</p>
+							<p>节假日礼物及报销回家路费</p>
 						</li>
 						<li>
 							<span>3</span>
-							<p>사내식당 운영</p>
+							<p>运营社内食堂</p>
 						</li>
 					</ol>
 				</div>
@@ -98,29 +97,29 @@
 			
 			<article class="stable">
 				<div class="info">
-					<h5>안정적인 생활지원</h5>
+					<h5>稳定生活的支持</h5>
 					<ol>
 						<li>
 							<dl>
 								<dt>
-									<span>1</span>경조사지원
+									<span>1</span>慶弔事支援
 								</dt>
 								<dd>
-									임직원의 경조사 발생에 따른 축하금/ 조의금 및 경조사 유급휴가를부여합니다.
+									员工的慶弔事时有相应的资金补助和给予带薪休假。
 								</dd>
 							</dl>
 						</li>
 						<li>
 							<dl>
-								<dt><span>2</span>기숙사지원</dt>
+								<dt><span>2</span>提供宿舍</dt>
 								<dd>
-									타 지역 거주 임직원을 위한 기숙사 지원
+									为外地员工提供宿舍 
 								</dd>
 							</dl>
 						</li>
 						<li>
 							<span>3</span>
-							<p>장기근속 포상</p>
+							<p>长期勤工奖金</p>
 						</li>
 					</ol>
 				</div>
@@ -128,7 +127,7 @@
 		</div>	
 	</main>
 		
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/footer.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/docfoot.php'); ?>
 </body>
 </html>

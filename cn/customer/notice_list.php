@@ -1,15 +1,15 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link rel="stylesheet" href="/assets/css/sub.css">
-<link rel="stylesheet" href="/assets/css/customer.css">
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/dochead.php'); ?>
+<link rel="stylesheet" href="/cn/assets/css/sub.css">
+<link rel="stylesheet" href="/cn/assets/css/customer.css">
 </head>
 <body class="customer">
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/aside.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/header.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/aside.php'); ?>
     
 	<!-- page-header -->
     <div class="page-header">
         <div class="page-summary">
-            <h2>고객센터</h2>
+            <h2>顾客中心</h2>
         </div>
 		<!-- page-path -->
 		<div class="page-path">
@@ -19,11 +19,11 @@
 					<li> 
 						<div class="dropdown">
 							<button class="btn btn-secondary dropdown-toggle" type="button" id="depth-list" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								공지사항
+								通知
 							</button>
 							<div class="dropdown-menu" aria-labelledby="depth-list">
-								<a class="dropdown-item active" href="/customer/notice_list.php">공지사항</a>
-								<a class="dropdown-item" href="/customer/qna_list.php">Q&amp;A</a>
+								<a class="dropdown-item active" href="/cn/customer/notice_list.php">通知</a>
+								<a class="dropdown-item" href="/cn/customer/qna_list.php">Q&amp;A</a>
 							</div> 
 						</div>
 					</li>
@@ -36,17 +36,12 @@
     <main id="content" class="notice-list">
     	<div class="container">
 			<div class="page-title">
-				<h2>공지사항</h2>
+				<h2>通知</h2>
 			</div>
 			<div class="select-search">
 				<form action="#">
 					<div class="form-group">
-						<select class="form-control">
-							<option>전체</option>
-						</select>
-					</div>
-					<div class="form-group">
-						<input type="text" id="search" class="form-control">
+						<input type="text" id="search" class="form-control" placeholder="在此输入关键词">
 						<label for="search" class="sr-only">검색하기</label>
 					</div>
 					<p class="btn-search">
@@ -60,9 +55,9 @@
 				<li class="d-none d-xl-block list-intro">
 					<ul class="list-header">
 						<li>NO</li>
-						<li>제목</li>
-						<li>등록일</li>
-						<li>조회</li>
+						<li>标题</li>
+						<li>日期</li>
+						<li>点击量</li>
 					</ul>
 				</li>	
 				<li>
@@ -71,7 +66,7 @@
 							152							
 						</li>
 						<li class="subject">
-							<a href="/customer/notice_view.php">
+							<a href="/cn/customer/notice_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -95,7 +90,7 @@
 							152							
 						</li>
 						<li class="subject">
-							<a href="/customer/notice_view.php">
+							<a href="/cn/customer/notice_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -119,7 +114,7 @@
 							152							
 						</li>
 						<li class="subject">
-							<a href="/customer/notice_view.php">
+							<a href="/cn/customer/notice_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -143,7 +138,7 @@
 							152							
 						</li>
 						<li class="subject">
-							<a href="/customer/notice_view.php">
+							<a href="/cn/customer/notice_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -167,7 +162,7 @@
 							152							
 						</li>
 						<li class="subject">
-							<a href="/customer/notice_view.php">
+							<a href="/cn/customer/notice_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -191,7 +186,7 @@
 							152							
 						</li>
 						<li class="subject">
-							<a href="/customer/notice_view.php">
+							<a href="/cn/customer/notice_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -215,7 +210,7 @@
 							152							
 						</li>
 						<li class="subject">
-							<a href="/customer/notice_view.php">
+							<a href="/cn/customer/notice_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -239,7 +234,7 @@
 							152							
 						</li>
 						<li class="subject">
-							<a href="/customer/notice_view.php">
+							<a href="/cn/customer/notice_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -263,7 +258,7 @@
 							152							
 						</li>
 						<li class="subject">
-							<a href="/customer/notice_view.php">
+							<a href="/cn/customer/notice_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -287,7 +282,7 @@
 							152							
 						</li>
 						<li class="subject">
-							<a href="/customer/notice_view.php">
+							<a href="/cn/customer/notice_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -371,7 +366,7 @@
 		</div>	
 	</main>
 		
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/footer.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/docfoot.php'); ?>
 </body>
 </html>

@@ -1,15 +1,15 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link rel="stylesheet" href="/assets/css/sub.css">
-<link rel="stylesheet" href="/assets/css/customer.css">
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/dochead.php'); ?>
+<link rel="stylesheet" href="/cn/assets/css/sub.css">
+<link rel="stylesheet" href="/cn/assets/css/customer.css">
 </head>
 <body class="customer">
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/aside.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/header.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/aside.php'); ?>
     
 	<!-- page-header -->
     <div class="page-header">
         <div class="page-summary">
-            <h2>고객센터</h2>
+            <h2>顾客中心</h2>
         </div>
 		<!-- page-path -->
 		<div class="page-path">
@@ -22,8 +22,8 @@
 								Q&amp;A
 							</button>
 							<div class="dropdown-menu" aria-labelledby="depth-list">
-								<a class="dropdown-item" href="/customer/notice_list.php">공지사항</a>
-								<a class="dropdown-item active" href="/customer/qna_list.php">Q&amp;A</a>
+								<a class="dropdown-item" href="/cn/customer/notice_list.php">通知</a>
+								<a class="dropdown-item active" href="/cn/customer/qna_list.php">Q&amp;A</a>
 							</div> 
 						</div>
 					</li>
@@ -41,12 +41,7 @@
 			<div class="select-search">
 				<form action="#">
 					<div class="form-group">
-						<select class="form-control">
-							<option>전체</option>
-						</select>
-					</div>
-					<div class="form-group">
-						<input type="text" id="search" class="form-control">
+						<input type="text" id="search" class="form-control" placeholder="在此输入关键词">
 						<label for="search" class="sr-only">검색하기</label>
 					</div>
 					<p class="btn-search">
@@ -72,7 +67,7 @@
 							152							
 						</li>
 						<li class="subject lock">
-							<a href="/customer/qna_view.php">
+							<a href="/cn/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -99,7 +94,7 @@
 							152							
 						</li>
 						<li class="subject lock">
-							<a href="/customer/qna_view.php">
+							<a href="/cn/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -126,7 +121,7 @@
 							152							
 						</li>
 						<li class="subject lock">
-							<a href="/customer/qna_view.php">
+							<a href="/cn/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -153,7 +148,7 @@
 							152							
 						</li>
 						<li class="subject lock">
-							<a href="/customer/qna_view.php">
+							<a href="/cn/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -180,7 +175,7 @@
 							152							
 						</li>
 						<li class="subject lock">
-							<a href="/customer/qna_view.php">
+							<a href="/cn/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -207,7 +202,7 @@
 							152							
 						</li>
 						<li class="subject lock">
-							<a href="/customer/qna_view.php">
+							<a href="/cn/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -234,7 +229,7 @@
 							152							
 						</li>
 						<li class="subject lock">
-							<a href="/customer/qna_view.php">
+							<a href="/cn/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -261,7 +256,7 @@
 							152							
 						</li>
 						<li class="subject lock">
-							<a href="/customer/qna_view.php">
+							<a href="/cn/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -288,7 +283,7 @@
 							152							
 						</li>
 						<li class="subject lock">
-							<a href="/customer/qna_view.php">
+							<a href="/cn/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -315,7 +310,7 @@
 							152							
 						</li>
 						<li class="subject lock">
-							<a href="/customer/qna_view.php">
+							<a href="/cn/customer/qna_view.php">
 								임의의 내용을 노출합니다.
 							</a>
 						</li>
@@ -339,7 +334,7 @@
 			</ul>
 			<div class="btn-area">
 				<p>
-					<a href="/customer/qna_write.php" class="btn btn-navy">글쓰기</a>
+					<a href="/cn/customer/qna_write.php" class="btn btn-navy">写作</a>
 				</p>
 			</div>
 			<nav class="paging">
@@ -407,7 +402,7 @@
 		</div>	
 	</main>
 		
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/footer.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/docfoot.php'); ?>
 </body>
 </html>

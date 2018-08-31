@@ -41,12 +41,7 @@
 			<div class="select-search">
 				<form action="#">
 					<div class="form-group">
-						<select class="form-control">
-							<option>전체</option>
-						</select>
-					</div>
-					<div class="form-group">
-						<input type="text" id="search" class="form-control">
+						<input type="text" id="search" class="form-control" placeholder="검색어를 입력해 주세요">
 						<label for="search" class="sr-only">검색하기</label>
 					</div>
 					<p class="btn-search">
