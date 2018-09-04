@@ -265,8 +265,8 @@
 		}
 		> input { 
 			&.form-control {
-				float: left;
-				width: 68%;
+				/*float: left;
+				width: 68%;*/
 				font-size: 13px; 
 				color: #000;
 				height: 40px;
@@ -279,7 +279,7 @@
 				box-shadow: none;
 				border: 1px solid #e3e3e3;
 				background-color: #fff;
-				margin-left: 2%;
+				/*margin-left: 2%;*/
 			}
 		}
 	}
@@ -325,11 +325,11 @@
 			}
 			> input {
 				&.form-control {
-					width: 230px;
+					width: 350px;
 					font-size: 14px; 
 					height: 45px;
 					line-height: 45px;
-					padding-right: 50px;
+					padding-right: 60px;
 					padding-left: 15px;
 				}
 			}

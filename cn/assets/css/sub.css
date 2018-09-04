@@ -625,8 +625,8 @@ a {
         width: 30%;
         height: 40px !important; }
     .select-search .form-group > input.form-control {
-      float: left;
-      width: 68%;
+      /*float: left;
+      width: 68%;*/
       font-size: 13px;
       color: #000;
       height: 40px;
@@ -639,7 +639,7 @@ a {
       box-shadow: none;
       border: 1px solid #e3e3e3;
       background-color: #fff;
-      margin-left: 2%; }
+      /*margin-left: 2%;*/ }
   .select-search .btn-search .btn {
     padding: 0;
     box-shadow: none;
@@ -678,7 +678,7 @@ a {
           height: 45px !important;
           padding-right: 15px !important; }
         .select-search .form-group > input.form-control {
-          width: 230px;
+          width: 350px;
           font-size: 14px;
           height: 45px;
           line-height: 45px;
