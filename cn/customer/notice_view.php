@@ -1,10 +1,10 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link rel="stylesheet" href="/assets/css/sub.css">
-<link rel="stylesheet" href="/assets/css/customer.css">
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/dochead.php'); ?>
+<link rel="stylesheet" href="/cn/assets/css/sub.css">
+<link rel="stylesheet" href="/cn/assets/css/customer.css">
 </head>
 <body class="customer">
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/aside.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/header.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/aside.php'); ?>
     
 	<!-- page-header -->
     <div class="page-header">
@@ -22,8 +22,8 @@
 								공지사항
 							</button>
 							<div class="dropdown-menu" aria-labelledby="depth-list">
-								<a class="dropdown-item active" href="/customer/notice_list.php">공지사항</a>
-								<a class="dropdown-item" href="/customer/qna_list.php">Q&amp;A</a>
+								<a class="dropdown-item active" href="/cn/customer/notice_list.php">공지사항</a>
+								<a class="dropdown-item" href="/cn/customer/qna_list.php">Q&amp;A</a>
 							</div> 
 						</div>
 					</li>
@@ -98,13 +98,13 @@
 				<p>
 					<a href="#" class="btn btn-black btn-left" role="button">삭제하기</a>
 					<a href="#" class="btn btn-black btn-left" role="button">수정하기</a>
-					<a href="/customer/notice_list.php" class="btn btn-navy btn-right" role="button">목록보기</a>
+					<a href="/cn/customer/notice_list.php" class="btn btn-navy btn-right" role="button">목록보기</a>
 				</p>
 			</div>
 		</div>	
 	</main>
 		
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/footer.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/docfoot.php'); ?>
 </body>
 </html>

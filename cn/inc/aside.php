@@ -3,7 +3,7 @@
 	<div class="aside-wrap">
 		<div class="aside-header">
 			<p>
-				<img src="/assets/images/aside_menu_logo.png" alt="로고">
+				<img src="/cn/assets/images/aside_menu_logo.png" alt="로고">
 			</p>
 			<button type="button" class="btn btn-default">
 				<span class="sr-only">모바일 네비 버튼</span>
@@ -15,26 +15,26 @@
 					<a href="#">회사소개</a>
 					<ul class="depth-2">
 						<li>
-							<a href="/introduce/greetings.php">CEO 인사말</a>
+							<a href="/cn/introduce/greetings.php">CEO 인사말</a>
 						</li>
 						<li>
-							<a href="/introduce/ideology.php">경영이념</a>
+							<a href="/cn/introduce/ideology.php">경영이념</a>
 						</li>
 						<li> 
-							<a href="/introduce/history.php">연혁/사업실적</a>
+							<a href="/cn/introduce/history.php">연혁/사업실적</a>
 						</li>
 						<li> 
-							<a href="/introduce/organization.php">조직도</a>
+							<a href="/cn/introduce/organization.php">조직도</a>
 						</li>
 						<li>
-							<a href="/introduce/ci.php">CI</a>
+							<a href="/cn/introduce/ci.php">CI</a>
 						</li>
 						<li> 
-							<a href="/introduce/certification.php">인증현황</a>
+							<a href="/cn/introduce/certification.php">인증현황</a>
 						</li>
 
 						<li> 
-							<a href="/introduce/location.php">오시는길</a>
+							<a href="/cn/introduce/location.php">오시는길</a>
 						</li>
 					</ul>
 				</li>
@@ -45,7 +45,7 @@
 							<a href="#" class="arrow">FPD Transfer System</a>
 							<ul class="depth-3">
 								<li>
-									<a href="/business/loader.php">마스크 로더</a>
+									<a href="/cn/business/loader.php">마스크 로더</a>
 								</li>
 								<li>
 									<a href="#">Panel Reversal</a>
@@ -103,13 +103,13 @@
 					<a href="#">인재채용</a>
 					<ul class="depth-2">
 						<li>
-							<a href="/recruit/recruit_person.php">인재상</a>
+							<a href="/cn/recruit/recruit_person.php">인재상</a>
 						</li>
 						<li>
-							<a href="/recruit/walfare.php">복지제도</a>
+							<a href="/cn/recruit/walfare.php">복지제도</a>
 						</li>
 						<li> 
-							<a href="/recruit/recruitment.php">채용안내</a>
+							<a href="/cn/recruit/recruitment.php">채용안내</a>
 						</li>
 					</ul>
 				</li>
@@ -117,10 +117,10 @@
 					<a href="#">고객센터</a>
 					<ul class="depth-2">
 						<li>
-							<a href="/customer/notice_list.php">공지사항</a>
+							<a href="/cn/customer/notice_list.php">공지사항</a>
 						</li>
 						<li>
-							<a href="/customer/qna_list.php">Q&amp;A</a>
+							<a href="/cn/customer/qna_list.php">Q&amp;A</a>
 						</li>
 					</ul>
 				</li>

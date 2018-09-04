@@ -22,7 +22,7 @@
 								人才奖
 							</button>
 							<div class="dropdown-menu" aria-labelledby="depth-list">
-								<a class="dropdown-item" href=/cn/recruit/recruit_person.php>人才奖</a>
+								<a class="dropdown-item" href="/cn/recruit/recruit_person.php">人才奖</a>
 								<a class="dropdown-item active" href="/cn/recruit/walfare.php">福利制度</a>
 								<a class="dropdown-item" href="/cn/recruit/recruitment.php">招聘信息</a>
 							</div> 

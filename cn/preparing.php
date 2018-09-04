@@ -1,9 +1,9 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link rel="stylesheet" href="/assets/css/sub.css">
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/dochead.php'); ?>
+<link rel="stylesheet" href="/cn/assets/css/sub.css">
 </head>
 <body>
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/aside.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/header.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/aside.php'); ?>
     
 	<!-- page-header -->
     <div class="page-header">
@@ -21,13 +21,13 @@
 								인사말
 							</button>
 							<div class="dropdown-menu" aria-labelledby="depth-list">
-								<a class="dropdown-item active" href="/introduce/greetings.php">CEO 인사말</a>
-								<a class="dropdown-item" href="/introduce/ideology.php">경영이념</a>
-								<a class="dropdown-item" href="/introduce/history.php">연혁/사업실적</a>
-								<a class="dropdown-item" href="/introduce/organization.php">조직도</a>
-								<a class="dropdown-item" href="/introduce/ci.php">CI</a>
-								<a class="dropdown-item" href="/introduce/certification.php">인증현황</a>
-								<a class="dropdown-item" href="/introduce/location.php">오시는길</a>
+								<a class="dropdown-item active" href="/cn/introduce/greetings.php">CEO 인사말</a>
+								<a class="dropdown-item" href="/cn/introduce/ideology.php">경영이념</a>
+								<a class="dropdown-item" href="/cn/introduce/history.php">연혁/사업실적</a>
+								<a class="dropdown-item" href="/cn/introduce/organization.php">조직도</a>
+								<a class="dropdown-item" href="/cn/introduce/ci.php">CI</a>
+								<a class="dropdown-item" href="/cn/introduce/certification.php">인증현황</a>
+								<a class="dropdown-item" href="/cn/introduce/location.php">오시는길</a>
 							</div> 
 						</div>
 					</li>
@@ -40,7 +40,7 @@
     <main id="content" class="preparing">
     	<div class="container">
 			<figure>
-				<img src="/assets/images/img_preparing.png" class="img-fluid" alt="준비중">
+				<img src="/cn/assets/images/img_preparing.png" class="img-fluid" alt="준비중">
 			</figure>
 			<h4>페이지 준비중 입니다</h4>
 			<p>
@@ -50,7 +50,7 @@
 		</div>	
 	</main>
 		
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/footer.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/docfoot.php'); ?>
 </body>
 </html>

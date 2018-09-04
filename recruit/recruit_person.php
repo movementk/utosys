@@ -22,7 +22,7 @@
 								인재상
 							</button>
 							<div class="dropdown-menu" aria-labelledby="depth-list">
-								<a class="dropdown-item active" href=/recruit/recruit_person.php>인재상</a>
+								<a class="dropdown-item active" href="/recruit/recruit_person.php">인재상</a>
 								<a class="dropdown-item" href="/recruit/walfare.php">복지제도</a>
 								<a class="dropdown-item" href="/recruit/recruitment.php">채용안내</a>
 							</div> 

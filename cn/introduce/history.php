@@ -116,7 +116,7 @@
 		</div>
 	</main>
 		
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/footer.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/docfoot.php'); ?>
 </body>
 </html>

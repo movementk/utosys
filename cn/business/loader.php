@@ -1,10 +1,10 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link rel="stylesheet" href="/assets/css/sub.css">
-<link rel="stylesheet" href="/assets/css/business.css">
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/dochead.php'); ?>
+<link rel="stylesheet" href="/cn/assets/css/sub.css">
+<link rel="stylesheet" href="/cn/assets/css/business.css">
 </head>
 <body>
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/aside.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/header.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/aside.php'); ?>
     
 	<!-- page-header -->
     <div class="page-header">
@@ -52,9 +52,9 @@
 			<div class="row">
 				<div class="col-12 col-xl-6">
 					<figure>
-						<img src="/assets/images/business/img_loader_sm.jpg" class="img-fluid d-md-none" alt="">
-						<img src="/assets/images/business/img_loader_md.jpg" class="img-fluid d-none d-sm-none d-md-block d-xl-none" alt="">
-						<img src="/assets/images/business/img_loader_xl.jpg" class="img-fluid d-none d-sm-none d-md-none d-xl-block" alt="">
+						<img src="/cn/assets/images/business/img_loader_sm.jpg" class="img-fluid d-md-none" alt="">
+						<img src="/cn/assets/images/business/img_loader_md.jpg" class="img-fluid d-none d-sm-none d-md-block d-xl-none" alt="">
+						<img src="/cn/assets/images/business/img_loader_xl.jpg" class="img-fluid d-none d-sm-none d-md-none d-xl-block" alt="">
 					</figure>
 				</div> 
 				<div class="col-12 col-xl-6">
@@ -116,7 +116,7 @@
 		</div>
 	</main>
 		
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/footer.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/docfoot.php'); ?>
 </body>
 </html>

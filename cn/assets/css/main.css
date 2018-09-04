@@ -794,7 +794,7 @@ a {
 .news {
   width: 100%;
   padding: 30px 0;
-  background-image: url(/assets/images/bg_news02.gif);
+  background-image: url(/cn/assets/images/bg_news02.gif);
   background-position: center;
   background-repeat: repeat;
   background-size: cover; }
@@ -892,9 +892,9 @@ a {
       .quick .quick-menu .qucik-info > li ~ li {
         margin-top: 10px; }
       .quick .quick-menu .qucik-info > li:nth-of-type(1) {
-        background-image: url(/assets/images/bg_qucik_info01.png); }
+        background-image: url(/cn/assets/images/bg_qucik_info01.png); }
       .quick .quick-menu .qucik-info > li:nth-of-type(2) {
-        background-image: url(/assets/images/bg_qucik_info02.png); }
+        background-image: url(/cn/assets/images/bg_qucik_info02.png); }
       .quick .quick-menu .qucik-info > li > a {
         display: block;
         padding: 30px;
@@ -946,11 +946,11 @@ a {
             -webkit-transition-delay: 0s;
             transition-delay: 0s; }
         .quick .quick-menu .qucik-list > li:first-child > a .items {
-          background-image: url(/assets/images/icon_qucik_list01.png); }
+          background-image: url(/cn/assets/images/icon_qucik_list01.png); }
         .quick .quick-menu .qucik-list > li:nth-of-type(2) > a .items {
-          background-image: url(/assets/images/icon_qucik_list02.png); }
+          background-image: url(/cn/assets/images/icon_qucik_list02.png); }
         .quick .quick-menu .qucik-list > li:last-child > a .items {
-          background-image: url(/assets/images/icon_qucik_list03.png); }
+          background-image: url(/cn/assets/images/icon_qucik_list03.png); }
         .quick .quick-menu .qucik-list > li:last-child:after {
           display: none; }
         .quick .quick-menu .qucik-list > li:after {
@@ -966,7 +966,7 @@ a {
     height: 235px;
     padding: 25px 20px;
     margin-top: 10px;
-    background-image: url(/assets/images/bg_utosys02.gif);
+    background-image: url(/cn/assets/images/bg_utosys02.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }

@@ -421,7 +421,7 @@ a {
       max-width: 1200px; } }
 
 .page-header .page-summary {
-  background-image: url(/assets/images/recruit/bg_page_header.jpg); }
+  background-image: url(/cn/assets/images/recruit/bg_page_header.jpg); }
 
 .page-path .breadcrumb > li .dropdown .dropdown-menu {
   height: 120px; }
@@ -526,11 +526,11 @@ a {
     margin-top: 30px; }
   .walfare article.health {
     padding-top: 150px;
-    background-image: url(/assets/images/recruit/img_walfare01.jpg);
+    background-image: url(/cn/assets/images/recruit/img_walfare01.jpg);
     background-size: auto 370px; }
   .walfare article.happy {
     padding-top: 165px;
-    background-image: url(/assets/images/recruit/img_walfare02.jpg);
+    background-image: url(/cn/assets/images/recruit/img_walfare02.jpg);
     background-size: auto 340px; }
     .walfare article.happy .info ol li {
       margin-top: 18px; }
@@ -538,7 +538,7 @@ a {
         margin-top: 0; }
   .walfare article.stable {
     padding-top: 170px;
-    background-image: url(/assets/images/recruit/img_walfare03.jpg);
+    background-image: url(/cn/assets/images/recruit/img_walfare03.jpg);
     background-size: auto 400px; }
   .walfare article .info {
     padding: 25px 20px 45px;

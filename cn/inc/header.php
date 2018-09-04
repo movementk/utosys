@@ -20,7 +20,7 @@
 					<input type="text" id="global-search" class="form-control" placeholder="검색어를 입력하세요">
                     <label for="global-search" class="sr-only">검색영역</label>
                 </div>
-                <a href="/cnjavascript:;" class="btn btn-search default-btn" role="button">
+                <a href="javascript:;" class="btn btn-search default-btn" role="button">
                     <i class="icon-search">
                         <span class="sr-only">검색하기</span>
                     </i>
