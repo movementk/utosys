@@ -1,10 +1,10 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link rel="stylesheet" href="/assets/css/sub.css">
-<link rel="stylesheet" href="/assets/css/customer.css">
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/dochead.php'); ?>
+<link rel="stylesheet" href="/cn/assets/css/sub.css">
+<link rel="stylesheet" href="/cn/assets/css/customer.css">
 </head>
 <body class="customer">
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/aside.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/header.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/aside.php'); ?>
     
 	<!-- page-header -->
     <div class="page-header">
@@ -22,8 +22,8 @@
 								Q&amp;A
 							</button>
 							<div class="dropdown-menu" aria-labelledby="depth-list">
-								<a class="dropdown-item" href="/customer/notice_list.php">공지사항</a>
-								<a class="dropdown-item active" href="/customer/qna_list.php">Q&amp;A</a>
+								<a class="dropdown-item" href="/cn/customer/notice_list.php">공지사항</a>
+								<a class="dropdown-item active" href="/cn/customer/qna_list.php">Q&amp;A</a>
 							</div> 
 						</div>
 					</li>
@@ -38,7 +38,7 @@
 			<article class="confirm-form">
 				<form action="#">
 					<figure>
-						<img src="/assets/images/customer/img_pw_lock.jpg" alt="">
+						<img src="/cn/assets/images/customer/img_pw_lock.jpg" alt="">
 					</figure>
 					<div class="details">
 						<h2>비밀번호 확인</h2>
@@ -62,7 +62,7 @@
 		</div>	
 	</main>
 		
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/footer.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/docfoot.php'); ?>
 </body>
 </html>

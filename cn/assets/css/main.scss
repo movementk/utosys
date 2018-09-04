@@ -497,7 +497,7 @@
 .news {
 	width: 100%;
 	padding: 30px 0;
-	background-image: url(/assets/images/bg_news02.gif);
+	background-image: url(/cn/assets/images/bg_news02.gif);
 	background-position: center;
 	background-repeat: repeat;
 	background-size: cover;
@@ -646,10 +646,10 @@
 					margin-top: 10px;
 				}
 				&:nth-of-type(1) {
-					background-image: 	url(/assets/images/bg_qucik_info01.png);
+					background-image: 	url(/cn/assets/images/bg_qucik_info01.png);
 				}
 				&:nth-of-type(2) {
-					background-image: 	url(/assets/images/bg_qucik_info02.png);
+					background-image: 	url(/cn/assets/images/bg_qucik_info02.png);
 				}
 				> a {
 					display: block;
@@ -711,21 +711,21 @@
 				&:first-child {
 					> a {
 						.items {
-							background-image: url(/assets/images/icon_qucik_list01.png);
+							background-image: url(/cn/assets/images/icon_qucik_list01.png);
 						}	
 					}
 				}
 				&:nth-of-type(2) {
 					> a {
 						.items {
-							background-image: url(/assets/images/icon_qucik_list02.png);
+							background-image: url(/cn/assets/images/icon_qucik_list02.png);
 						}	
 					}
 				}
 				&:last-child {
 					> a {
 						.items {
-							background-image: url(/assets/images/icon_qucik_list03.png);
+							background-image: url(/cn/assets/images/icon_qucik_list03.png);
 						}	
 					}
 					&:after {
@@ -749,7 +749,7 @@
 		height: 235px;
 		padding: 25px 20px;
 		margin-top: 10px;
-		background-image: url(/assets/images/bg_utosys02.gif);
+		background-image: url(/cn/assets/images/bg_utosys02.gif);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;

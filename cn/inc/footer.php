@@ -5,16 +5,16 @@
 			<div class="col-12 col-lg-9 col-xl-10">
 				<ul class="information">
 					<li>
-						<a href="/introduce/greetings.php">关于我们</a>
+						<a href="/cn/introduce/greetings.php">关于我们</a>
 					</li>
 					<li>
-						<a href="/introduce/location.php">路线</a>
+						<a href="/cn/introduce/location.php">路线</a>
 					</li>
 					<li>
-						<a href="/recruit/recruit_person.php">人才录用</a>
+						<a href="/cn/recruit/recruit_person.php">人才录用</a>
 					</li>
 					<li>
-						<a href="/customer/qna_list.php">联系我们</a>
+						<a href="/cn/customer/qna_list.php">联系我们</a>
 					</li>
 				</ul>
 				<div class="company">
@@ -46,7 +46,7 @@
 			</div>
 			<div class="d-none d-lg-block col-lg-3 col-xl-2">
 				<figure>
-					<img src="/assets/images/img_footer_logo.png" alt="">
+					<img src="/cn/assets/images/img_footer_logo.png" alt="">
 				</figure>
 			</div>
 		</div>

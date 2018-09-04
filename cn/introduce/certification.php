@@ -1,10 +1,10 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link rel="stylesheet" href="/assets/css/sub.css">
-<link rel="stylesheet" href="/assets/css/introduce.css">
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/dochead.php'); ?>
+<link rel="stylesheet" href="/cn/assets/css/sub.css">
+<link rel="stylesheet" href="/cn/assets/css/introduce.css">
 </head>
 <body>
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/aside.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/header.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/aside.php'); ?>
     
 	<!-- page-header -->
     <div class="page-header">
@@ -48,7 +48,7 @@
 				<li class="col-6 col-md-4 col-xl-3">
 					<a href="#" data-toggle="modal" data-target="#certify-popup">
 						<div class="items">
-							<img src="/assets/images/introduce/img_certify01.jpg" class="img-fluid" alt="">
+							<img src="/cn/assets/images/introduce/img_certify01.jpg" class="img-fluid" alt="">
 						</div>
 						<p>특허 제 10-0963955호</p>
 					</a>
@@ -56,7 +56,7 @@
 				<li class="col-6 col-md-4 col-xl-3">
 					<a href="#" data-toggle="modal" data-target="#certify-popup">
 						<div class="items">
-							<img src="/assets/images/introduce/img_certify02.jpg" class="img-fluid" alt="">
+							<img src="/cn/assets/images/introduce/img_certify02.jpg" class="img-fluid" alt="">
 						</div>
 						<p>특허 제 10-0963955호</p>
 					</a>
@@ -64,7 +64,7 @@
 				<li class="col-6 col-md-4 col-xl-3">
 					<a href="#" data-toggle="modal" data-target="#certify-popup">
 						<div class="items">
-							<img src="/assets/images/introduce/img_certify03.jpg" class="img-fluid" alt="">
+							<img src="/cn/assets/images/introduce/img_certify03.jpg" class="img-fluid" alt="">
 						</div>
 						<p>특허 제 10-0963955호</p>
 					</a>
@@ -72,7 +72,7 @@
 				<li class="col-6 col-md-4 col-xl-3">
 					<a href="#" data-toggle="modal" data-target="#certify-popup">
 						<div class="items">
-							<img src="/assets/images/introduce/img_certify04.jpg" class="img-fluid" alt="">
+							<img src="/cn/assets/images/introduce/img_certify04.jpg" class="img-fluid" alt="">
 						</div>
 						<p>특허 제 10-0963955호</p>
 					</a>
@@ -99,13 +99,13 @@
 				<!--/div-->
 				<div class="modal-body">
 					<figure>
-						<img src="/assets/images/introduce/certify-popup.jpg" class="img-fluid" alt="">
+						<img src="/cn/assets/images/introduce/certify-popup.jpg" class="img-fluid" alt="">
 					</figure>
 				</div>
 			</div>
 		</div>
 	</div>
-	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/footer.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/cn/inc/docfoot.php'); ?>
 </body>
 </html>
