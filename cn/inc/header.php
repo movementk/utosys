@@ -17,7 +17,7 @@
 		<div class="global-search">
 			<form action="#">
 				<div class="form-group d-none">
-					<input type="text" id="global-search" class="form-control" placeholder="검색어를 입력하세요">
+					<input type="text" id="global-search" class="form-control" placeholder="在此输入关键词">
                     <label for="global-search" class="sr-only">검색영역</label>
                 </div>
                 <a href="javascript:;" class="btn btn-search default-btn" role="button">
@@ -37,33 +37,33 @@
 		<hr>
 		<div class="container">
 			<div class="gnb-intro">
-				<p>사람이 建康하고, 會社가 建康한</p>
-				<h2>백년가치의 기업<br>(주)유토시스</h2>
+				<p>人们健康, 会社健康</p>
+				<h2>百年价值的企业<br>(株）UTOSYS</h2>
 			</div>
 			<ul class="menu">
 				<li>
 					<a href="/cn/introduce/greetings.php">关于我们</a>
 					<ul>
 						<li>
-							<a href="/cn/introduce/greetings.php">CEO 인사말<span></span></a>
+							<a href="/cn/introduce/greetings.php">CEO问候<span></span></a>
 						</li>
 						<li>
-							<a href="/cn/introduce/ideology.php">경영이념<span></span></a>
+							<a href="/cn/introduce/ideology.php">经营理念<span></span></a>
 						</li>
 						<li>
-							<a href="/cn/introduce/history.php">연혁/사업실적<span></span></a>
+							<a href="/cn/introduce/history.php">历史/业务绩效<span></span></a>
 						</li>
 						<li>
-							<a href="/cn/introduce/organization.php">조직도<span></span></a>
+							<a href="/cn/introduce/organization.php">组织图<span></span></a>
 						</li>
 						<li>
 							<a href="/cn/introduce/ci.php">CI<span></span></a>
 						</li>
 						<li>
-							<a href="/cn/introduce/certification.php">인증현황<span></span></a>
+							<a href="/cn/introduce/certification.php">认证现状<span></span></a>
 						</li>
 						<li>
-							<a href="/cn/introduce/location.php">오시는 길<span></span></a>
+							<a href="/cn/introduce/location.php">路线<span></span></a>
 						</li>
 					</ul>
 				</li>
@@ -77,15 +77,15 @@
 				<li>
 					<a href="/cn/recruit/recruit_person.php">人才录用<span></span></a>
 					<ul>
-						<li><a href="/cn/recruit/recruit_person.php">인재상<span></span></a></li>
-						<li><a href="/cn/recruit/walfare.php">복지제도<span></span></a></li>
-						<li><a href="/cn/recruit/recruitment.php">채용안내<span></span></a></li>
+						<li><a href="/cn/recruit/recruit_person.php">人才奖<span></span></a></li>
+						<li><a href="/cn/recruit/walfare.php">福利制度<span></span></a></li>
+						<li><a href="/cn/recruit/recruitment.php">招聘信息<span></span></a></li>
 					</ul>
 				</li>
 				<li>
 					<a href="/cn/customer/notice_list.php">顾客中心<span></span></a>
 					<ul>
-						<li><a href="/cn/customer/notice_list.php">공지사항<span></span></a></li>
+						<li><a href="/cn/customer/notice_list.php">通知<span></span></a></li>
 						<li><a href="/cn/customer/qna_list.php">Q&amp;A<span></span></a></li>
 					</ul>
 				</li>

@@ -12,40 +12,39 @@
 		<div class="aside-body">
 			<ul class="depth-1">
 				<li>
-					<a href="#">회사소개</a>
+					<a href="#">关于我们</a>
 					<ul class="depth-2">
 						<li>
-							<a href="/cn/introduce/greetings.php">CEO 인사말</a>
+							<a href="/cn/introduce/greetings.php">CEO问候</a>
 						</li>
 						<li>
-							<a href="/cn/introduce/ideology.php">경영이념</a>
+							<a href="/cn/introduce/ideology.php">经营理念</a>
 						</li>
 						<li> 
-							<a href="/cn/introduce/history.php">연혁/사업실적</a>
+							<a href="/cn/introduce/history.php">历史/业务绩效</a>
 						</li>
 						<li> 
-							<a href="/cn/introduce/organization.php">조직도</a>
+							<a href="/cn/introduce/organization.php">组织图</a>
 						</li>
 						<li>
 							<a href="/cn/introduce/ci.php">CI</a>
 						</li>
 						<li> 
-							<a href="/cn/introduce/certification.php">인증현황</a>
+							<a href="/cn/introduce/certification.php">认证现状</a>
 						</li>
-
 						<li> 
-							<a href="/cn/introduce/location.php">오시는길</a>
+							<a href="/cn/introduce/location.php">路线</a>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<a href="#">사업영역</a>
+					<a href="#">事业领域</a>
 					<ul class="depth-2">
 						<li>
 							<a href="#" class="arrow">FPD Transfer System</a>
 							<ul class="depth-3">
 								<li>
-									<a href="/cn/business/loader.php">마스크 로더</a>
+									<a href="/cn/business/loader.php">Loader/Unloader</a>
 								</li>
 								<li>
 									<a href="#">Panel Reversal</a>
@@ -81,10 +80,10 @@
 							<a href="#" class="arrow">FPD Inspection System</a>
 							<ul class="depth-3">
 								<li>
-									<a href="#">Panel Edge 검사기</a>
+									<a href="#">Panel Edge 检查机</a>
 								</li>
 								<li>
-									<a href="#">Notch 연마량 검사기</a>
+									<a href="#">Notch 研磨量检查机</a>
 								</li>
 								<li>
 									<a href="#">Module Denting Inspection</a>
@@ -100,24 +99,24 @@
 					</ul>
 				</li>
 				<li>
-					<a href="#">인재채용</a>
+					<a href="#">人才录用</a>
 					<ul class="depth-2">
 						<li>
-							<a href="/cn/recruit/recruit_person.php">인재상</a>
+							<a href="/cn/recruit/recruit_person.php">人才奖</a>
 						</li>
 						<li>
-							<a href="/cn/recruit/walfare.php">복지제도</a>
+							<a href="/cn/recruit/walfare.php">福利制度</a>
 						</li>
 						<li> 
-							<a href="/cn/recruit/recruitment.php">채용안내</a>
+							<a href="/cn/recruit/recruitment.php">招聘信息</a>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<a href="#">고객센터</a>
+					<a href="#">顾客中心</a>
 					<ul class="depth-2">
 						<li>
-							<a href="/cn/customer/notice_list.php">공지사항</a>
+							<a href="/cn/customer/notice_list.php">通知</a>
 						</li>
 						<li>
 							<a href="/cn/customer/qna_list.php">Q&amp;A</a>
