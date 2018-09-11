@@ -1,0 +1,434 @@
+@import 'common';
+
+//page-header 
+.customer {
+	.page-header {
+		.page-summary {
+			background-image: url(/en/assets/images/customer/bg_customer.gif);
+		}
+	}
+	.page-path {
+		.breadcrumb {
+			.dropdown {
+				.dropdown-menu {
+					height: 123px;
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			.breadcrumb {
+				.dropdown {
+					.dropdown-menu {
+						height: 60px;
+						.dropdown-item {
+							width: 50%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+//공지사항 목록
+.notice-list {
+	padding-bottom: 80px;
+	.select-search {
+		margin-bottom: 25px;
+	}
+	.paging {
+		margin-top: 30px;
+	}
+	@media (min-width: $md) {
+		padding-bottom: 90px;
+		.paging {
+			margin-top: 50px;
+		}
+	}
+	@media (min-width: $xl) {
+		padding-bottom: 120px;
+		.select-search {
+			margin-bottom: 30px;
+		}
+	}
+}
+
+//공지사항 보기
+.notice-view {
+	.page-link1 {
+		margin-top: 40px;
+		border-top: 1px solid #143883;
+		border-bottom: 1px solid #143883;
+		> li {
+			padding: 18px 10px;
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+		@media (min-width: $md) {
+			> li {
+				padding: 18px 30px;
+			}
+		}
+	}
+	.btn-area {
+		margin-top: 30px; 
+	}
+	@media (min-width: $md) {
+		/*.board-view {
+			.view-body {
+				min-height: 415px;
+			}
+		}*/
+		.page-link1 {
+			margin-top: 50px; 
+		}
+		.btn-area {
+			margin-top: 40px;
+		}
+	}
+	@media (min-width: $xl) {
+		.page-link1 {
+			margin-top: 65px; 
+		}
+	}
+}
+
+
+//공지사항 쓰기
+.notice-write {
+	.write-wrap {
+		.table-wrap {
+			.table {
+				tbody {
+					tr {
+						td {
+							&.file {
+								.form-group {
+									.form-control {
+										@media (min-width: $xl) {
+											width: 450px; 
+										}
+									}
+								}
+							}	
+						}
+					}
+				}
+			}
+		}
+		.btn-area {
+			margin-top: 30px;
+		}
+		@media (min-width: $md) {
+			.btn-area {
+				margin-top: 40px;
+			}	
+		}
+		@media (min-width: $md) {
+			.btn-area {
+				margin-top: 30px;
+			}	
+		}
+	}
+}
+
+//Q&A 목록
+.qna-list {
+	padding-bottom: 80px;
+	.list {
+		> li {
+			&.list-intro {
+				> .list-header {
+					> li {
+						font-weight: 400;
+					}
+				}
+			}
+			&.d-xl-block {
+				.list-header {
+					li {
+						text-align: center;
+						font-size: 14px;
+						color: #333;
+						@media(min-width: $xl) {
+							&:nth-of-type(1) {
+								width: 10%;
+							}
+							&:nth-of-type(2) {
+								width: 57%;
+							}
+							&:nth-of-type(3) {
+								width: 13%;
+							}
+							&:nth-of-type(4) {
+								width: 10%;
+							}
+							&:nth-of-type(5) {
+								width: 10%;
+							}
+						}
+					}
+				}
+			}
+			> ul {
+				> li {
+					@media(min-width: $xl) {
+						font-size: 14px;
+						text-align: center;
+						&:nth-of-type(1) {
+							width: 10%;
+						}
+						&:nth-of-type(2) {
+							width: 57%;
+							text-align: left;
+						}
+						&:nth-of-type(3) {
+							width: 13%;
+						}
+						&:nth-of-type(4) {
+							width: 10%;
+						}
+						&:nth-of-type(5) {
+							width: 10%;
+						}
+					}
+				}
+			}
+		}
+	}
+	.select-search {
+		margin-bottom: 25px;
+	}
+	.btn-area { 
+		margin-top: 20px;
+	}
+	.paging {
+		margin-top: 30px;
+	}
+	@media (min-width: $md) {
+		padding-bottom: 90px;
+		.paging {
+			margin-top: 50px;
+		}
+	}
+	@media (min-width: $xl) {
+		padding-bottom: 120px;
+		.select-search {
+			margin-bottom: 30px;
+		}
+	}
+}
+
+
+//Q&A 보기
+.qna-view {
+	.page-link1 {
+		margin-top: 40px;
+		border-top: 1px solid #143883;
+		border-bottom: 1px solid #143883;
+		> li {
+			padding: 18px 10px;
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+		@media (min-width: $md) {
+			> li {
+				padding: 18px 30px;
+			}
+		}
+	}
+	.btn-area {
+		margin-top: 30px; 
+	}
+	@media (min-width: $md) {
+		.board-view {
+		/*	.view-body {
+				min-height: 415px;
+			}*/
+		}
+		.page-link1 {
+			margin-top: 50px; 
+		}
+		.btn-area {
+			margin-top: 40px;
+		}
+	}
+	@media (min-width: $xl) {
+		.page-link1 {
+			margin-top: 65px; 
+		}
+	}
+}
+
+//Q&A 쓰기
+.qna-write {
+	.write-wrap {
+		.table-wrap {
+			.table {
+				tbody {
+					tr {
+						td {
+							&.file {
+								.form-group {
+									.form-control {
+										@media (min-width: $xl) {
+											width: 450px; 
+										}
+									}
+								}
+							}	
+						}
+					}
+				} 
+			}
+		}
+		.btn-area {
+			margin-top: 30px;
+		}
+		@media (min-width: $md) {
+			.btn-area {
+				margin-top: 40px;
+			}	
+		}
+		@media (min-width: $md) {
+			.btn-area {
+				margin-top: 30px;
+			}	
+		}
+	}
+}
+
+//비밀번호 확인
+.pw-confirm {
+	padding-top: 70px;
+	.confirm-form {
+		text-align: center;
+		padding: 50px 30px; 
+		background-color: #fff;
+		.details {
+			> h2 {
+				font-size: 20px;
+				font-weight: 500;
+				color: #333;
+				margin-top: 20px;
+			}
+			> p {
+				font-size: 13px;
+				color: #666;
+				line-height: 22px;
+				margin-top: 20px;
+			}
+		}
+		.form-group {
+			margin-top: 15px;
+			padding: 0 6%;
+			.form-control {
+				border: 0;
+				padding: 0;
+				height: 40px;
+				width: 100%;
+				max-width: 300px;
+				margin: 0 auto;
+				padding: 0 20px;
+				border-bottom: 1px solid #ccc;
+				text-align: center;
+			}
+		}
+		.btn-area {
+			margin-top: 40px;
+			text-align: center;
+			p {
+				.btn {
+					display: inline-block;
+					margin-right: 4%;
+					&:last-child {
+						margin-right: 0;
+					}
+					&.btn-white {
+						width: 48%;
+						line-height: 38px;
+						font-size: 13px;
+						color: #333;
+						border: 1px solid #aaa;
+						&:hover {
+							opacity: .8;
+							@include transition();
+						}
+					}
+					&.btn-navy {
+						width: 48%;
+						line-height: 40px; 
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $md) {
+		padding-top: 100px;
+		.confirm-form {
+			text-align: center;
+			padding: 70px 0 85px; 
+			.details {
+				> h2 {
+					font-size: 22px;
+				}
+				> p {
+					font-size: 15px;
+					line-height: 26px;
+					margin-top: 25px;
+				}
+			}
+			.form-group {
+				padding: 0;
+				.form-control {
+					max-width: 330px;
+				}
+			}
+			.btn-area {
+				p {
+					.btn {
+						margin-right: 10px;
+						&.btn-white {
+							width: 130px;
+							font-size: 14px;
+						}
+						&.btn-navy {
+							width: 130px;
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $xl) {
+		padding-top: 180px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,530 @@
+@import 'common';
+
+//  page-header
+.page-header {
+	.page-summary {
+		background-image: url(/en/assets/images/recruit/bg_page_header.jpg);
+	}	
+}
+
+//  page-path
+.page-path {
+	.breadcrumb {
+		> li {
+			.dropdown {
+				.dropdown-menu {
+					height: 120px;
+				}
+				@media (min-width: $xl) {
+					.dropdown-menu {
+						height: 60px;
+						> .dropdown-item {
+							width: 33.33%;
+							line-height: 58px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+//인재상
+.recruit-person {
+	.container {
+		> ol {
+			padding: 0 20px;
+			li {
+				text-align: center;
+				& ~ li {
+					margin-top: 55px;
+				}
+				> div {
+					display: inline-block;
+					.items {
+						position: relative;
+						> strong {
+							position: absolute;
+							top: 0;
+							left: 50%;
+							margin-left: -20px;
+							font-size: 60px;
+							font-weight: 400;
+							line-height: 190px;
+							color: #fff;
+							@include roboto();
+						}
+					}
+					dl {
+						margin-top: 15px;
+						dt {
+							display: block;
+							font-size: 18px;
+							color: #00a1e9;
+							font-weight: 400;
+							@include roboto();
+						}
+						dd {
+							font-size: 14px;
+							color: #333;
+							margin-top: 5px;
+						}
+					}
+				}
+			}
+		}
+		@media (min-width: $md) {
+			> ol {
+				padding: 0;
+				font-size: 0;
+				overflow: hidden;
+				li {
+					display: inline-block;
+					width: 33.33%;
+					vertical-align: top;
+					& ~ li {
+						margin-top: 0;
+					}
+					&:nth-of-type(2) {
+						> div {
+							.items {
+								> strong {
+									margin-left: -25px;
+								}
+							}
+						}
+					}
+					&:nth-of-type(4) {
+						width: 50%;
+						text-align: right;
+						padding-right: 6.66%;
+						> div {
+							text-align: center;
+						}
+					}
+					&:nth-of-type(5) {
+						width: 50%;
+						text-align: left;
+						padding-left: 6.66%;
+						> div {
+							text-align: center;
+						}
+					}
+					&:nth-of-type(3) ~ li {
+						margin-top: 70px;
+					}
+					> div {
+						.items {
+							> img {
+								width: 166px;
+							}
+							> strong {
+								line-height: 166px;
+							}
+						}
+						dl {
+							margin-top: 25px;
+							dd {
+								margin-top: 10px;
+							}
+						}
+					}
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			> ol {
+				li {
+					width: 20%;
+					&:nth-of-type(4) {
+						width: 20%;
+						text-align: center;
+						padding-right: 0;
+					}
+					&:nth-of-type(5) {
+						width: 20%;
+						text-align: center;
+						padding-left: 0;
+					}
+					&:nth-of-type(3) ~ li {
+						margin-top: 0;
+					}
+					> div { 
+						dl {
+							margin-top: 25px;
+							dd {
+								margin-top: 10px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+//복지 제도
+.walfare {
+	article {
+		padding-left: 20px;
+		padding-right: 20px;
+		background-repeat: no-repeat;
+		background-position: 70% 0;
+		& ~ article {
+			margin-top: 30px;
+		}
+		&.health {
+			padding-top: 150px;
+			background-image: url(/en/assets/images/recruit/img_walfare01.jpg);
+			background-size: auto 370px;
+		}
+		&.happy {
+			padding-top: 165px;
+			background-image: url(/en/assets/images/recruit/img_walfare02.jpg);
+			background-size: auto 340px;
+			.info {
+				ol {
+					li {
+						margin-top: 18px;
+						&:first-child {
+							margin-top: 0; 
+						}
+					}
+				}
+			}
+		}
+		&.stable {
+			padding-top: 170px;
+			background-image: url(/en/assets/images/recruit/img_walfare03.jpg);
+			background-size: auto 400px;
+		}
+		.info {
+			padding: 25px 20px 45px;
+			background: #fff;
+			box-shadow: 2px 5px 18px 0px rgba(0, 0, 0, 0.08); 
+			h5 {
+				font-size: 18px;
+				color: #333;
+				padding-bottom: 15px;
+				border-bottom: 1px solid #ccc;
+			}
+			ol {
+				padding-top: 25px;
+				li {
+					position: relative;
+					& ~ li {
+						margin-top: 35px;	
+					}
+					> p {
+						font-size: 15px;
+						color: #333;
+						line-height: 20px;
+						font-weight: 500;
+						padding-left: 30px;
+					}
+					span {
+						position: absolute;
+						top: 0;
+						left: 0;
+						display: inline-block;
+						width: 20px;
+						height: 20px;
+						font-size: 11px;
+						color: #fff;
+						line-height: 21px;
+						border-radius: 50%;
+						text-align: center;
+						margin-right: 10px;
+						background-color: #ea212f;
+						vertical-align: middle;
+						@include roboto();
+					}
+					dl {
+						padding-left: 30px;
+						dt {
+							font-size: 15px;
+							color: #333;
+							line-height: 20px;
+							font-weight: 500;
+						}
+						dd {
+							font-size: 12px;
+							color: #666;
+							line-height: 22px;
+							margin-top: 10px;
+						}
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $md) {
+		article {
+			padding-left: 40px;
+			padding-right: 40px;
+			& ~ article {
+				margin-top: 60px;
+			}
+			&.health {
+				padding-top: 250px;
+				background-size: auto 475px;
+			}
+			&.happy {
+				padding-top: 250px;
+				background-size: auto 475px;
+				.info {
+					ol {
+						li {
+							margin-top: 27px;
+						}
+					}
+				}
+			}
+			&.stable {
+				padding-top: 250px;
+				background-size: auto 475px;
+			}
+			.info {
+				h5 {
+					font-size: 20px;
+				}
+				ol {
+					padding-top: 35px;
+					li {
+						& ~ li {
+							margin-top: 30px;	
+						}
+						> p {
+							font-size: 16px;
+						}
+						dl {
+							dt {
+								font-size: 16px;
+							}
+							dd {
+								font-size: 13px;
+								line-height: 24px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $xl) {
+		article {
+			padding-left: 70px;
+			padding-right: 70px;
+			& ~ article {
+				margin-top: 100px;
+			}
+			&.health {
+				padding-top: 235px;
+				background-size: auto 475px;
+			}
+			&.happy {
+				padding-top: 235px;
+				background-size: auto 475px;
+				.info {
+					ol {
+						li {
+							margin-top: 40px;
+						}
+					}
+				}
+			}
+			&.stable {
+				padding-top: 235px;
+				background-size: auto 475px;
+			}
+			.info {
+				ol {
+					li {
+						& ~ li {
+							margin-top: 35px;	
+						}
+						dl {
+							dd {
+								font-size: 14px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// recruitment
+.recruitment {
+    .process {
+        .article-header {
+            padding-bottom: 60px;
+            border-bottom: 1px solid #000;
+            > ol {
+                overflow: hidden;
+                > li {
+                    width: 50%;
+                    float: left;
+                    text-align: center;
+                    &:nth-of-type(2) ~ li {
+                        margin-top: 55px;
+                    }
+                    figure {
+                        text-align: center;
+                        display: inline-block;
+                        padding: 0 10%;
+                        /*img {
+                            display: inline-block;
+                            width: 110px;
+                        }*/
+                        figcaption {
+                            margin-top: 15px;
+                            small {
+                                font-size: 10px;
+                                color: #00a1e9;
+                                @include lato();
+                                font-weight: bold;
+                                margin-bottom: 5px;
+                                display: block;
+                            }
+                            p {
+                                font-size: 15px;
+                                color: #333;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .article-content {
+            background-color: #fff;
+            ol {
+                li {
+                    padding: 30px 20px;
+                    border-bottom: 1px dashed #ccc;
+                    &:last-child {
+                        border-bottom: 1px solid #ccc;
+                    }
+                }
+            }
+            strong {
+                @ionclude lato();
+                font-weight: bold;
+                color: #00a1e9;
+                display: inline-block;
+                margin-right: 30px;
+                vertical-align: top;
+            }
+            h4 {
+                font-size: 16px;
+                color: #333;
+                font-weight: 400;
+                display: inline-block;
+            }
+            .summary {
+                font-size: 14px;
+                color: #666;
+                line-height: 24px;
+                font-weight: 300;
+                margin-top: 35px;
+            }
+        }
+        @media(min-width: $md) {
+            .article-header {
+                padding-bottom: 80px;
+                > ol {
+                    overflow: hidden;
+                    > li {
+                        position: relative;
+                        width: 33.33%;
+                        text-align: center;
+                        &:nth-of-type(2) ~ li {
+                            margin-top: 0;
+                        }
+                        &:nth-of-type(3) ~ li {
+                            margin-top: 55px;
+                        }
+                        &:nth-of-type(3) {
+                            &:after {
+                                display: none;
+                            }
+                        }
+                        &:nth-of-type(5) {
+                            &:after {
+                                display: none;
+                            }
+                        }
+                        &:nth-of-type(4) {
+                            margin-left: 16.55%;
+                        }
+                        &:after {
+                            position: absolute;
+                            top: 68px;
+                            right: -5px;
+                            font-size: 20px;
+                            color: #000;
+                            font-family: "fontello";
+                            content: "\F006";
+                        }
+                        figure {
+                            text-align: center;
+                            display: inline-block;
+                            padding: 0;
+                            figcaption {
+                                margin-top: 30px;
+                                p {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .article-content {
+                ol {
+                    li {
+                        padding: 30px 0;
+                    }
+                }
+                h4 {
+                    font-size: 16px;
+                }
+                strong {
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin: 0 50px 0 40px;
+                }
+                .summary {
+                    font-size: 15px;
+                    line-height: 26px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    margin: 0;
+                }
+            }
+        }
+        @media(min-width: $xl) {
+            .article-header {
+                padding-bottom: 110px;
+                > ol {
+                    overflow: hidden;
+                    > li {
+                        position: relative;
+                        width: 20%;
+                        float: left;
+                        text-align: center;
+                        margin: 0 !important;
+                        &:nth-of-type(3) {
+                            &:after {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
