@@ -5,7 +5,7 @@ body {
 	font-size: 13px;
 	padding-top: 55px;
 	background-color: #f8f8f8;
-	@include noto();
+	@include roboto();
 	@media(min-width: $md) {
 		padding-top: 80px;
 	}
@@ -104,6 +104,7 @@ body {
 		> ul {
 			font-size: 0;
 			display: inline-block;
+			vertical-align: top;
 			> li {
 				display: inline-block;
 				vertical-align: top;
@@ -133,7 +134,7 @@ body {
 						display: block;
 						text-align: left;
 						padding-top: 25px;
-						margin-left: 55px;
+						margin-left: 40px;
 						> li {
 							> a {
 								position: relative;

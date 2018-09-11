@@ -66,7 +66,7 @@
 		                    	<img src="/en/assets/images/recruit/img_recruitment04.png" class="img-fluid" alt="">
 			                    <figcaption>
 			                        <small class="d-md-none">STEP 04</small>
-			                        <p>First interview <br class="d-md-none">(team leader)</p>
+			                        <p>First interview <br>(team leader)</p>
 			                    </figcaption>
 			                </figure>
 			            </li>
@@ -75,7 +75,7 @@
 			                    <img src="/en/assets/images/recruit/img_recruitment03.png" class="img-fluid" alt="">
 			                    <figcaption>
 			                        <small class="d-md-none">STEP 03</small>
-			                        <p>Second interview <br class="d-md-none">(management)</p>
+			                        <p>Second interview <br>(management)</p>
 			                    </figcaption>
 			                </figure>
 			            </li>

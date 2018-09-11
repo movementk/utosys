@@ -64,10 +64,10 @@
 							<a href="#" class="arrow">FPD Inspection System</a>
 							<ul class="depth-3">
 								<li>
-									<a href="#">Panel Edge 检查机</a>
+									<a href="#">Panel Edge Inspection</a>
 								</li>
 								<li>
-									<a href="#">Notch 研磨量检查机</a>
+									<a href="#">Notch grinding’ status Inspection </a>
 								</li>
 								<li>
 									<a href="#">Module Denting Inspection</a>

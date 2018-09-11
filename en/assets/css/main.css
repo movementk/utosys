@@ -499,15 +499,15 @@ a {
       transform: scale(1.5); }
     .jumbotron .slick-slider li .summary {
       position: absolute;
-      top: 40px;
+      top: 35px;
       left: 20px;
       padding-right: 55px; }
       .jumbotron .slick-slider li .summary > h2 {
         position: relative;
-        top: 50px;
-        font-size: 30px;
+        top: 40px;
+        font-size: 28px;
         color: #fff;
-        line-height: 38px;
+        line-height: 28px;
         font-weight: 400;
         text-shadow: -3px 0px 7px rgba(0, 0, 0, 0.35);
         -webkit-transition-property: all;
@@ -524,11 +524,11 @@ a {
       .jumbotron .slick-slider li .summary > p {
         position: relative;
         top: 50px;
-        font-size: 13px;
+        font-size: 12px;
         color: #fff;
-        line-height: 20px;
+        line-height: 15px;
         text-shadow: -3px 0px 7px rgba(0, 0, 0, 0.35);
-        margin-top: 20px;
+        margin-top: 15px;
         -webkit-transition-property: all;
         transition-property: all;
         -webkit-transition-duration: 1s;
@@ -541,7 +541,7 @@ a {
       .jumbotron .slick-slider li .summary > .btn-area {
         position: relative;
         top: 50px;
-        margin-top: 30px;
+        margin-top: 20px;
         -webkit-transition-property: all;
         transition-property: all;
         -webkit-transition-duration: 1s;
@@ -885,6 +885,7 @@ a {
     margin-top: 10px; }
     .quick .quick-menu .qucik-info > li {
       width: 100%;
+      vertical-align: top;
       border: 1px solid #ebebeb;
       background-color: #fff;
       background-repeat: no-repeat;
@@ -897,8 +898,9 @@ a {
         background-image: url(/en/assets/images/bg_qucik_info02.png); }
       .quick .quick-menu .qucik-info > li > a {
         display: block;
+        height: 175px;
         padding: 30px;
-        padding-right: 150px; }
+        padding-right: 135px; }
         .quick .quick-menu .qucik-info > li > a > h4 {
           font-size: 16px;
           color: #002e79; }
@@ -917,6 +919,7 @@ a {
         float: left; }
         .quick .quick-menu .qucik-list > li > a {
           display: block;
+          height: 130px;
           padding: 20px 0;
           background-color: #fff; }
           .quick .quick-menu .qucik-list > li > a .items {
@@ -1038,8 +1041,13 @@ a {
             margin-top: 20px; }
         .quick .quick-menu .qucik-list {
           margin-top: 20px; }
+          .quick .quick-menu .qucik-list > li:first-child > a .info > h4 {
+            margin-top: 5px; }
+          .quick .quick-menu .qucik-list > li:first-child > a .info > p {
+            margin-top: 0; }
           .quick .quick-menu .qucik-list > li > a {
-            padding: 25px 0; }
+            padding: 25px 0;
+            height: 112px; }
             .quick .quick-menu .qucik-list > li > a .items {
               display: inline-block;
               margin-left: 30px;
@@ -1049,13 +1057,14 @@ a {
               vertical-align: top; }
               .quick .quick-menu .qucik-list > li > a .info > h4 {
                 font-size: 16px;
+                line-height: 16px;
                 text-align: left;
-                margin-top: 5px; }
+                margin-top: 8px; }
               .quick .quick-menu .qucik-list > li > a .info > P {
                 display: block;
                 font-size: 13px;
                 color: #999;
-                margin-top: 5px; }
+                margin-top: 10px; }
                 .quick .quick-menu .qucik-list > li > a .info > P:after {
                   display: inline-block;
                   content: "\E807";
