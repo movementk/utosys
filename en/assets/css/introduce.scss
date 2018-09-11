@@ -1,0 +1,855 @@
+@import 'common';
+
+.greetings {
+	background-color: #f8f8f8;		
+	article {
+		figure {
+			img {
+				margin-bottom: -40px;
+			}
+		}
+		.greeting-card {
+			width: 95%;
+			height: 135px;
+			padding: 70px 0 0 20px;
+			margin: 0 auto;
+			background-color: #05327c;
+			background-image: url(/en/assets/images/introduce/bg_greetings_logo.png);
+			background-repeat: no-repeat;
+			background-position: 20px 30px;
+			box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.11); 
+			> p {
+				font-size: 13px;
+				color: #fff;
+				line-height: 22px;
+			}
+		}
+		.details {
+			margin-top: 45px;
+			b {
+				font-size: 22px;
+				color: #333;
+				line-height: 32px;
+				@include myeongjo();
+				> i {
+					font-style: normal; 
+					color: #234785;
+					font-size: 500;
+				}
+			}
+			> p {
+				font-size: 12px;
+				color: #666;
+				line-height: 22px;
+				margin-top: 25px;
+			}
+		}
+		@media (min-width: $md) {
+			figure {
+				img {
+					margin-bottom: -95px;
+				}
+			}
+			.greeting-card {
+				width: 290px;
+				height: 200px;
+				padding: 90px 0 0 40px;
+				margin-left: 60px;
+				background-position: 40px 40px;
+				> p {
+					font-size: 14px;
+					line-height: 24px;
+				}
+			}
+			.details {
+				margin-top: 50px;
+				word-break: keep-all;
+				b {
+					font-size: 24px;
+				}
+				> p {
+					font-size: 13px;
+					line-height: 24px;
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			figure {
+				img {
+					margin-bottom: -95px;
+				}
+			}
+			.greeting-card {
+				width: 300px;
+				padding: 95px 0 0 50px;
+				margin-left: 70px;
+				background-position: 50px 40px;
+				> p {
+					font-size: 15px;
+					line-height: 26px;
+				}
+			}
+			.details {
+				margin-top: 145px;
+				padding-right: 10px;
+				> p {
+					font-size: 14px;
+					line-height: 26px;
+					/*word-break: keep-all;*/
+				}
+			}
+		}
+	}
+}
+
+//경영이념
+.ideology {
+	.management {
+		text-align: center;
+		padding-top: 35px;
+		> h3 {
+			width: 140px;
+			font-size: 18px;
+			line-height: 45px;
+			color: #fff;
+			font-weight: 400;
+			text-align: center;
+			border-radius: 30px;
+			margin: 0 auto;
+			background-color: #00a1e9;
+		}
+		> p {
+			font-size: 18px;
+			color: #333;
+			line-height: 30px;
+			font-weight: 300;
+			margin-top: 20px;
+			word-break: break-all;
+			> b {
+				font-weight: 500;
+			}
+		}
+		@media (min-width: $md) {
+			padding-top: 60px;
+			> p {
+				font-size: 22px;
+			}
+		}
+	}
+	.vision {
+		text-align: center;
+		margin-top: 55px;
+		> h3 {
+			width: 140px;
+			font-size: 18px;
+			line-height: 45px;
+			color: #fff;
+			font-weight: 400;
+			text-align: center;
+			border-radius: 30px;
+			margin: 0 auto;
+			background-color: #00a1e9;
+		}
+		> strong {
+			display: block;
+			font-size: 36px;
+			color: #00a1e9;
+			font-weight: bold;
+			margin-top: 20px;
+			@include lato();
+			> i {
+				font-style: normal;
+				color: #082e6d;
+			}
+		}
+		> p {
+			font-size: 16px;
+			color: #666;
+			line-height: 32px;
+			margin-top: 10px;
+		}
+		> .vision-list {
+			padding-top: 130px;
+			background-image: url(/en/assets/images/introduce/bg_vision_list.png);
+			background-repeat: no-repeat;
+			background-position: top;
+			background-size: 350px auto;
+			figure {
+				img {
+					display: block;
+					margin: 0 auto;
+				}
+			}
+			@media (min-width: $md) {
+				padding-top: 200px;
+				background-size: 680px auto;
+			}
+		}
+		@media (min-width: $md) {
+			margin-top: 70px;
+			> strong {
+				font-size: 50px;
+			}
+			> p {
+				font-size: 18px;
+				line-height: 26px;
+			}
+			> .vision-list {
+				padding-top: 200px;
+				background-size: 680px auto;
+			}
+		}
+		@media (min-width: $xl) {
+			> .vision-list {
+				padding-top: 220px;
+			}
+		}
+	}
+}
+
+//조직도
+.organization {
+	.container {
+		> figure {
+			padding-left: 70px;
+			img {
+				display: block;
+				margin: 0 auto; 
+			}
+			@media (min-width: $md) {
+				padding-left: 0;
+			}
+		}
+	}
+}
+
+//CI
+.ci {
+	padding-bottom: 0 !important;
+	.ci-info {
+		padding-bottom: 65px;
+		.section-content {
+			.bg-square {
+				width: 300px;
+				padding: 60px 0;
+                margin: 0 auto;
+				text-align: center;
+				border: 1px solid #ebebeb;
+				background-image: url(/en/assets/images/introduce/bg_ci.jpg);
+				/*background-repeat: repeat;
+				background-size: cover;
+				background-position: center;*/
+				> img {
+					width: 165px;
+				}
+			}
+			.btn-area {
+				margin-top: 15px;
+				margin-bottom: 20px;
+				p {
+					font-size: 0;
+					a {
+						&.btn {
+							width: 49.5%;
+							line-height: 48px;
+							margin-right: 1%;
+							border: 1px solid #0b306f;
+							&:last-child {
+								margin: 0;
+							}
+							&.btn-white {
+								color: #0b306f;
+								border: 1px solid #0b306f;
+							}
+						}
+						&:after {
+							position: relative;
+							top: -4px;
+							left: 15px;
+							content: "\F0DD";
+							font-size: 14px;
+							font-family: "fontello";
+						}
+					}
+				}
+			}
+			> p {
+				font-size: 13px;
+				color: #666;
+				line-height: 20px;
+				font-weight: 300;
+				&:before {
+					content: "*";
+					display: inline-block;
+					margin-right: 5px;
+				}
+			}
+		}
+		@media (min-width: $md) {
+			padding-bottom: 95px;
+			.section-content {
+				.bg-square {
+                    width: 600px;
+					padding: 80px 0;
+					> img {
+						width: 260px;
+					}
+				}
+				.btn-area {
+					margin-top: 35px;
+					text-align: center;
+					p {
+						a {
+							&.btn {
+								width: 195px;
+								line-height: 48px;
+								margin-right: 10px;
+							}
+						}
+					}
+				}
+				> p {
+					text-align: center;
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			padding-bottom: 120px;
+			.section-content {
+				.bg-square {
+                    width: 800px;
+                    padding: 100px 0;
+					> img {
+						width: 350px;
+					}
+				}
+				.btn-area {
+					margin-top: 40px;
+				}
+			}
+		}
+	}
+	.ci-color {
+		background-color: #fff;
+		padding-bottom: 60px;
+		.section-header {
+			.page-title {
+				@media (min-width: $md) {
+					padding-top: 80px;
+				}
+			}
+		}
+		.section-content {
+			.color {
+				.color-show {
+					width: 100%;
+					height: 90px;
+					line-height: 90px;
+					font-size: 15px;
+					color: #fff;
+					text-align: center;
+					@include roboto();
+					&.symbol {
+						background-color: #00a0e9;
+					}
+					&.primtary {
+						background-color: #00307a;
+					}
+					&.secondary {
+						background-color: #ea212f; 
+					}
+				}
+				.details {
+					text-align: center;
+					padding: 15px 0 40px;
+					p {
+						font-size: 13px;
+						color: #666;
+						line-height: 22px;
+						font-weight: 300;
+						@include roboto();
+					}
+				}
+			}
+			@media (min-width: $md) {
+				.color {
+					.details {
+						text-align: left;
+						padding-left: 10px;
+						p {
+							font-size: 14px;
+							line-height: 24px;
+						}
+					}
+				}
+			}
+			@media (min-width: $xl) {
+				.color {
+					.color-show {
+						height: 120px;
+						line-height: 120px;
+						font-size: 16px;
+					}
+					.details {
+						padding: 20px 0 40px 10px; 
+					}
+				}
+			}
+		}
+	}
+}
+
+//오시는길
+.location {
+	padding-bottom: 0 !important;
+	.route {
+		padding-bottom: 50px;
+		.nav-tabs {
+			overflow: hidden;
+			width: 100%;
+			border: 0;
+			background-color: #fff;
+			.nav-item {
+				margin: 0;
+				float: left;
+				width: 50%;
+				& ~ li {
+					.nav-link {
+						border-left: 0;
+					}
+				}
+				.nav-link {
+					border: 0;
+					padding: 0;
+					border-radius: 0;
+					font-size: 14px;
+					text-align: center;
+					line-height: 45px;
+					border: 1px solid #d6d6d6;
+					&:hover {
+						color: #fff;
+						border: 1px solid #072d68;
+						background-color: #072d68;
+						@include transition();
+					}
+					&.active {
+						color: #fff;
+						border: 1px solid #072d68;
+						background-color: #072d68; 
+					}
+				}
+			}
+		}
+		.section-content {
+			padding-top: 40px;
+			> h4 {
+				font-size: 15px;
+				color: #333;
+				font-weight: 400;
+				padding-bottom: 10px; 
+			}
+			.details {
+				padding: 25px 0 25px 10px;
+				border-top: 1px solid #464646;
+				border-bottom: 1px solid #d1d1d1;
+				> li {
+					line-height: 36px;
+					&:first-child {
+						dl {
+							dt {
+								&:before {
+									content: "\E80A";
+								}
+							}
+						}
+					}
+					&:nth-of-type(2) {
+						dl {
+							dt {
+								&:before {
+									content: "\E80B";
+								}
+							}
+						}
+					}
+					&:last-child {
+						dl {
+							dt {
+								&:before {
+									content: "\F1AC";
+								}
+							}
+						}
+					}
+					dl {
+						font-size: 0;
+						dt {
+							position: relative;
+							float: left;
+							clear: both;
+							width: 90px;
+							font-size: 13px;
+							color: #333;
+							font-weight: 400;
+							padding-left: 20px;
+							&:before {
+								position: absolute;
+								top: 0;
+								left: 0;
+								display: inline-block;
+								font-size: 12px;
+								color: #333;
+								font-family: "fontello";
+							}
+						}
+						dd {
+							font-size: 13px;
+							color: #666;
+							padding-left: 90px;
+						}
+					}
+				} 
+			}
+			> .maps {
+				margin-top: 20px;
+			}
+		}
+		@media (min-width: $md) {
+			padding-bottom: 70px;
+			.nav-tabs {
+				.nav-item {
+					.nav-link {
+						font-size: 15px;
+						line-height: 55px;
+					}
+				}
+			}
+			.section-content {
+				padding-top: 50px;
+				> h4 {
+					font-size: 18px;
+					padding-bottom: 15px; 
+				}
+				.details {
+					padding: 25px 0 25px 25px;
+					> li {
+						dl {
+							dt {
+								width: 145px;
+								font-size: 15px;
+							}
+							dd {
+								font-size: 15px;
+								padding-left: 145px;
+							}
+						}
+					} 
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			padding-bottom: 100px;
+			.section-content {
+				padding-top: 70px;
+				.details {
+					padding: 25px 0 25px 30px;
+					> li {
+						dl {
+							dt {
+								width: 150px;
+							}
+							dd {
+								padding-left: 150px;
+							}
+						}
+					} 
+				}
+			}
+		}
+	}
+	.main-office {
+		text-align: center;
+		padding: 70px 0 60px;
+		background-image: url(/en/assets/images/introduce/bg_main_office_sm.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		.container {
+			> h4 {
+				font-size: 25px;
+				font-weight: 400;
+				color: #fff;
+				margin-bottom: 60px;
+			}
+			> .row {
+				> .col-12 {
+					&:first-child {
+						> dl {
+							border-top: 0;
+							padding: 0;
+							padding-bottom: 40px;
+							&:after {
+								display: none;
+							}
+						}
+					}
+					> dl {
+						padding: 40px 0;
+						position: relative;
+						&:after {
+							position: absolute;
+							top: 0;
+							left: 0;
+							content: "";
+							display: inline-block;
+							width: 100%;
+							height: 1px;
+							background-color: #4e4e63;
+						}
+						dt {
+							font-size: 17px;
+							font-weight: 300;
+							color: #fff;
+						}
+			 			dd {
+							margin-top: 25px;
+							> p {
+								font-size: 18px;
+								color: #fff;
+								margin-top: 20px;
+								@include roboto();
+							}
+							small {
+								display: block;
+								font-size: 13px;
+								color: #fff;
+								opacity: .8;
+								line-height: 22px;
+								margin-top: 5px;
+							}
+						}
+					}	
+				}	
+			}
+		}
+		@media (min-width: $md) {
+			padding: 70px 0 55px;
+			background-image: url(/en/assets/images/introduce/bg_main_office.jpg);
+			.container {
+				> h4 {
+					font-size: 26px;
+					margin-bottom: 50px;
+				}
+				> .row {
+					> .col-12 {
+						&:first-child {
+							> dl {
+								padding-bottom: 0;
+								&:after {
+									
+								}
+							} 
+						}
+						> dl {
+							padding: 0;
+							&:after {
+								top: 20px;
+								left: -10px;
+								width: 1px;
+								height: 106px;
+							}
+							dt {
+								font-size: 15px;
+							}
+							dd {
+								margin-top: 30px;
+								> .items {
+									height: 60px;
+									line-height: 60px;
+								}
+								> p {
+									font-size: 16px;
+									margin-top: 20px;
+								}
+								small {
+									font-size: 12px;
+									letter-spacing: -0.7px;
+								}
+							}
+						}	
+					}	
+				}
+			}
+		}
+		@media (min-width: $xl) {
+			padding: 65px 0 80px;
+			.container {
+				> h4 {
+					font-size: 28px;
+					margin-bottom: 60px;
+				}
+				> .row {
+					> .col-12 {
+						> dl {
+							&:after {
+								top: 45px;
+								left: -15px;
+								height: 75px;
+							}
+							dt {
+								font-size: 17px;
+							}
+							dd {
+								> .items {
+									height: 70px;
+									line-height: 65px;
+								}
+								small {
+									font-size: 13px;
+								}
+							}
+						}	
+					}	
+				}
+			}
+		}
+	}
+}
+
+//인증현황
+.certification {
+	.row {
+		.col-6 {
+			&:nth-of-type(2) ~ li {
+				a {
+					margin-top: 40px;	
+				}
+			}
+			a {
+				display: block;
+				outline: none;
+				.items {
+					border: 1px solid #d6d6d6;
+					img {
+						width: 100%;
+					}
+					&:hover {
+						border: 1px solid #ea212f;
+					}
+				}
+				p {
+					font-size: 13px;
+					color: #333;
+					font-weight: 300;
+					text-align: center;
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+	@media (min-width : $md) {
+		.row {
+			.col-6 {
+				&:nth-of-type(2) ~ li {
+					a {
+						margin-top: 0;
+					}
+				}
+				&:nth-of-type(3) ~ li {
+					a {
+						margin-top: 40px ;
+					}
+				}
+				> p {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+	@media (min-width : $xl) {
+		.row {
+			.col-6 {
+				&:nth-of-type(3) ~ li {
+					a {
+						margin-top: 0px ;
+					}
+				}
+				&:nth-of-type(4) ~ li {
+					a {
+						margin-top: 80px ;
+					}
+				}
+			}
+		}
+	}
+}
+
+//인증현황 popup
+.modal-dialog {
+	margin: 120px auto;
+	.modal-content {
+		width: 80%;
+		margin: 0 auto;
+		margin-right: 38px;
+		border-radius: 0;
+		border: none;
+		background: none;
+		.close {
+			position: absolute;
+			right: -25px; 
+			top: -10px;
+			font-size: 30px;
+			color: #fff;
+			font-weight: 400;
+			outline: none;
+			text-shadow: none;
+			z-index: 5;
+		}
+		.modal-body {
+			padding: 0;
+		}
+	}
+	@media (min-width: $md) {
+		.modal-content {
+			width: 100%;
+			margin: 0 auto;
+			.close {
+				right: -35px; 
+				top: -15px;
+				font-size: 45px;
+			}
+		}
+	}
+	@media (min-width: $xl) {
+		.modal-content {
+			.close {
+				right: -47px; 
+				top: -17px;
+				font-size: 50px;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
