@@ -501,7 +501,8 @@ body {
       text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.15); }
   #gnb .container > ul {
     font-size: 0;
-    display: inline-block; }
+    display: inline-block;
+    vertical-align: top; }
     #gnb .container > ul > li {
       display: inline-block;
       vertical-align: top; }

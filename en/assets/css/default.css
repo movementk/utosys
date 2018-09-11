@@ -425,7 +425,7 @@ body {
   font-size: 13px;
   padding-top: 55px;
   background-color: #f8f8f8;
-  font-family: 'Noto Sans KR', sans-serif; }
+  font-family: 'Roboto', sans-serif; }
   @media (min-width: 768px) {
     body {
       padding-top: 80px; } }
@@ -501,7 +501,8 @@ body {
       text-shadow: 2px 3px 8px rgba(0, 0, 0, 0.15); }
   #gnb .container > ul {
     font-size: 0;
-    display: inline-block; }
+    display: inline-block;
+    vertical-align: top; }
     #gnb .container > ul > li {
       display: inline-block;
       vertical-align: top; }
@@ -521,7 +522,7 @@ body {
       display: block;
       text-align: left;
       padding-top: 25px;
-      margin-left: 55px; }
+      margin-left: 40px; }
       #gnb .container > ul.menu > li > ul > li > a {
         position: relative;
         display: inline-block;

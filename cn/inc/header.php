@@ -97,13 +97,8 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="/en/">
 						<span class="flag-icon flag-icon-us"></span>
-					</a>
-				</li>
-				<li>
-					<a href="/cn/">
-						<span class="flag-icon flag-icon-cn"></span>
 					</a>
 				</li>
 			</ul>
