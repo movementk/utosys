@@ -37,8 +37,12 @@
 		<hr>
 		<div class="container">
 			<div class="gnb-intro">
-				<p>사람이 建康하고, 會社가 建康한</p>
-				<h2>백년가치의 기업<br>(주)유토시스</h2>
+				<p>
+					The best world-class Company <br>
+					with the spirit which is healthy<br>
+					in the body which is healthy
+				</p>
+				<h2><br>(C)UTOSYS</h2>
 			</div>
 			<ul class="menu">
 				<li>
