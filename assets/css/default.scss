@@ -588,6 +588,23 @@ body {
 					}
 				}
 			}
+            .language {
+                margin-top: 40px;
+                overflow: hidden;
+                padding: 0 10px;
+                > .btn {
+                    float: left;
+                    width: 48%;
+                    font-size: 13px;
+                    font-weight: 300;
+                    margin-right: 4%;
+                    line-height: 38px;
+                    border: 1px solid #dfdfdf;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
 		}
 		@media (min-width: $md) {
 			.aside-header {

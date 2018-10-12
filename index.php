@@ -2,7 +2,7 @@
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" href="/assets/css/main.css">
 </head>
-<body>
+<body class="opened">
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/aside.php'); ?>
     
@@ -262,7 +262,7 @@
 		</article>
 	</main>
 
-    <!-- main popup -->
+    <!-- main popup 
     <div class="modal fade main-popup" id="mainModalPopup" tabindex="-1" role="dialog" aria-labelledby="mainModalPopup" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -300,12 +300,12 @@
             </div>
         </div>
     </div>
-    
+    -->
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="/assets/js/main.js"></script>
-    <script>
+    <!--script>
 		(function($){
 			// main modal popup
 			$('.main-popup').modal().show();
@@ -320,6 +320,6 @@
 				});
 			});
 		})(jQuery);
-	</script>
+	</script-->
 </body>
 </html>

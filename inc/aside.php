@@ -125,6 +125,10 @@
 					</ul>
 				</li>
 			</ul>
+			<div class="language">
+			    <a href="#" class="btn btn-language" role="button">ENG</a>
+			    <a href="#" class="btn btn-language" role="button">CHN</a>
+			</div>
 		</div>
 	</div>
 </aside>
