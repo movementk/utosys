@@ -18,7 +18,7 @@
         });
     });
     $('.jumbotron ul').on('afterChange', function(event, slick, currentSlide, nextSlide){
-    $('.slick-slide.visual-list').removeClass('action');
+		$('.slick-slide.visual-list').removeClass('action');
         setTimeout(function (){ 
             $('.slick-active.visual-list').addClass('action'); 
         });
